@@ -1,0 +1,6 @@
+# ---- Passwords ----´
+.env
+*.env
+
+# ---- Data ----
+docs/**
