@@ -5,10 +5,161 @@ import numpy as np
 # Embeddings (for semantic chunking + search)
 from sentence_transformers import SentenceTransformer
 
+"""
 def split_into_paragraphs(text: str) -> list[str]:
-    parts = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+    parts = [p.strip() for p in re.split(r"\n\\s*\n", text) if p.strip()]
     print(f"Split into {len(parts)} paragraphs.")
-    return parts
+    return parts"""
+
+def split_into_paragraphs(text: str, min_len: int = 30) -> list[str]:
+    """
+    Split PyMuPDF-extracted text into paragraphs.
+
+    PyMuPDF separates lines with a single '\\n', never '\\n\\n', so a naive
+    double-newline split returns the whole page as one paragraph.  This
+    function detects paragraph boundaries from typographic and linguistic
+    cues instead.
+
+    A new paragraph starts when ANY of the following is true:
+
+    1. **Blank line** – one or more lines containing only whitespace
+       (handles PDFs that do produce blank lines occasionally).
+
+    2. **Sentence end → capital start** – the previous non-empty line ends
+       with sentence-closing punctuation (. ! ? : … ») AND the current line
+       starts with an uppercase letter that is not a continuation abbreviation.
+
+    3. **Indented line** – the current line starts with 2+ spaces or a tab
+       (common in body-text PDFs where paragraphs are indented).
+
+    4. **Short "orphan" line** – the previous line is significantly shorter
+       than the median line length (≤ 60 % of median) and doesn't end with a
+       hyphen, suggesting it was the last line of a paragraph.
+
+    5. **Bullet / numbered list item** – line begins with a bullet character
+       or a pattern like "1.", "a)", "(2)", etc.
+
+    Args:
+        text:    Cleaned page text from normalize_pdf_text().
+        min_len: Paragraphs (after joining) shorter than this are merged
+                 with the next one rather than emitted stand-alone.
+
+    Returns:
+        List of paragraph strings with internal newlines collapsed to spaces.
+    """
+    lines = text.splitlines()
+    if not lines:
+        return []
+
+    # ------------------------------------------------------------------ #
+    # Pre-compute median line length to detect short "orphan" lines       #
+    # ------------------------------------------------------------------ #
+    lengths = [len(ln) for ln in lines if ln.strip()]
+    if lengths:
+        sorted_len = sorted(lengths)
+        median_len = sorted_len[len(sorted_len) // 2]
+    else:
+        median_len = 80  # safe fallback
+
+    ORPHAN_RATIO   = 0.60   # line is "short" if len ≤ ratio * median
+    INDENT_CHARS   = 2      # spaces at line start → new paragraph
+
+    # Sentence-ending punctuation (handles Spanish / English)
+    _SENT_END = re.compile(r'[.!?…:»\"]$')
+    # Uppercase start (but not a single capital followed by '.' = abbreviation)
+    _UPPER_START = re.compile(r'^[A-ZÁÉÍÓÚÜÑ][^.]')
+    # Bullet or numbered list
+    _LIST_ITEM = re.compile(
+        r'^(\s*[\•\-\–\*\·▪▸►✓✔]\s+'          # bullet symbols
+        r'|\s*\(?[0-9]{1,2}[\.\)]\s+'           # 1. 2) (3)
+        r'|\s*\(?[a-záéíóú][\.\)]\s+)'          # a. b) (c)
+        , re.IGNORECASE
+    )
+
+    def _is_boundary(prev_line: str, curr_line: str) -> bool:
+        prev_s = prev_line.rstrip()
+        curr_s = curr_line
+
+        # Rule 1: blank line (already handled in the loop below, but kept
+        #         here for completeness when called directly)
+        if not prev_s.strip():
+            return True
+
+        # Rule 2: sentence end → capital start
+        if _SENT_END.search(prev_s) and _UPPER_START.match(curr_s.lstrip()):
+            return True
+
+        # Rule 3: indented line (new paragraph)
+        if curr_line.startswith(" " * INDENT_CHARS) or curr_line.startswith("\t"):
+            return True
+
+        # Rule 4: previous line is a short orphan (not hyphenated)
+        if (len(prev_s.strip()) <= median_len * ORPHAN_RATIO
+                and not prev_s.endswith("-")
+                and prev_s.strip()):
+            return True
+
+        # Rule 5: current line is a list item
+        if _LIST_ITEM.match(curr_s):
+            return True
+
+        return False
+
+    # ------------------------------------------------------------------ #
+    # Main grouping loop                                                   #
+    # ------------------------------------------------------------------ #
+    groups: list[list[str]] = [[]]
+
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+
+        # Blank line → always a boundary; consume consecutive blank lines
+        if not line.strip():
+            if groups[-1]:          # avoid creating an empty leading group
+                groups.append([])
+            i += 1
+            while i < len(lines) and not lines[i].strip():
+                i += 1
+            continue
+
+        # Non-blank: check if it starts a new paragraph relative to previous
+        if groups[-1] and _is_boundary(groups[-1][-1], line):
+            groups.append([])
+
+        groups[-1].append(line.strip())
+        i += 1
+
+    # ------------------------------------------------------------------ #
+    # Convert groups → paragraph strings; merge very short ones           #
+    # ------------------------------------------------------------------ #
+    paragraphs: list[str] = []
+    buffer = ""
+
+    for group in groups:
+        if not group:
+            continue
+        text_block = " ".join(group)
+
+        if len(text_block) < min_len:
+            # Too short: accumulate into buffer
+            buffer = (buffer + " " + text_block).strip() if buffer else text_block
+        else:
+            if buffer:
+                # Flush buffer as its own paragraph before the next one
+                paragraphs.append(buffer)
+                buffer = ""
+            paragraphs.append(text_block)
+
+    if buffer:
+        if paragraphs:
+            # Attach leftover buffer to the last paragraph
+            paragraphs[-1] = (paragraphs[-1] + " " + buffer).strip()
+        else:
+            paragraphs.append(buffer)
+
+    print(f"Split into {len(paragraphs)} paragraphs.")
+    return paragraphs
 
 def chunk_paragraphs(paragraphs: list[str], chunk_chars: int = 1600, overlap: int = 150) -> list[str]:
     """

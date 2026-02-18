@@ -33,8 +33,8 @@ def upsert_chunks(chunks: list[ChunkRecord]) -> None:
             c.topic,
             c.source,
             c.lang,
-            c.content,
             c.page_num,
+            c.content,
             v
         ))
 

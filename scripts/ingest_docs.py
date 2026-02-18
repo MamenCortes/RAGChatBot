@@ -1,4 +1,5 @@
 # scripts/ingest_docs.py
+#python -m scripts.ingest_docs
 from __future__ import annotations
 
 import hashlib
@@ -83,15 +84,20 @@ def fingerprint_bytes(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
 
 
-# ------------------ Notebook-style PDF extraction ------------------
-def extract_header_footer_candidates(text: str, *, top_n: int = 3, bottom_n: int = 3) -> list[str]:
+# ------------------ PDF text cleaning ------------------
+
+def extract_header_footer_candidates(
+    text: str, *, top_n: int = 3, bottom_n: int = 3
+) -> list[str]:
     """
-    Take the first and last N non-empty lines of a page as header/footer candidates.
+    Return the first `top_n` and last `bottom_n` non-empty lines of a page
+    as header/footer candidates.
     """
-    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     if not lines:
         return []
     return lines[:top_n] + lines[-bottom_n:]
+
 
 def detect_repeated_headers_footers(
     page_texts: list[str],
@@ -101,59 +107,106 @@ def detect_repeated_headers_footers(
     bottom_n: int = 3,
 ) -> set[str]:
     """
-    Identify lines that appear on many pages → likely headers/footers.
-    """
-    counter = Counter()
-    n_pages = len(page_texts)
+    Identify lines that appear on many pages and are likely headers/footers.
 
+    For every page the first `top_n` and last `bottom_n` non-empty lines are
+    collected as candidates. Any candidate that appears on at least
+    `min_freq_ratio` of pages is returned as a repeated element to be removed.
+    Short purely-numeric strings (page numbers) are always included.
+
+    Args:
+        page_texts:     One raw-text string per page (from pymupdf get_text).
+        min_freq_ratio: Fraction of pages (0-1) a line must appear on to be
+                        flagged. Default 0.45 → 45 % of pages.
+        top_n:          Lines examined from the top of each page.
+        bottom_n:       Lines examined from the bottom of each page.
+
+    Returns:
+        Set of strings that should be stripped from every page.
+    """
+    n_pages = len(page_texts)
+    if n_pages == 0:
+        return set()
+
+    counter: Counter[str] = Counter()
     for txt in page_texts:
-        candidates = extract_header_footer_candidates(txt, top_n=top_n, bottom_n=bottom_n)
+        # Deduplicate within a single page so one repeated line doesn't
+        # artificially inflate the cross-page count.
+        candidates = set(extract_header_footer_candidates(txt, top_n=top_n, bottom_n=bottom_n))
         for c in candidates:
             counter[c] += 1
 
-    # Keep lines that appear in at least X% of pages
-    repeated = {
+    def _is_page_number(line: str) -> bool:
+        """True for short strings that look like bare page numbers."""
+        return bool(re.fullmatch(r"[\-\u2013]?\s*\d+\s*[\-\u2013]?", line.strip()))
+
+    return {
         line
         for line, count in counter.items()
-        if count / n_pages >= min_freq_ratio
+        if count / n_pages >= min_freq_ratio or _is_page_number(line)
     }
 
-    return repeated
 
+def normalize_pdf_text(text: str, headers_footers: set[str] | None = None) -> str:
+    """
+    Clean raw text extracted from a PDF page (or a multi-page concatenation).
 
-def normalize_pdf_text(
-    text: str,
-    *,
-    headers_footers: set[str] | None = None,
-) -> str:
-    if not text:
-        return ""
+    Operations performed in order:
+      1. Remove lines whose stripped content is in `headers_footers`.
+      2. Replace soft hyphens (U+00AD) and common PDF ligature characters.
+      3. Rejoin words hyphenated across a line break (``word-\\nword`` → ``wordword``).
+      4. Strip trailing whitespace from every line.
+      5. Collapse consecutive blank lines to a single blank line.
+      6. Collapse runs of multiple spaces within a line to one space.
 
-    # Normalize newlines early
-    text = text.replace("\r\n", "\n")
-    # Split into lines
-    lines = [l.rstrip() for l in text.splitlines()]
-    # Remove exact-match header/footer lines
+    Args:
+        text:            Raw string from ``page.get_text("text")``.
+        headers_footers: Optional set of exact stripped line strings to remove
+                         before any other processing. Typically the output of
+                         :func:`detect_repeated_headers_footers`.
+
+    Returns:
+        Cleaned string ready for paragraph splitting.
+    """
+    # Step 1 – remove known header/footer lines
+    # We only elimintae the header/footer lines (including page numbers) if they are exact matches after stripping, to avoid accidentally removing valid content.
     if headers_footers:
-        lines = [l for l in lines if l.strip() and l.strip() not in headers_footers]
-    #Rebuild text from filtered lines (this was missing)
-    text = "\n".join(lines)
-    # Join hyphenation across line breaks
-    text = re.sub(r"(\w)-\n(\w)", r"\1\2", text)
-    # Paragraph heuristics (keep)
-    text = re.sub(
-        r"(?<=[:\.\?\!])\n(?=\s*(?:[A-ZÁÉÍÓÚÜÑ0-9•\-–—]))",
-        "\n\n",
-        text
-    )
-    text = re.sub(r"\n(?=\s*[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s]{3,}\n)", "\n\n", text)
-    # Flatten single newlines (keeping blank lines)
-    text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)
-    # Cleanup spaces/newlines
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
+        text = "\n".join(
+            ln for ln in text.splitlines()
+            if ln.strip() not in headers_footers
+        )
 
-    return text.strip()
+    # Step 2 – soft hyphens and ligatures
+    text = text.replace("\u00ad", "")  # soft hyphen
+
+    ligatures: dict[str, str] = {
+        "\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl",
+        "\ufb03": "ffi", "\ufb04": "ffl",
+        "\u2019": "'",  "\u2018": "'",
+        "\u201c": '"',  "\u201d": '"',
+        "\u2013": "-",  "\u2014": "--",
+    }
+    for char, replacement in ligatures.items():
+        text = text.replace(char, replacement)
+
+    # Step 3 – rejoin hyphenated line breaks
+    text = re.sub(r"-\n(\S)", r"\1", text)
+
+    # Steps 4 & 5 – strip trailing whitespace + collapse blank lines
+    lines = [ln.rstrip() for ln in text.splitlines()]
+    cleaned: list[str] = []
+    prev_blank = False
+    for ln in lines:
+        is_blank = not ln.strip()
+        if is_blank and prev_blank:
+            continue
+        cleaned.append(ln)
+        prev_blank = is_blank
+
+    # Step 6 – collapse internal whitespace
+    cleaned = [re.sub(r" {2,}", " ", ln) for ln in cleaned]
+
+    return "\n".join(cleaned).strip()
 
 @dataclass(frozen=True)
 class DocMeta:
@@ -208,50 +261,59 @@ def parse_filename_meta(pdf_path: Path) -> DocMeta:
         version=version,
     )
 
-def extract_pdf_page_paragraph_chunks(pdf_path, meta, chunk_chars: int = 1600) -> list[ChunkRecord]:
-    overlap = int(chunk_chars * 0.15)  # 15%
+# ------------------ PDF chunk extraction ------------------
+
+def extract_pdf_page_paragraph_chunks(
+    pdf_path: Path, meta: DocMeta, chunk_chars: int = 1600
+) -> list[ChunkRecord]:
+    """
+    Open `pdf_path`, remove repeated headers/footers, normalise each page,
+    split into paragraphs, and group them into chunks ready for ingestion.
+    """
+    overlap = int(chunk_chars * 0.15)  # 15 % overlap
     records: list[ChunkRecord] = []
 
     with pymupdf.open(pdf_path) as doc:
+        # Load all raw page texts up-front so we can do cross-page analysis
         raw_texts = [doc.load_page(p).get_text("text") for p in range(doc.page_count)]
+
+        # Detect repeated headers/footers across all pages at once
         headers_footers = detect_repeated_headers_footers(raw_texts)
         print(f"Detected {len(headers_footers)} repeated header/footer lines: {headers_footers}")
 
-        for i in range(doc.page_count):
-            page = doc.load_page(i)
-            raw = page.get_text("text")
+        for i, raw in enumerate(raw_texts):
+            # normalize_pdf_text removes header/footer lines and cleans the text
             text = normalize_pdf_text(raw, headers_footers=headers_footers)
             if len(text) < 20:
                 continue
 
-            # page label (PyMuPDF supports labels if document defines them)
-            # If not defined, you can just store None.
             page_num = i + 1
-
-            #DEBUG
-            #print("len:", len(text), "n\\n:", text.count("\n"), "n\\n\\n:", text.count("\n\n"))
-            #print(text[:500])
-
-            paragraphs = split_into_paragraphs(text)
+            """paragraphs = split_into_paragraphs(text)
             print(f"Page {page_num}: {len(paragraphs)} paragraphs")
             print(f"paragraphs: {[p[:50] for p in paragraphs]}")
-            subchunks = chunk_paragraphs(paragraphs, chunk_chars=chunk_chars, overlap=overlap)
 
-            for j, ch in enumerate(subchunks):
-                chunk_id = f"p{page_num:03d}_c{j:02d}"
+            subchunks = chunk_paragraphs(paragraphs, chunk_chars=chunk_chars, overlap=overlap)"""
+            chunks = fixed_size_chunks_with_overlap(
+            text,
+            chunk_chars=1600,
+            overlap_chars=200,
+            min_chars=200
+            )
+
+            #print(f"Page {page_num}: {len(chunks)} chunks")
+
+            for j, ch in enumerate(chunks):
                 records.append(ChunkRecord(
                     doc_id=meta.doc_id,
-                    chunk_id=chunk_id,
+                    chunk_id=f"p{page_num:03d}_c{j:02d}",
                     content=ch,
                     topic=meta.topic,
                     source=str(pdf_path),
                     lang=meta.lang,
-                    page_num=page_num
+                    page_num=page_num,
                 ))
 
     return records
-
-
 
 # ------------------ Text extraction for txt/md ------------------
 
@@ -299,7 +361,7 @@ def ingest_one_file(p: Path, fallback_topic: str | None = None, fallback_lang: s
                 ))
             chunk_records = fixed
 
-        print(f"INGESTING: {p}  (chunks={len(chunk_records)}) [doc_id={doc_id},topic={topic}, lang={lang}, num_pages={num_pages}]")
+        #print(f"INGESTING: {p}  (chunks={len(chunk_records)}) [doc_id={doc_id},topic={topic}, lang={lang}, num_pages={num_pages}]")
     else:
         # txt/md: Pure fixed-size sliding window chunking
         text, _ = read_text_file(p)
@@ -327,25 +389,25 @@ def ingest_one_file(p: Path, fallback_topic: str | None = None, fallback_lang: s
         ]
 
 
-        print(f"INGESTING: {p}  (chunks={len(chunk_records)}) [doc_id={doc_id},topic={topic}, lang={lang}]")
+        #print(f"INGESTING: {p}  (chunks={len(chunk_records)}) [doc_id={doc_id},topic={topic}, lang={lang}]")
 
     existing = get_existing_fingerprint(doc_id)
     if existing == fp:
         print(f"SKIP (already ingested, unchanged): {p}")
         return
 
-    print(f"  fingerprint: {fp} (existing: {existing})")
+    #print(f"  fingerprint: {fp} (existing: {existing})")
     # With FK: doc must exist first
-    #upsert_document_registry(doc_id=doc_id, source_path=str(p), fingerprint=fp, num_pages=num_pages if p.suffix.lower() == ".pdf" else None)
-    #upsert_chunks(chunk_records)
+    upsert_document_registry(doc_id=doc_id, source_path=str(p), fingerprint=fp, num_pages=num_pages if p.suffix.lower() == ".pdf" else None)
+    upsert_chunks(chunk_records)
 
-    print(f"INGESTED: {p}  (chunks={len(chunk_records)})")
+    print(f"INGESTED: {p}  (chunks={len(chunk_records)}), num_pages={num_pages}")
 
 
-def main():
+def main() -> None:
     ensure_doc_registry_table()
 
-    raw_path = input("Enter a file path or folder path to ingest: ").strip().strip('"').strip("'")
+    raw_path = input("Enter a file path or folder path to ingest: ").strip().strip('"\'')
     if not raw_path:
         print("No path provided. Exiting.")
         return
@@ -356,19 +418,19 @@ def main():
         return
 
     topic = input("Optional topic label (press Enter to skip): ").strip() or None
-    lang = input("Optional language code (e.g., 'es', press Enter to skip): ").strip() or None
+    lang  = input("Optional language code (e.g. 'es', press Enter to skip): ").strip() or None
 
     files = list(iter_files(path))
     if not files:
         print(f"No supported files found under {path}. Supported: {sorted(SUPPORTED_EXTS)}")
         return
 
-    print(f"Found {len(files)} files to consider.")
+    print(f"Found {len(files)} file(s) to consider.")
     for p in files:
         try:
             ingest_one_file(p, fallback_topic=topic, fallback_lang=lang)
-        except Exception as e:
-            print(f"[ERR] {p}: {e}")
+        except Exception as exc:
+            print(f"[ERR] {p}: {exc}")
 
     print("Done.")
 
