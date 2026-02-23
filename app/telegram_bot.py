@@ -10,14 +10,14 @@ from .rag import rag_answer
 user_conversations: dict[int, list[dict]] = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello! Ask me something about the documents.")
+    await update.message.reply_text("Hola! Estoy aquí para contestar todas tus preguntas.")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.message.chat_id
     text = update.message.text.strip()
 
     hf_client: InferenceClient = context.application.bot_data["hf_client"]
-    await update.message.reply_text("Thinking... 🤔")
+    await update.message.reply_text("Pensando... 🤔")
 
     history = user_conversations.setdefault(user_id, [])
     history.append({"role": "user", "content": text})
@@ -31,10 +31,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             model=settings.llm_model_name,
         )
         history.append({"role": "assistant", "content": answer})
+        print(f"User {user_id} asked: {text}\nAnswer: {answer}\n")
         await update.message.reply_text(answer)
     except Exception as e:
         print(f"Error: {e}")
-        await update.message.reply_text("Something went wrong! 😥")
+        await update.message.reply_text("¡Algo ha salido mal! 😥")
 
 def main():
     load_dotenv(".env")

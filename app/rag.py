@@ -9,11 +9,17 @@ If the context does not contain the answer, say you don't know and ask a clarify
 Keep answers concise and in the user's language.
 """
 
-def build_context_block(chunks) -> str:
+verbose = False
+
+def build_context_block(chunks, verbose: bool = False) -> str:
     # Keep it compact; you can add citations like [doc_id:chunk_id]
     parts = []
     for c in chunks:
-        parts.append(f"[{c.doc_id}:{c.chunk_id}] {c.content}")
+        string = f"[{c.doc_id}:{c.chunk_id}] {c.content}"
+        parts.append(string)
+        if verbose:
+            print(f"Context chunk (distance {c.distance:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
+
     return "\n\n".join(parts)
 
 def rag_answer(
@@ -22,9 +28,13 @@ def rag_answer(
     chat_history: list[dict],
     model: str = "meta-llama/Llama-3.1-8B-Instruct",
     top_k: int = 5,
+    verbose: bool = False,
 ) -> str:
+    verbose = verbose
     retrieved = search(user_message, top_k=top_k)
-    context = build_context_block(retrieved)
+    if verbose:
+        print(f"Retrieved {len(retrieved)} chunks for query: '{user_message}'")
+    context = build_context_block(retrieved, verbose=verbose)
 
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     # short history (avoid unbounded growth)
