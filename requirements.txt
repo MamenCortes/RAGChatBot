@@ -1,0 +1,8 @@
+psycopg2
+pgvector
+langdetect
+huggingface_hub
+python-telegram-bot
+numpy
+sentence-transformers
+python-dotenv

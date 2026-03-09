@@ -1,11 +1,17 @@
 from huggingface_hub import InferenceClient
-from .retrieval import search
+from dataclasses import dataclass
+from .retrieval import search, hybrid_search, language_aware_hybrid_search
 
 """This integrates your Hugging Face InferenceClient chat completions pattern from bot.py bot, but adds retrieved context."""
 
 SYSTEM_PROMPT = """You are a helpful assistant.
 Answer using the provided context when relevant.
 If the context does not contain the answer, say you don't know and ask a clarifying question.
+Keep answers concise and in the user's language.
+"""
+
+NO_RETRIEVAL_SYSTEM_PROMPT = """You are a helpful assistant.
+Answer the question using only your own knowledge, without any external context.
 Keep answers concise and in the user's language.
 """
 
@@ -21,6 +27,19 @@ def build_context_block(chunks, verbose: bool = False) -> str:
             print(f"Context chunk (distance {c.distance:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
 
     return "\n\n".join(parts)
+
+def _call_llm(
+    hf_client: InferenceClient,
+    messages: list[dict],
+    model: str,
+    max_tokens: int = 500,
+) -> str:
+    completion = hf_client.chat.completions.create(
+        model=model,
+        messages=messages,
+        max_tokens=max_tokens,
+    )
+    return completion.choices[0].message["content"]
 
 def rag_answer(
     hf_client: InferenceClient,
@@ -45,9 +64,87 @@ def rag_answer(
         "content": f"CONTEXT:\n{context}\n\nQUESTION:\n{user_message}"
     })
 
-    completion = hf_client.chat.completions.create(
-        model=model,
-        messages=messages,
-        max_tokens=500,
+    return _call_llm(hf_client, messages, model)
+
+@dataclass
+class MultipleAnswer:
+    semantic: str
+    hybrid: str
+    language_aware_hybrid: str
+    no_retrieval: str
+
+
+def rag_answer_all_modes(
+    hf_client: InferenceClient,
+    user_message: str,
+    chat_history: list[dict],
+    model: str = "meta-llama/Llama-3.1-8B-Instruct",
+    top_k: int = 5,
+    verbose: bool = False,
+) -> MultipleAnswer:
+    """
+    Generate multiple answers for the same user query:
+
+    1. Semantic-only RAG  — uses cosine vector search (search()).
+    2. Hybrid RAG         — combines keword search + semantic via RRF (hybrid_search()).
+    3. Language aware Hybrid RAG - combines semantic search and keyword search on same-language query-chunks via via RRF (language_aware_hybrid_search())
+    3. No retrieval       — pure LLM, no context injected.
+
+    Returns a MultipleAnswer dataclass with .semantic, .hybrid, .language_aware_hybrid, .no_retrieval fields.
+    """
+    trimmed_history = chat_history[-10:]
+
+    # ── 1. Semantic RAG ──────────────────────────────────────────────────────
+    semantic_chunks = search(user_message, top_k=top_k)
+    if verbose:
+        print(f"[Semantic] Retrieved {len(semantic_chunks)} chunks")
+    semantic_context = build_context_block(semantic_chunks, verbose=verbose)
+
+    semantic_messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    semantic_messages.extend(trimmed_history)
+    semantic_messages.append({
+        "role": "user",
+        "content": f"CONTEXT:\n{semantic_context}\n\nQUESTION:\n{user_message}",
+    })
+    semantic_answer = _call_llm(hf_client, semantic_messages, model)
+
+    # ── 2. Hybrid RAG ────────────────────────────────────────────────────────
+    hybrid_chunks = hybrid_search(user_message, top_k=top_k)
+    if verbose:
+        print(f"[Hybrid] Retrieved {len(hybrid_chunks)} chunks")
+    hybrid_context = build_context_block(hybrid_chunks, verbose=verbose)
+
+    hybrid_messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    hybrid_messages.extend(trimmed_history)
+    hybrid_messages.append({
+        "role": "user",
+        "content": f"CONTEXT:\n{hybrid_context}\n\nQUESTION:\n{user_message}",
+    })
+    hybrid_answer = _call_llm(hf_client, hybrid_messages, model)
+
+    # ── 2. Language-aware Hybrid RAG ────────────────────────────────────────────────────────
+    la_hybrid_chunks = language_aware_hybrid_search(user_message, top_k=top_k)
+    if verbose:
+        print(f"[Hybrid] Retrieved {len(la_hybrid_chunks)} chunks")
+    la_hybrid_context = build_context_block(la_hybrid_chunks, verbose=verbose)
+
+    la_hybrid_messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    la_hybrid_messages.extend(trimmed_history)
+    la_hybrid_messages.append({
+        "role": "user",
+        "content": f"CONTEXT:\n{la_hybrid_context}\n\nQUESTION:\n{user_message}",
+    })
+    la_hybrid_answer = _call_llm(hf_client, la_hybrid_messages, model)
+
+    # ── 3. No retrieval ───────────────────────────────────────────────────────
+    no_retrieval_messages = [{"role": "system", "content": NO_RETRIEVAL_SYSTEM_PROMPT}]
+    no_retrieval_messages.extend(trimmed_history)
+    no_retrieval_messages.append({"role": "user", "content": user_message})
+    no_retrieval_answer = _call_llm(hf_client, no_retrieval_messages, model)
+
+    return MultipleAnswer(
+        semantic=semantic_answer,
+        hybrid=hybrid_answer,
+        language_aware_hybrid=la_hybrid_answer,
+        no_retrieval=no_retrieval_answer,
     )
-    return completion.choices[0].message["content"]
