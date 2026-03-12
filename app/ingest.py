@@ -19,6 +19,10 @@ class ChunkRecord:
     page_num: int | None = None
 
 def upsert_chunks(chunks: list[ChunkRecord]) -> None:
+    # @TODO This currently performs a merge-style upsert by (doc_id, chunk_id),
+    # not a full replace of all chunks for a document. If a document is
+    # re-ingested with fewer or different chunk_ids, stale rows for that doc_id
+    # can remain in rag_chunks unless they are deleted first in the same transaction.
     if not chunks:
         return
 
@@ -59,6 +63,8 @@ def upsert_chunks(chunks: list[ChunkRecord]) -> None:
     finally:
         conn.close()
 
+    # @TODO This delete helper appears to be the intended cleanup step for
+    # document re-ingestion, but it is currently nested inside upsert_chunks()
     def delete_chunks_for_doc(doc_id: str) -> None:
         conn = get_conn()
         try:
