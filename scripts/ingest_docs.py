@@ -11,7 +11,7 @@ import pymupdf
 from collections import Counter
 
 from app.chunking import split_into_paragraphs, chunk_paragraphs, fixed_size_chunks_with_overlap
-from app.ingest import ChunkRecord, upsert_chunks
+from app.ingest import ChunkRecord, insert_or_replace_chunks_for_doc
 from app.db import get_conn
 
 
@@ -399,7 +399,7 @@ def ingest_one_file(p: Path, fallback_topic: str | None = None, fallback_lang: s
     #print(f"  fingerprint: {fp} (existing: {existing})")
     # With FK: doc must exist first
     upsert_document_registry(doc_id=doc_id, source_path=str(p), fingerprint=fp, num_pages=num_pages if p.suffix.lower() == ".pdf" else None)
-    upsert_chunks(chunk_records)
+    insert_or_replace_chunks_for_doc(chunk_records)
 
     print(f"INGESTED: {p}  (chunks={len(chunk_records)}), num_pages={num_pages}")
 
