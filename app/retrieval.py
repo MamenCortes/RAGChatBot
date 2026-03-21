@@ -174,6 +174,11 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
     q_emb = embed_query(settings.embed_model_name, query)
 
     #Detect query language using langdetect
+    # @TODO langdetect.detect() can fail on very short or ambiguous user
+    # queries (for example "ok", "si", or single-word inputs). This path does
+    # not handle that exception, so language_aware_hybrid_search() can crash
+    # before retrieval instead of falling back to a safe default language or
+    # to non-language-aware hybrid search.
     query_lang = detect(query)
     lang_dict: dict[str, str] = {
         "en": "english",
@@ -186,6 +191,11 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
 
     #Build where conditions for both semantic and full-text search based on the presence of a topic filter.
     semantic_conditions = []
+    # @TODO The language filter is applied only to the full-text branch here.
+    # The semantic branch above remains unfiltered by lang, so the RRF fusion
+    # below can still return chunks from a different language if they rank well
+    # semantically. That means language_aware_hybrid_search() does not really
+    # guarantee same-language retrieval.
     fulltext_conditions = [
         "lang = %(query_lang)s",
         f"to_tsvector('{ts_config}', content) @@ query"

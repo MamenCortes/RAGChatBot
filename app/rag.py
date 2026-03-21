@@ -60,6 +60,13 @@ def build_context_block(chunks, verbose: bool = False) -> str:
         string = f"[{c.doc_id}:{c.chunk_id}] {c.content}"
         parts.append(string)
         if verbose:
+            # @TODO This debug print always formats c.distance, but semantic
+            # retrieval fills distance (see app/retrieval.py:60-68) while
+            # hybrid_search() and language_aware_hybrid_search() fill score
+            # instead (see app/retrieval.py:159-162 and app/retrieval.py:246-249).
+            # When the hybrid paths call build_context_block() from
+            # app/rag.py:172 or app/rag.py:247 with verbose=True, c.distance is
+            # None and formatting it as {c.distance:.4f} raises a TypeError.
             print(f"Context chunk (distance {c.distance:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
 
     return "\n\n".join(parts)
