@@ -174,10 +174,10 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
     q_emb = embed_query(settings.embed_model_name, query)
 
     #Detect query language using langdetect
-    # @TODO langdetect.detect() can fail on very short or ambiguous user
-    # queries (for example "ok", "si", or single-word inputs). This path does
-    # not handle that exception, so language_aware_hybrid_search() can crash
-    # before retrieval instead of falling back to a safe default language or
+    # @TODO langdetect.detect() can fail on very short or ambiguous 
+    # queries (for example "ok", "si", or single-word inputs). Thus
+    # language_aware_hybrid_search() can crash  before retrieval instead 
+    # of falling back to a safe default language or
     # to non-language-aware hybrid search.
     query_lang = detect(query)
     lang_dict: dict[str, str] = {
