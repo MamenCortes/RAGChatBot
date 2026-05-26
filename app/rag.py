@@ -61,7 +61,7 @@ def build_context_block(chunks, verbose: bool = False) -> str:
 
             if metric:
                 name, value = metric
-                print(f"Context chunk ({name}={value:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")´
+                print(f"Context chunk ({name}={value:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
             else:
                 print(f"Context chunk: [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
 
