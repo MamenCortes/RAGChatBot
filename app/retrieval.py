@@ -9,6 +9,15 @@ The retrieved chunks are returned as a list of RetrievedChunk dataclass instance
 Retrieves the top-k nearest neighbors by cosine distance.
 """
 
+from langdetect import detect, LangDetectException
+
+SUPPORTED_LANGS = {
+    "en": "english",
+    "es": "spanish",
+    "fr": "french",
+    "de": "german",
+}
+
 @dataclass
 class RetrievedChunk:
     doc_id: str
@@ -19,6 +28,20 @@ class RetrievedChunk:
     source: str | None = None
     lang: str | None = None
     score: float | None = None  # For hybrid search, this can store the RRF score instead of distance
+
+    @property
+    def debug_metric(self) -> tuple[str, float] | None:
+        if self.distance is not None and self.score is not None:
+            raise ValueError("Chunk has both distance and score")
+
+        if self.distance is not None:
+            return ("distance", self.distance)
+
+        if self.score is not None:
+            return ("score", self.score)
+
+        return None
+    
 
 
 def search(query: str, top_k: int | None = None, topic: str | None = None) -> list[RetrievedChunk]:
@@ -164,49 +187,59 @@ def hybrid_search(query: str, top_k: int | None = None, topic: str | None = None
     finally:
         conn.close()
 
+
+def _safe_detect_lang(query: str) -> str | None:
+    query = query.strip()
+
+    # Very short queries are unreliable: "ok", "si", "no", etc.
+    if len(query) < 4:
+        return None
+
+    try:
+        lang = detect(query)
+    except LangDetectException:
+        return None
+
+    return lang if lang in SUPPORTED_LANGS else None
+
 def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: str | None = None, rrf_k: int = 60) -> list[RetrievedChunk]:
     """
     A wrapper around `hybrid_search` that adds a language filter to prioritize chunks in the user's language.
     If `user_lang` is provided, it filters results to that language first before applying the hybrid search logic. 
     This helps ensure that the retrieved context is in the same language as the user's query, which can improve relevance and answer quality.
     """
+    """
+    Hybrid search with optional language filtering.
+
+    If language detection succeeds, both semantic and full-text retrieval
+    are restricted to chunks in the detected language.
+
+    If language detection fails, the function falls back to normal hybrid
+    retrieval behavior without a language filter.
+    """
     k = top_k or settings.top_k
     q_emb = embed_query(settings.embed_model_name, query)
 
-    #Detect query language using langdetect
-    # @TODO langdetect.detect() can fail on very short or ambiguous 
-    # queries (for example "ok", "si", or single-word inputs). Thus
-    # language_aware_hybrid_search() can crash  before retrieval instead 
-    # of falling back to a safe default language or
-    # to non-language-aware hybrid search.
-    query_lang = detect(query)
-    lang_dict: dict[str, str] = {
-        "en": "english",
-        "es": "spanish",
-        "fr": "french",
-        "de": "german",
-    }
+    query_lang = _safe_detect_lang(query)
+    ts_config = SUPPORTED_LANGS[query_lang] if query_lang is not None else "simple"
 
-    ts_config = lang_dict.get(query_lang, "simple")
-
-    #Build where conditions for both semantic and full-text search based on the presence of a topic filter.
     semantic_conditions = []
-    # @TODO The language filter is applied only to the full-text branch here.
-    # The semantic branch above remains unfiltered by lang, so the RRF fusion
-    # below can still return chunks from a different language if they rank well
-    # semantically. That means language_aware_hybrid_search() does not really
-    # guarantee same-language retrieval.
     fulltext_conditions = [
-        "lang = %(query_lang)s",
         f"to_tsvector('{ts_config}', content) @@ query"
     ]
+
+    if query_lang is not None:
+        semantic_conditions.append("lang = %(query_lang)s")
+        fulltext_conditions.append("lang = %(query_lang)s")
+
     if topic:
         semantic_conditions.append("topic = %(topic)s")
         fulltext_conditions.append("topic = %(topic)s")
 
     semantic_where = (
         "WHERE " + " AND ".join(semantic_conditions)
-        if semantic_conditions else ""
+        if semantic_conditions
+        else ""
     )
 
     fulltext_where = "WHERE " + " AND ".join(fulltext_conditions)
@@ -227,10 +260,10 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
       ),
       fulltext AS (
         SELECT doc_id, chunk_id,
-               ROW_NUMBER() OVER (ORDER BY ts_rank_cd(to_tsvector('simple', content), query) DESC) AS rank
-        FROM rag_chunks, plainto_tsquery('simple', %(query)s) query
+               ROW_NUMBER() OVER (ORDER BY ts_rank_cd(to_tsvector('{ts_config}', content), query) DESC) AS rank
+        FROM rag_chunks, plainto_tsquery('{ts_config}', %(query)s) query
         {fulltext_where}
-        ORDER BY ts_rank_cd(to_tsvector('simple', content), query) DESC
+        ORDER BY ts_rank_cd(to_tsvector('{ts_config}', content), query) DESC
         LIMIT %(k)s * 4
       ),
       rrf AS (

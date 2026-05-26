@@ -2,12 +2,6 @@ from huggingface_hub import InferenceClient
 from dataclasses import dataclass
 from .retrieval import search, hybrid_search, language_aware_hybrid_search
 
-"""This integrates your Hugging Face InferenceClient chat completions pattern from bot.py bot, but adds retrieved context."""
-
-# @TODO Evaluate using the following refined prompts instead of the current
-# ones, keeping both modes as similar as possible except for the allowed source
-# of information.
-
 # RAG prompt proposal:
 SYSTEM_PROMPT = """You are a supportive assistant for people affected by breast cancer. Use only the information provided in the retrieved context to answer the user. Do not rely on outside knowledge. 
 If the retrieved context does not contain enough information to answer safely, say so clearly.
@@ -60,14 +54,16 @@ def build_context_block(chunks, verbose: bool = False) -> str:
         string = f"[{c.doc_id}:{c.chunk_id}] {c.content}"
         parts.append(string)
         if verbose:
-            # @TODO This debug print always formats c.distance, but semantic
-            # retrieval fills distance (see app/retrieval.py:60-68) while
-            # hybrid_search() and language_aware_hybrid_search() fill score
-            # instead (see app/retrieval.py:159-162 and app/retrieval.py:246-249).
-            # When the hybrid paths call build_context_block() from
-            # app/rag.py:172 or app/rag.py:247 with verbose=True, c.distance is
-            # None and formatting it as {c.distance:.4f} raises a TypeError.
-            print(f"Context chunk (distance {c.distance:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
+            # @Added a debug_metric property to RetrievedChunk to store the relevance score or distance for debugging purposes. 
+            # This allows us to print the relevance of each retrieved chunk alongside its content when verbose mode is enabled.
+
+            metric = c.debug_metric
+
+            if metric:
+                name, value = metric
+                print(f"Context chunk ({name}={value:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")´
+            else:
+                print(f"Context chunk: [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
 
     return "\n\n".join(parts)
 
@@ -116,10 +112,6 @@ def rag_answer(
     messages.extend(chat_history[-10:])
 
     # Revised: the user message is added after retrieving the LLM answer. 
-    # @TODO Possible duplicate send: the current user turn appears to have been
-    # added first in app/telegram_bot.py:107 (normal mode), and similarly in
-    # app/telegram_bot.py:125 for eval mode, before being appended again here.
-    
     # Add the user message with the retrieved context injected.
     messages.append({
         "role": "user",

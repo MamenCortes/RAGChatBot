@@ -218,10 +218,6 @@ def fixed_size_chunks_with_overlap(text: str,chunk_chars: int = 1600, overlap_ch
     We also ensure the step makes progress (avoids infinite loops).
     """
     # Revised to include tail chunks that may be shorter than min_chars.
-    # @TODO This currently drops any chunk shorter than min_chars, including a
-    # potentially valid final tail chunk at the end of the text. That means
-    # some content can be silently omitted during ingestion, although for now
-    # the impact does not appear too critical with the current chunk sizes.
     text = text.strip()
     if not text:
         print("[ERR] empty text")

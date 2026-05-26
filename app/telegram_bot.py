@@ -42,15 +42,18 @@ def _ensure_csv() -> None:
         print(f"Creating new evaluation log at {EVAL_LOG_PATH}")
         with open(EVAL_LOG_PATH, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
-            # @TODO The CSV header still seems to reflect the old 4-mode evaluation
-            # schema, but the current logger writes only 3 values for the new
-            # modes (system_prompt_only, no_retrieval, rag_retrieval). This
-            # causes columns to be misaligned and makes later analysis
-            # unreliable because answers are stored under the wrong labels (see line 62).
-            writer.writerow(["timestamp", "user_id", "query", "preferred_mode",
-                             "answer_semantic", "answer_hybrid", "answer_language_aware_hybrid", "answer_no_retrieval"])
+            #Revised, updated header to include preferred_mode and remove individual mode columns
+            writer.writerow([
+                "timestamp",
+                "user_id",
+                "query",
+                "preferred_mode",
+                "answer_system_prompt_only",
+                "answer_no_retrieval",
+                "answer_rag_retrieval",
+            ])
         return
-            
+
     print(f"Evaluation log ready at {EVAL_LOG_PATH}")
 
 
