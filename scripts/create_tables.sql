@@ -33,3 +33,7 @@ CREATE INDEX IF NOT EXISTS rag_chunks_embedding_idx
 
 CREATE INDEX IF NOT EXISTS rag_chunks_doc_id_idx ON rag_chunks (doc_id);
 CREATE INDEX IF NOT EXISTS rag_chunks_topic_idx ON rag_chunks (topic);
+
+CREATE INDEX IF NOT EXISTS rag_chunks_content_fts_idx
+  ON rag_chunks
+  USING gin (to_tsvector('simple', content));
