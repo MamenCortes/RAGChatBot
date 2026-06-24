@@ -27,6 +27,7 @@ class RetrievedChunk:
     topic: str | None = None
     source: str | None = None
     lang: str | None = None
+    page_num: int | None = None
     score: float | None = None  # For hybrid search, this can store the RRF score instead of distance
 
     @property
@@ -53,7 +54,7 @@ def search(query: str, top_k: int | None = None, topic: str | None = None) -> li
     q_emb = embed_query(settings.embed_model_name, query)
 
     base_sql = """
-      SELECT doc_id, chunk_id, content, topic, source, lang,
+      SELECT doc_id, chunk_id, content, topic, source, lang, page_num,
              (embedding <=> %s::vector) AS distance
       FROM rag_chunks
     """
@@ -80,7 +81,7 @@ def search(query: str, top_k: int | None = None, topic: str | None = None) -> li
             rows = cur.fetchall()
 
         out = []
-        for (doc_id, chunk_id, content, topic, source, lang, distance) in rows:
+        for (doc_id, chunk_id, content, topic, source, lang, page_num, distance) in rows:
             out.append(RetrievedChunk(
                 doc_id=doc_id,
                 chunk_id=chunk_id,
@@ -88,6 +89,7 @@ def search(query: str, top_k: int | None = None, topic: str | None = None) -> li
                 topic=topic,
                 source=source,
                 lang=lang,
+                page_num=page_num,
                 distance=float(distance),
             ))
         return out
@@ -167,7 +169,7 @@ def hybrid_search(query: str, top_k: int | None = None, topic: str | None = None
         FROM semantic s
         FULL OUTER JOIN fulltext f USING (doc_id, chunk_id)
       )
-      SELECT r.doc_id, r.chunk_id, c.content, c.topic, c.source, c.lang, r.score
+      SELECT r.doc_id, r.chunk_id, c.content, c.topic, c.source, c.lang, c.page_num, r.score
       FROM rrf r
       JOIN rag_chunks c USING (doc_id, chunk_id)
       ORDER BY r.score DESC
@@ -180,9 +182,17 @@ def hybrid_search(query: str, top_k: int | None = None, topic: str | None = None
             cur.execute(sql, {"emb": q_emb, "query": query, "k": k, "rrf_k": rrf_k, "topic": topic})
             rows = cur.fetchall()
         return [
-            RetrievedChunk(doc_id=doc_id, chunk_id=chunk_id, content=content,
-                           topic=topic, source=source, lang=lang, score=float(score))
-            for (doc_id, chunk_id, content, topic, source, lang, score) in rows
+            RetrievedChunk(
+                doc_id=doc_id,
+                chunk_id=chunk_id,
+                content=content,
+                topic=topic,
+                source=source,
+                lang=lang,
+                page_num=page_num,
+                score=float(score),
+            )
+            for (doc_id, chunk_id, content, topic, source, lang, page_num, score) in rows
         ]
     finally:
         conn.close()
@@ -274,7 +284,7 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
         FROM semantic s
         FULL OUTER JOIN fulltext f USING (doc_id, chunk_id)
       )
-      SELECT r.doc_id, r.chunk_id, c.content, c.topic, c.source, c.lang, r.score
+      SELECT r.doc_id, r.chunk_id, c.content, c.topic, c.source, c.lang, c.page_num, r.score
       FROM rrf r
       JOIN rag_chunks c USING (doc_id, chunk_id)
       ORDER BY r.score DESC
@@ -287,9 +297,17 @@ def language_aware_hybrid_search(query: str, top_k: int | None = None, topic: st
             cur.execute(sql, {"emb": q_emb, "query": query, "k": k, "rrf_k": rrf_k, "topic": topic, "query_lang": query_lang})
             rows = cur.fetchall()
         return [
-            RetrievedChunk(doc_id=doc_id, chunk_id=chunk_id, content=content,
-                           topic=topic, source=source, lang=lang, score=float(score))
-            for (doc_id, chunk_id, content, topic, source, lang, score) in rows
+            RetrievedChunk(
+                doc_id=doc_id,
+                chunk_id=chunk_id,
+                content=content,
+                topic=topic,
+                source=source,
+                lang=lang,
+                page_num=page_num,
+                score=float(score),
+            )
+            for (doc_id, chunk_id, content, topic, source, lang, page_num, score) in rows
         ]
     finally:
         conn.close()

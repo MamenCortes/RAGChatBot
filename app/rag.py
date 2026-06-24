@@ -51,7 +51,8 @@ def build_context_block(chunks, verbose: bool = False) -> str:
     # Keep it compact; you can add citations like [doc_id:chunk_id]
     parts = []
     for c in chunks:
-        string = f"[{c.doc_id}:{c.chunk_id}] {c.content}"
+        page = f"p.{c.page_num}" if c.page_num is not None else "p.?"
+        string = f"[{c.doc_id}:{c.chunk_id}:{page}] {c.content}"
         parts.append(string)
         if verbose:
             # @Added a debug_metric property to RetrievedChunk to store the relevance score or distance for debugging purposes. 
@@ -64,6 +65,7 @@ def build_context_block(chunks, verbose: bool = False) -> str:
                 print(f"Context chunk ({name}={value:.4f}): [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
             else:
                 print(f"Context chunk: [{c.doc_id}:{c.chunk_id}] {c.content[:100]}\n")
+                
 
     return "\n\n".join(parts)
 
