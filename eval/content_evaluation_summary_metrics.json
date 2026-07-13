@@ -1,0 +1,5 @@
+{"metric":"mean","completeness":0.6080645161,"faithfulness":0.8548387097}
+{"metric":"median","completeness":0.75,"faithfulness":1.0}
+{"metric":"std","completeness":0.3642564971,"faithfulness":0.2118784395}
+{"metric":"min","completeness":0.0,"faithfulness":0.25}
+{"metric":"max","completeness":1.0,"faithfulness":1.0}

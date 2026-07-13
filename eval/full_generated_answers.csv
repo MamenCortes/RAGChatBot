@@ -1,0 +1,122 @@
+question_id,question,answer
+Q001,¿Qué es la astenia?,"La astenia es el término médico que describe el cansancio o falta de energía, ya sea física o emocional. Es importante que el paciente informe a su médico sobre la presencia de astenia, ya que puede afectar su capacidad para realizar actividades físicas habituales y concentrarse."
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,"Si tiene una temperatura de 38º o más, lo importante es que consulte con su médico o enfermera lo antes posible. Es posible que la fiebre sea una señal de una infección, o que algún medicamento o la propia enfermedad esté causando fiebre. Es mejor no esperar, sino buscar asesoramiento médico para saber qué hacer en esa situación."
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,"Lo siento, pero no tengo suficiente información para determinar el trastorno del sueño más común en pacientes con cáncer. Sin embargo, puedo decirte que el insomnio es un problema frecuente en personas que reciben quimioterapia y radioterapia."
+Q004,¿Cómo se define la mucositis?,"La mucositis se define como la inflamación de la mucosa del tracto digestivo, caracterizada por la aparición de úlceras y/o enrojecimiento, sensación de ""quemazón"", etc. Puede afectar a cualquier parte del tracto digestivo, desde la boca hasta el ano.
+
+En la clasificación de la mucositis, se divide en grados según los criterios del NCI (Instituto Nacional del Cáncer):
+
+- Grado 0: No mucositis
+- Grado 1: Eritema, dolor moderado, úlceras no dolorosas
+- Grado 2: Eritema con edema y úlceras dolorosas que permiten la ingesta oral
+- Grado 3: No es posible la ingesta oral
+- Grado 4: Requiere soporte enteral o parental"
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,"Según el manual, una sesión de administración de quimioterapia suele durar entre 2 y 6 horas."
+Q006,¿Qué es la Neutropenia?,"La neutropenia es el descenso del número de neutrófilos en la sangre, que es por debajo de 1500 células/mm3. Los neutrófilos son células que ayudan a defender al organismo contra las infecciones. La neutropenia conlleva un mayor riesgo de infecciones."
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,"No, no siempre se cae el cabello con los tratamientos de quimioterapia. Aunque la mayoría de los tratamientos empobrecen o debilitan el cabello."
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,"Según las fuentes proporcionadas, si su tratamiento hace caer el cabello, éste suele caer aproximadamente a las 3 o 4 semanas de la administración del tratamiento."
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,"Según la información proporcionada, el medicamento de quimioterapia que se asocia a la Terapia de Disminución de Andrógenos (TDA) en el cáncer de próstata hormono-sensible metastásico (CPHSm) es el Docetaxel."
+Q010,¿Para qué sirve el fármaco Denosumab?,El fármaco Denosumab se utiliza para tratar la osteoporosis y prevenir fracturas u otros problemas óseos causados por metástasis óseas.
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,"El principal efecto adverso de la Apalutamida es la aparición de un rash o exantema en la piel, además de leve cansancio."
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,"Según la información disponible, el cáncer de próstata resistente a la castración no metastásico suele tratarse con los medicamentos antiandrógenos apalutamida, darolutamida o enzalutamida."
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,"Según el contexto proporcionado, la terapia de privación de andrógenos se utiliza para tratar los siguientes tipos de cáncer de próstata:
+
+* Cáncer de próstata metastásico (cancer de próstata que se ha extendido a otras partes del cuerpo)
+* Cáncer de próstata no metastásico que sigue creciendo a pesar del tratamiento con terapia de privación de andrógenos (cáncer de próstata resistente a la castración [CPRC])
+* Cáncer de próstata metastásico que sigue creciendo a pesar del tratamiento con la terapia de privación de andrógenos (CPRC metastásico)
+
+Además, la terapia de privación de andrógenos es considerada el tratamiento básico para cualquier paciente con cáncer de próstata avanzado desde el momento del diagnóstico."
+Q014,¿Para qué sirve el Radium-223?,"El Radium-223 es un medicamento que contiene elementos radiactivos y se utiliza para tratar el cáncer de próstata que se ha propagado a muchos huesos. Se inyecta en una vena y se asienta en áreas de los huesos afectados, donde elimina a las células cancerosas."
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,"La prostatectomía radical puede afectar la eyaculación. Aunque no se menciona específicamente en el texto, se puede inferir que la extirpación de la glándula prostática y los tejidos circundantes puede afectar la producción de semen o la capacidad de eyacular. Además, se menciona que los tratamientos del cáncer de próstata pueden dañar los músculos que forman la válvula muscular que retiene la orina en la vejiga, lo que podría afectar la función del sistema reproductivo.
+
+Es importante tener en cuenta que la prostatectomía radical puede tener diversas consecuencias, incluyendo problemas de eyaculación, y es importante discutir estas posibles consecuencias con el equipo médico antes de tomar una decisión."
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,"Según el texto, se recomienda seguir una dieta baja en grasas, de fácil digestión, especialmente el día antes de la quimioterapia, durante los días de tratamiento y los dos o tres días posteriores. Esta dieta debe ser paso a paso, progresando a la dieta habitual.
+
+También se sugiere fraccionar la dieta en seis tomas diarias (comidas frecuentes y de poco volumen) si se experimenta inapetencia o mala digestión.
+
+Es importante recordar que cada persona es diferente y puede ser útil probar diferentes opciones para encontrar lo que le funciona mejor."
+Q017,"¿Qué síntoma se denomina ""tinnitus""?","Lo siento, pero en el contexto proporcionado no hay información sobre ""tinnitus"". No puedo encontrar una referencia a este síntoma en la información proporcionada. Si está buscando información sobre síntomas relacionados con el cáncer de mama o la próstata, puedo intentar ayudarlo con eso."
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,"Lo siento, pero el contexto proporcionado no menciona el test PAM50 (Prosigna) ni su propósito. Es posible que se trate de un test relacionado con el cáncer de mama, ya que hay un texto sobre ""Mama"" en el contexto proporcionado. Sin embargo, no puedo proporcionar información precisa sobre el test PAM50 (Prosigna) basada en el contexto proporcionado. Si necesitas información sobre el cáncer de mama o cualquier otro tipo de cáncer, estaré encantado de ayudarte con la información que tengo disponible."
+Q019,¿Cuáles son los efectos secundarios del tamoxifeno?,"Los efectos secundarios del tamoxifeno pueden incluir:
+
+- Sarpullido o piel seca (reacción cutánea)
+- Dolor de cabeza, artralgia u otros efectos secundarios que es importante informar a su médico.
+- Aumento de la riesgo de fracturas óseas
+- Aumento del riesgo de cáncer de útero
+- Aumento del riesgo de trombosis venosa profunda
+
+Es importante informar a su médico sobre cualquier efecto secundario que experimente."
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,"Según las recomendaciones, para pacientes tratadas con tamoxifeno, se recomienda:
+
+* Utilizar un método anticonceptivo no hormonal durante el tratamiento con tamoxifeno, especialmente en mujeres en edad fértil.
+* Control ginecológico periódico.
+* En caso de presentar clínica de insuficiencia cardiaca congestiva después de quimioterapia, se recomienda remitir al cardiólogo para tratamiento precoz.
+* Si ocurre un episodio de tromboembolismo venoso, se recomienda suspender el tamoxifeno y remitir al oncólogo para valorar un posible cambio de tratamiento o su mantenimiento.
+
+Es importante destacar que estas recomendaciones pueden variar según la condición individual de cada paciente."
+Q021,¿Qué síntomas causa la falta de estrógenos?,"La falta de estrógenos puede causar varios síntomas, especialmente en mujeres. Según lo que hemos encontrado en el contexto, estos síntomas pueden incluir:
+
+- Sequedad vaginal
+- Sofocos
+- Insomnio
+- Disparunia (dolor durante las relaciones coitales)
+- Reducción de la lubricación
+- Sequedad vaginal intensa
+- Dispareunia (dolor) de moderada a grave
+- Pérdida de deseo sexual
+- Cistitis poscoital
+- Dolor al orinar
+- Aumento de la frecuencia miccional
+- Urgencia miccional
+
+Es importante recordar que cada mujer es diferente y que estos síntomas pueden variar en intensidad y frecuencia. Si experimentas alguno de estos síntomas, es importante consultar con tu médico para obtener asesoramiento y tratamiento adecuados."
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,"Sí, se puede usar antidepresivos en pacientes con cáncer de mama. Sin embargo, la guía que proporciona no menciona específicamente la posibilidad de usar antidepresivos en este contexto. Habría que consultar con el equipo médico para determinar si un antidepresivo es adecuado para un paciente con cáncer de mama en particular."
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,"La quimioterapia puede afectar los ovarios de diferentes maneras. En el caso de mujeres premenopáusicas, la quimioterapia puede provocar la supresión de la función ovariana, lo que reduce la producción de estrógeno en el cuerpo. Esto se puede aprovechar para reducir el suministro de estrógeno al tumor, lo que puede ser beneficioso en el tratamiento del cáncer de mama. Sin embargo, en el caso de mujeres posmenopáusicas, la quimioterapia puede no ser tan efectiva ya que la producción de estrógeno ya está reducida por la menopausia."
+Q024,¿Qué es la dispareunia?,"La dispareunia es un dolor o incomodidad durante el sexo. En el contexto de la próstata, la dispareunia puede estar relacionada con problemas urinarios o alteraciones en la función sexual después de una cirugía o tratamiento para el cáncer de próstata. Sin embargo, la dispareunia no se menciona directamente en los textos proporcionados, pero es un problema común que puede surgir debido a la cirugía o tratamientos relacionados con el cáncer de próstata."
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,"Sí, es posible quedarte embarazada después de un tratamiento de cáncer de mama, especialmente si has superado el primer trimestre de embarazo. De hecho, algunos estudios recientes muestran que pausar la terapia endocrina para poder quedarte embarazada, bajo control médico y durante un período temporal que no supere los 2 años, no incrementa el riesgo de recaída a corto plazo.
+
+Es importante que consultes con tu médico para conocer tu situación específica y obtener consejos personalizados sobre cómo manejar tu embarazo después del tratamiento de cáncer."
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,"Según el contexto proporcionado, los factores de riesgo del cáncer de mama son:
+
+* Género femenino
+* Exposición a radiaciones ionizantes
+* Edad avanzada
+* Tener pocos hijos
+* Predisposición genética (antecedentes familiares o mutaciones en ciertos genes)
+* Historia de hiperplasia atípica
+* Obesidad
+* Exposición a estrógenos
+* Alcohol
+* La historia familiar de cáncer de mama de una mujer es un factor importante que determina su riesgo de desarrollar la enfermedad.
+
+Es importante recordar que el hecho de tener un factor de riesgo aumenta el riesgo de desarrollar cáncer, pero no significa que se vaya a padecer cáncer seguro."
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,"Según el protocolo, para solicitar pruebas de imagen de mama, se debe utilizar la petición electrónica a través de las plataformas Diraya y PDI. Es importante incluir la justificación clínica para indicar la prueba, así como la prioridad (1 normal, 2 preferente o 3 urgente) y la fecha ideal de realización.
+
+Además, se debe especificar el tipo de prueba (mamografía o ecografía) y la prioridad correspondiente. El Servicio de Radiodiagnóstico evaluará la solicitud y decidirá si es necesario realizar el estudio, el tipo de prueba y la prioridad.
+
+En resumen, para solicitar pruebas de imagen de mama, es necesario:
+
+* Utilizar la petición electrónica a través de Diraya y PDI.
+* Incluir la justificación clínica para indicar la prueba.
+* Especificar la prioridad (1 normal, 2 preferente o 3 urgente).
+* Especificar el tipo de prueba (mamografía o ecografía) y la prioridad correspondiente.
+
+Es importante tener en cuenta que el Servicio de Radiodiagnóstico evaluará la solicitud y decidirá si es necesario realizar el estudio."
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,"Según el contexto proporcionado, las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario incluyen:
+
+- Mutaciones en el gen BRCA1 y BRCA2, que se estiman que causan alrededor del 20-25% de los cánceres de mama hereditarios.
+- Mutaciones en el gen TP53, que se asocian con Li-Fraumeni syndrome y un riesgo de cáncer de mama de al menos 50% a los 70 años.
+- Mutaciones en el gen PTEN, que se asocian con Cowden syndrome y un riesgo de cáncer de mama del 25-50%.
+- Mutaciones en el gen STK11, que se asocian con Peutz-Jeghers syndrome y un riesgo de cáncer de mama del 45% a los 70 años.
+- Mutaciones en el gen CDH1, que se asocian con hereditary diffuse gastric cancer y lobular breast cancer.
+
+Es importante destacar que estas mutaciones son solo algunas de las posibles causas de cáncer de mama y ovario hereditario, y que existen otras mutaciones genéticas que también pueden aumentar el riesgo de desarrollar estos cánceres."
+Q029,¿Qué es la pancitopenia?,"Lo siento, pero en el contexto proporcionado no hay información sobre la pancitopenia."
+Q030,¿Qué es la disnea?,"Lamento, pero no tengo suficiente información en el contexto proporcionado para definir o explicar la ""disnea"". Si necesitas información sobre otro tema relacionado con cáncer, cuido nutricional, efectos secundarios de quimioterapia u otros temas, estaré encantado de ayudarte."
+Q031,¿Qué es la proteinuria?,"Lo siento, pero en el contexto proporcionado no hay información sobre la proteína. Sin embargo, sí que encontramos información sobre proteínas en el contexto. Sin embargo, encontramos proteína en las ""Proteínas"" del contexto:
+
+En el contexto sobre proteínas, no menciona la proteína, pero menciona la proteínauria. En el contexto sobre nutrición, no hay información sobre la proteínauria. Pero hay algo relacionado: ""Proteínas con función estructural"". En el contexto sobre cáncer de próstata, encuentra ""Proteína denominada antígeno específico de la próstata o PSA"", pero no la proteínauria.
+
+Sin embargo, en el contexto de la nutrición, no encontramos la proteínauria, pero encontramos la afección llamada linfedema. La proteínauria puede estar relacionada con el linfedema, pero no hay información suficiente para saber si es así.
+
+Como no hay suficiente información en el contexto para responder a la pregunta de manera segura, no puedo proporcionar una respuesta precisa."

@@ -1,0 +1,48 @@
+question_id,question,answer
+Q001,¿Qué es la astenia?,"La astenia es el término médico que describe el cansancio o falta de energía, ya sea física o emocional. Es importante que el paciente informe a su médico sobre la presencia de astenia, ya que puede afectar su capacidad para realizar actividades físicas habituales y concentrarse."
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,"Si tiene una temperatura de 38º o más, lo importante es que consulte con su médico o enfermera lo antes posible. Es posible que la fiebre sea una señal de una infección, o que algún medicamento o la propia enfermedad esté causando fiebre. Es mejor no esperar, sino buscar asesoramiento médico para saber qué hacer en esa situación."
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,"Lo siento, pero no tengo suficiente información para determinar el trastorno del sueño más común en pacientes con cáncer. Sin embargo, puedo decirte que el insomnio es un problema frecuente en personas que reciben quimioterapia y radioterapia."
+Q004,¿Cómo se define la mucositis?,"La mucositis se define como la inflamación de la mucosa del tracto digestivo, caracterizada por la aparición de úlceras y/o enrojecimiento, sensación de ""quemazón"", etc. Puede afectar a cualquier parte del tracto digestivo, desde la boca hasta el ano.
+
+En la clasificación de la mucositis, se divide en grados según los criterios del NCI (Instituto Nacional del Cáncer):
+
+- Grado 0: No mucositis
+- Grado 1: Eritema, dolor moderado, úlceras no dolorosas
+- Grado 2: Eritema con edema y úlceras dolorosas que permiten la ingesta oral
+- Grado 3: No es posible la ingesta oral
+- Grado 4: Requiere soporte enteral o parental"
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,"Según el manual, una sesión de administración de quimioterapia suele durar entre 2 y 6 horas."
+Q006,¿Qué es la Neutropenia?,"La neutropenia es el descenso del número de neutrófilos en la sangre, que es por debajo de 1500 células/mm3. Los neutrófilos son células que ayudan a defender al organismo contra las infecciones. La neutropenia conlleva un mayor riesgo de infecciones."
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,"No, no siempre se cae el cabello con los tratamientos de quimioterapia. Aunque la mayoría de los tratamientos empobrecen o debilitan el cabello."
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,"Según las fuentes proporcionadas, si su tratamiento hace caer el cabello, éste suele caer aproximadamente a las 3 o 4 semanas de la administración del tratamiento."
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,"Según la información proporcionada, el medicamento de quimioterapia que se asocia a la Terapia de Disminución de Andrógenos (TDA) en el cáncer de próstata hormono-sensible metastásico (CPHSm) es el Docetaxel."
+Q010,¿Para qué sirve el fármaco Denosumab?,El fármaco Denosumab se utiliza para tratar la osteoporosis y prevenir fracturas u otros problemas óseos causados por metástasis óseas.
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,"El principal efecto adverso de la Apalutamida es la aparición de un rash o exantema en la piel, además de leve cansancio."
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,"Según la información disponible, el cáncer de próstata resistente a la castración no metastásico suele tratarse con los medicamentos antiandrógenos apalutamida, darolutamida o enzalutamida."
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,"Según el contexto proporcionado, la terapia de privación de andrógenos se utiliza para tratar los siguientes tipos de cáncer de próstata:
+
+* Cáncer de próstata metastásico (cancer de próstata que se ha extendido a otras partes del cuerpo)
+* Cáncer de próstata no metastásico que sigue creciendo a pesar del tratamiento con terapia de privación de andrógenos (cáncer de próstata resistente a la castración [CPRC])
+* Cáncer de próstata metastásico que sigue creciendo a pesar del tratamiento con la terapia de privación de andrógenos (CPRC metastásico)
+
+Además, la terapia de privación de andrógenos es considerada el tratamiento básico para cualquier paciente con cáncer de próstata avanzado desde el momento del diagnóstico."
+Q014,¿Para qué sirve el Radium-223?,"El Radium-223 es un medicamento que contiene elementos radiactivos y se utiliza para tratar el cáncer de próstata que se ha propagado a muchos huesos. Se inyecta en una vena y se asienta en áreas de los huesos afectados, donde elimina a las células cancerosas."
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,"La prostatectomía radical puede afectar la eyaculación. Aunque no se menciona específicamente en el texto, se puede inferir que la extirpación de la glándula prostática y los tejidos circundantes puede afectar la producción de semen o la capacidad de eyacular. Además, se menciona que los tratamientos del cáncer de próstata pueden dañar los músculos que forman la válvula muscular que retiene la orina en la vejiga, lo que podría afectar la función del sistema reproductivo.
+
+Es importante tener en cuenta que la prostatectomía radical puede tener diversas consecuencias, incluyendo problemas de eyaculación, y es importante discutir estas posibles consecuencias con el equipo médico antes de tomar una decisión."
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,"Según el texto, se recomienda seguir una dieta baja en grasas, de fácil digestión, especialmente el día antes de la quimioterapia, durante los días de tratamiento y los dos o tres días posteriores. Esta dieta debe ser paso a paso, progresando a la dieta habitual.
+
+También se sugiere fraccionar la dieta en seis tomas diarias (comidas frecuentes y de poco volumen) si se experimenta inapetencia o mala digestión.
+
+Es importante recordar que cada persona es diferente y puede ser útil probar diferentes opciones para encontrar lo que le funciona mejor."
+Q017,"¿Qué síntoma se denomina ""tinnitus""?","Lo siento, pero en el contexto proporcionado no hay información sobre ""tinnitus"". No puedo encontrar una referencia a este síntoma en la información proporcionada. Si está buscando información sobre síntomas relacionados con el cáncer de mama o la próstata, puedo intentar ayudarlo con eso."
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,"Lo siento, pero el contexto proporcionado no menciona el test PAM50 (Prosigna) ni su propósito. Es posible que se trate de un test relacionado con el cáncer de mama, ya que hay un texto sobre ""Mama"" en el contexto proporcionado. Sin embargo, no puedo proporcionar información precisa sobre el test PAM50 (Prosigna) basada en el contexto proporcionado. Si necesitas información sobre el cáncer de mama o cualquier otro tipo de cáncer, estaré encantado de ayudarte con la información que tengo disponible."
+Q019,¿Cuáles son los efectos secundarios del tamoxifeno?,"Los efectos secundarios del tamoxifeno pueden incluir:
+
+- Sarpullido o piel seca (reacción cutánea)
+- Dolor de cabeza, artralgia u otros efectos secundarios que es importante informar a su médico.
+- Aumento de la riesgo de fracturas óseas
+- Aumento del riesgo de cáncer de útero
+- Aumento del riesgo de trombosis venosa profunda
+
+Es importante informar a su médico sobre cualquier efecto secundario que experimente."
