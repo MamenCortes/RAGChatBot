@@ -1,0 +1,11 @@
+ordinal_position,column_name,data_type,udt_name,is_nullable
+1,id,bigint,int8,NO
+2,doc_id,text,text,NO
+3,chunk_id,text,text,NO
+4,topic,text,text,YES
+5,source,text,text,YES
+6,lang,text,text,YES
+7,content,text,text,NO
+8,embedding,USER-DEFINED,vector,NO
+9,created_at,timestamp with time zone,timestamptz,YES
+10,page_num,integer,int4,YES

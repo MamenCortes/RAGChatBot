@@ -1,0 +1,17 @@
+﻿{
+    "status":  "completed",
+    "transaction_read_only_forced":  true,
+    "psql_version":  "psql (PostgreSQL) 18.1",
+    "queries":  31,
+    "query_types":  [
+                        "question"
+                    ],
+    "fts_configs":  [
+                        "simple",
+                        "spanish",
+                        "english"
+                    ],
+    "requested_depth":  100,
+    "embeddings_exported":  false,
+    "secrets_exported":  false
+}

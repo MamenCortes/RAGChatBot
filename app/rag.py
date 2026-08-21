@@ -1,6 +1,6 @@
 from huggingface_hub import InferenceClient
 from dataclasses import dataclass
-from .retrieval import search, hybrid_search, language_aware_hybrid_search
+from .retrieval_revised import search, hybrid_search, language_aware_hybrid_search
 
 # RAG prompt proposal:
 SYSTEM_PROMPT = """You are a supportive assistant for people affected by breast cancer. Use only the information provided in the retrieved context to answer the user. Do not rely on outside knowledge. 

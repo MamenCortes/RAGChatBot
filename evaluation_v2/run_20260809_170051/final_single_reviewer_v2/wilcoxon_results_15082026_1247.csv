@@ -1,0 +1,4 @@
+method_a,method_b,n_paired_questions,wilcoxon_statistic,p_value_raw,p_value_bonferroni,mean_difference_a_minus_b,median_difference_a_minus_b,a_wins,ties,b_wins,significant_after_bonferroni,note
+semantic,hybrid,27,,1.0,1.0,0.0,0.0,0,27,0,False,Todas las diferencias pareadas son cero.
+semantic,language_aware_hybrid,27,0.0,0.10880943004054568,0.32642829012163704,-0.02783790283790284,0.0,0,24,3,False,
+hybrid,language_aware_hybrid,27,0.0,0.10880943004054568,0.32642829012163704,-0.02783790283790284,0.0,0,24,3,False,

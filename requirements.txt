@@ -7,3 +7,4 @@ python-telegram-bot
 numpy
 sentence-transformers
 python-dotenv
+lingua-language-detector

@@ -1,0 +1,4 @@
+\set ON_ERROR_STOP on
+BEGIN READ ONLY;
+\copy (SELECT count(DISTINCT doc_id) AS num_documents, count(*) AS num_chunks, count(*) FILTER (WHERE doc_id IS NULL) AS null_doc_id, count(*) FILTER (WHERE chunk_id IS NULL) AS null_chunk_id, count(*) FILTER (WHERE content IS NULL OR btrim(content)='') AS null_or_empty_content, count(*) FILTER (WHERE topic IS NULL) AS null_topic, count(*) FILTER (WHERE source IS NULL) AS null_source, count(*) FILTER (WHERE lang IS NULL) AS null_lang, count(*) FILTER (WHERE page_num IS NULL) AS null_page_num, count(*) FILTER (WHERE embedding IS NULL) AS null_embedding, min(created_at) AS min_created_at, max(created_at) AS max_created_at FROM rag_chunks) TO 'C:/Users/mamen/Documents/Python/RAGChatBot/evaluation_v2/run_20260809_170051/logs/db_profile_after.csv' WITH (FORMAT CSV, HEADER TRUE, ENCODING 'UTF8')
+COMMIT;

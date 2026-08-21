@@ -1,0 +1,122 @@
+{
+  "documents": [
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\general\\general_es_gepac_guia-toxicidad-quimioterapia_v1.pdf",
+      "doc_id": "general_es_gepac_guia-toxicidad-quimioterapia_v1",
+      "page_count": 60,
+      "nonempty_extracted_pages": 59
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\general\\general_es_pfizer_manual-pacientes_2007.pdf",
+      "doc_id": "general_es_pfizer_manual-pacientes_2007",
+      "page_count": 201,
+      "nonempty_extracted_pages": 184
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_ESMO_early-breast-cancer-guidelines_2023.pdf",
+      "doc_id": "mama_en_esmo_early-breast-cancer-guidelines_2023",
+      "page_count": 24,
+      "nonempty_extracted_pages": 24
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_NCCN_clinical-practice-guidelines-in-oncology_2024.pdf",
+      "doc_id": "mama_en_nccn_clinical-practice-guidelines-in-oncology_2024",
+      "page_count": 27,
+      "nonempty_extracted_pages": 27
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-advanced-breast-cancer_2022.pdf",
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022",
+      "page_count": 14,
+      "nonempty_extracted_pages": 14
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-early-stage-breast-cancer_2022.pdf",
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022",
+      "page_count": 18,
+      "nonempty_extracted_pages": 18
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-hereditary-breast-ovarian-cancer_2019.pdf",
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019",
+      "page_count": 8,
+      "nonempty_extracted_pages": 8
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_esmo_guia-para-pacientes_v1.pdf",
+      "doc_id": "mama_es_esmo_guia-para-pacientes_v1",
+      "page_count": 76,
+      "nonempty_extracted_pages": 76
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_HUReinaSofia_protocolo-cancer-mama_2021.pdf",
+      "doc_id": "mama_es_hureinasofia_protocolo-cancer-mama_2021",
+      "page_count": 122,
+      "nonempty_extracted_pages": 121
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_novartis_guia-pacientes-CM_2025.pdf",
+      "doc_id": "mama_es_novartis_guia-pacientes-CM_2025",
+      "page_count": 126,
+      "nonempty_extracted_pages": 126
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_SEOM_cancer-mama_2025.pdf",
+      "doc_id": "mama_es_seom_cancer-mama_2025",
+      "page_count": 23,
+      "nonempty_extracted_pages": 23
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_SEOM_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017.pdf",
+      "doc_id": "mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017",
+      "page_count": 28,
+      "nonempty_extracted_pages": 27
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_en_EAU-EANM-ESTRO-ESUR-ISUP-SIOG_Guidelines-on-Prostate-Cancer_2026.pdf",
+      "doc_id": "prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026",
+      "page_count": 159,
+      "nonempty_extracted_pages": 159
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020.pdf",
+      "doc_id": "prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020",
+      "page_count": 11,
+      "nonempty_extracted_pages": 11
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_esmo_guia-para-pacientes_2022.pdf",
+      "doc_id": "prostata_es_esmo_guia-para-pacientes_2022",
+      "page_count": 63,
+      "nonempty_extracted_pages": 63
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_gepac_guia-cancer-de-prostata_2020.pdf",
+      "doc_id": "prostata_es_gepac_guia-cancer-de-prostata_2020",
+      "page_count": 202,
+      "nonempty_extracted_pages": 172
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_SEOM_cancer-prostata_2025.pdf",
+      "doc_id": "prostata_es_seom_cancer-prostata_2025",
+      "page_count": 27,
+      "nonempty_extracted_pages": 26
+    },
+    {
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_seor_guia-para-pacientes_v1.pdf",
+      "doc_id": "prostata_es_seor_guia-para-pacientes_v1",
+      "page_count": 21,
+      "nonempty_extracted_pages": 21
+    }
+  ],
+  "extraction_errors": [],
+  "pages_scanned": 1210,
+  "nonempty_pages": 1159,
+  "methods": [
+    "document_question_search",
+    "document_claim_search",
+    "document_exact_claim",
+    "gold_document_verification"
+  ],
+  "adjacent_gold_pages_checked": true
+}

@@ -1,0 +1,572 @@
+{
+  "generated_utc": "2026-08-09T15:24:22.662982+00:00",
+  "git_commit": "4749e13a4503012f311322428ce0033b20da0920",
+  "initial_git_status_excluding_new_evaluation_v2": [
+    "?? notebooks/RAG-evaluation-debugged.ipynb"
+  ],
+  "canonical_questions_path": "eval/preguntas_val.xlsx",
+  "ground_truth_source": "eval/gold_references.csv",
+  "original_sources": [
+    {
+      "path": "eval/preguntas_val.xlsx",
+      "role": "code_or_evaluation_source",
+      "sha256": "b37104e0ca38433a420333f9a0c84fa07845866db5f6233005faf7143dc8779f",
+      "size_bytes": 10439,
+      "modified_utc": "2026-06-23T13:53:57.394916+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/unique_questions.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "54058fcbe2eaccb75939dc07ba0120c5c4f79b3588806d033bf4f2f96df71f25",
+      "size_bytes": 2003,
+      "modified_utc": "2026-06-23T15:01:25.515869+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/gold_references.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "45c04419781b38bf5b8f6c8e2c931af579a6c42d53504457f3d863895eed391f",
+      "size_bytes": 29991,
+      "modified_utc": "2026-06-23T15:01:04.065444+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "notebooks/RAG-evaluation.ipynb",
+      "role": "code_or_evaluation_source",
+      "sha256": "d065c55f048132d1ae51c1f30e7f08605882df9c31aa2bd141f97bb584430025",
+      "size_bytes": 652417,
+      "modified_utc": "2026-07-13T13:51:16.266085+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/final_answers_with_retrieval_eval.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "5f8aaff3bf7aceccc60b560e9f6e145fbe9a394b13347c640c575e5db081f4b5",
+      "size_bytes": 501199,
+      "modified_utc": "2026-06-25T09:53:35.205137+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/content_evaluation_full.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "943858c609fe4f57c75c5089b3db02bb481baea899486c1dc697028c5b8fd5a0",
+      "size_bytes": 252019,
+      "modified_utc": "2026-07-13T13:32:00.901622+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/content_evaluation_full_updated.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "943858c609fe4f57c75c5089b3db02bb481baea899486c1dc697028c5b8fd5a0",
+      "size_bytes": 252019,
+      "modified_utc": "2026-07-13T13:32:15.037823+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/content_evaluation_manual.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "7dd1f4d51b8f1884d0e185348d35a9af632de4a765f0dbfb7a8736ba412ea57f",
+      "size_bytes": 236365,
+      "modified_utc": "2026-07-13T12:12:35.480359+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/retrieval_semantic_search_evaluation_results.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "b147b963b1382da6760e891b56bd199d18e6b8b4108b03a42aeeb049ca24cdde",
+      "size_bytes": 467558,
+      "modified_utc": "2026-06-25T09:33:40.134048+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/retrieval_hybrid_search_evaluation_results.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "76fbe36fccd67aa5e0cdf270841da8f1c9114103a852e2663d164fa3af1f6f69",
+      "size_bytes": 17575,
+      "modified_utc": "2026-06-24T11:58:11.396518+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "eval/retrieval_language_aware_hybrid_search_evaluation_results.csv",
+      "role": "code_or_evaluation_source",
+      "sha256": "4f4360081b6b7619bd1f23153dd0de4b4e6026a74fd402bc379e8ff44ee50cb4",
+      "size_bytes": 16200,
+      "modified_utc": "2026-06-24T13:15:02.665123+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/db.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "6d617b81feaebaa4d25e4f1215171d865ddee3bfd508826d3589be1a35a09ed5",
+      "size_bytes": 362,
+      "modified_utc": "2026-02-18T17:46:47.042559+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/retrieval.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "6506928bb494322e822bcbd1872a6932c382ff02737d5d899aa4cd1341c8a8b8",
+      "size_bytes": 12588,
+      "modified_utc": "2026-06-23T14:03:45.367720+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/config.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "7e41ae89162b46defd2d5302e03e48cebc822471cc30d3591be28b8b9c159254",
+      "size_bytes": 734,
+      "modified_utc": "2026-02-18T20:33:59.760812+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/embeddings.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "4c32a3e0d94c188e2f1b18589ec0cb9857ef38584feee6856bc9f5bd18a430c6",
+      "size_bytes": 560,
+      "modified_utc": "2026-02-18T17:47:35.832058+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/chunking.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "7ae33e1fd52cb609d1555106b1cbb0e5c844b3575da34e99cb91d3a770ddee0d",
+      "size_bytes": 13414,
+      "modified_utc": "2026-05-26T16:17:17.895005+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "app/ingest.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "99b1012bb198079800b03e6593bb4ef2d30e964ac516395e221cdeb55cadf646",
+      "size_bytes": 3739,
+      "modified_utc": "2026-05-26T16:17:33.559974+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "scripts/ingest_docs.py",
+      "role": "code_or_evaluation_source",
+      "sha256": "89fe7d9f22ca1e8acef0def98ef9dc2e47aea1b0576571ee7d4b00d7f80fbe05",
+      "size_bytes": 14878,
+      "modified_utc": "2026-05-26T16:57:31.188131+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "scripts/create_tables.sql",
+      "role": "code_or_evaluation_source",
+      "sha256": "c0ffa49eb9e2d3612a221ea124bb56f8f513f82b454cf5d9c29e671fec1f5ef2",
+      "size_bytes": 1063,
+      "modified_utc": "2026-06-16T08:25:20.422613+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "requirements.txt",
+      "role": "code_or_evaluation_source",
+      "sha256": "268ba422334f297f41c618a9e35d2804d856b4a2b3762c15ae5be3a5f1fd390b",
+      "size_bytes": 124,
+      "modified_utc": "2026-03-23T12:32:49.565571+00:00",
+      "page_count": "",
+      "nonempty_extracted_pages": "",
+      "used": "true"
+    },
+    {
+      "path": "docs/general/general_es_gepac_guia-toxicidad-quimioterapia_v1.pdf",
+      "role": "document_corpus",
+      "sha256": "3e8d36a5f5b4304abfac62150c06b029fd16e1f08734dc96c1c8c27ca9d2cd45",
+      "size_bytes": 3866511,
+      "modified_utc": "2025-12-30T13:13:06.397733+00:00",
+      "page_count": 60,
+      "nonempty_extracted_pages": 59,
+      "used": "true"
+    },
+    {
+      "path": "docs/general/general_es_pfizer_manual-pacientes_2007.pdf",
+      "role": "document_corpus",
+      "sha256": "780d67b146aedb327f9c625d235e57d3ddee948ca4bb58ace88804145aa49ef4",
+      "size_bytes": 1253164,
+      "modified_utc": "2025-12-30T13:13:06.414514+00:00",
+      "page_count": 201,
+      "nonempty_extracted_pages": 184,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_en_ESMO_early-breast-cancer-guidelines_2023.pdf",
+      "role": "document_corpus",
+      "sha256": "f29b8e1806cc84dc1dbd68b2cdefb4c304766ca6adf278c7535d0a3437a3ca77",
+      "size_bytes": 1758188,
+      "modified_utc": "2026-04-23T10:38:00.610598+00:00",
+      "page_count": 24,
+      "nonempty_extracted_pages": 24,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_en_NCCN_clinical-practice-guidelines-in-oncology_2024.pdf",
+      "role": "document_corpus",
+      "sha256": "49f8068b7ebf930581178d23048c387c8a3b81499d4143d19308ff4ded4302d2",
+      "size_bytes": 1488577,
+      "modified_utc": "2026-04-23T10:39:22.244867+00:00",
+      "page_count": 27,
+      "nonempty_extracted_pages": 27,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-advanced-breast-cancer_2022.pdf",
+      "role": "document_corpus",
+      "sha256": "84d0bd084748ddab9e54ff373da8d846bad1ffd59b6675802bb27c0c0cbd4886",
+      "size_bytes": 1465146,
+      "modified_utc": "2026-04-23T10:30:17.739808+00:00",
+      "page_count": 14,
+      "nonempty_extracted_pages": 14,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-early-stage-breast-cancer_2022.pdf",
+      "role": "document_corpus",
+      "sha256": "b4f4bdcca3154497cf3af5c92a720ab832dc25a2f43eeb90f3c961efcd319e66",
+      "size_bytes": 675442,
+      "modified_utc": "2026-04-23T10:29:39.662345+00:00",
+      "page_count": 18,
+      "nonempty_extracted_pages": 18,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-hereditary-breast-ovarian-cancer_2019.pdf",
+      "role": "document_corpus",
+      "sha256": "cefae88d03b0793a27bad21a0e336835bd2875c04daa98abe421b99779e5f244",
+      "size_bytes": 843572,
+      "modified_utc": "2026-04-23T10:30:56.651451+00:00",
+      "page_count": 8,
+      "nonempty_extracted_pages": 8,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_es_esmo_guia-para-pacientes_v1.pdf",
+      "role": "document_corpus",
+      "sha256": "c7796c820598cefe61e010bf51aae401726c5971f7bca662a3d3c3de239f39d0",
+      "size_bytes": 4282617,
+      "modified_utc": "2026-06-23T14:32:29.686255+00:00",
+      "page_count": 76,
+      "nonempty_extracted_pages": 76,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_es_HUReinaSofia_protocolo-cancer-mama_2021.pdf",
+      "role": "document_corpus",
+      "sha256": "6d932546954f8f18995a2c98acfa0000dfea076e3b9d037ab94031ef58c377e8",
+      "size_bytes": 2649045,
+      "modified_utc": "2025-12-30T13:13:06.553776+00:00",
+      "page_count": 122,
+      "nonempty_extracted_pages": 121,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_es_novartis_guia-pacientes-CM_2025.pdf",
+      "role": "document_corpus",
+      "sha256": "28bba1586be18fb3669ccdbb404851ad99df2cb9511c88f4f4121484746a9b2e",
+      "size_bytes": 5747545,
+      "modified_utc": "2025-12-30T13:13:06.540069+00:00",
+      "page_count": 126,
+      "nonempty_extracted_pages": 126,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_es_SEOM_cancer-mama_2025.pdf",
+      "role": "document_corpus",
+      "sha256": "39a812726c35d99492df7316a237bd721542fafcc65e3e831bbab7b89ca254ef",
+      "size_bytes": 519382,
+      "modified_utc": "2026-04-23T10:32:59.912865+00:00",
+      "page_count": 23,
+      "nonempty_extracted_pages": 23,
+      "used": "true"
+    },
+    {
+      "path": "docs/mama/mama_es_SEOM_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017.pdf",
+      "role": "document_corpus",
+      "sha256": "d986a71f6acef2d83e23179744e8f5195fa5c177b19ec4ab68e34d66f8eeea12",
+      "size_bytes": 2000841,
+      "modified_utc": "2026-04-23T10:34:50.580304+00:00",
+      "page_count": 28,
+      "nonempty_extracted_pages": 27,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_en_EAU-EANM-ESTRO-ESUR-ISUP-SIOG_Guidelines-on-Prostate-Cancer_2026.pdf",
+      "role": "document_corpus",
+      "sha256": "fe9e2a1926669e78d5ea2e504c6a10bf3f8b2fff6cc2e5727915baafa0224a54",
+      "size_bytes": 2148267,
+      "modified_utc": "2026-04-23T10:42:02.880051+00:00",
+      "page_count": 159,
+      "nonempty_extracted_pages": 159,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020.pdf",
+      "role": "document_corpus",
+      "sha256": "b896a766acd7d46e7bd480c64c7c798f74e5d648411273e227784e1ea4aa9db6",
+      "size_bytes": 824778,
+      "modified_utc": "2025-12-30T13:13:06.423809+00:00",
+      "page_count": 11,
+      "nonempty_extracted_pages": 11,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_es_esmo_guia-para-pacientes_2022.pdf",
+      "role": "document_corpus",
+      "sha256": "9ac2ad54b4dc782c9568f3b498f891d12f9e7abe9b60b0f259b7dd62c5ca6419",
+      "size_bytes": 4103073,
+      "modified_utc": "2025-12-30T13:13:06.451108+00:00",
+      "page_count": 63,
+      "nonempty_extracted_pages": 63,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_es_gepac_guia-cancer-de-prostata_2020.pdf",
+      "role": "document_corpus",
+      "sha256": "26958c5754921990fd18f111c2c11b9fc5e1c7457655e66a2b3b67bcf1d7733f",
+      "size_bytes": 5684249,
+      "modified_utc": "2025-12-30T13:13:06.490104+00:00",
+      "page_count": 202,
+      "nonempty_extracted_pages": 172,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_es_SEOM_cancer-prostata_2025.pdf",
+      "role": "document_corpus",
+      "sha256": "35347cc86d0414a5d2129fa8ec6f8b1caa85f7aacea691019081d136ccf99917",
+      "size_bytes": 288464,
+      "modified_utc": "2026-04-23T10:36:59.372370+00:00",
+      "page_count": 27,
+      "nonempty_extracted_pages": 26,
+      "used": "true"
+    },
+    {
+      "path": "docs/prostata/prostata_es_seor_guia-para-pacientes_v1.pdf",
+      "role": "document_corpus",
+      "sha256": "0eaf3010daa115281bb1ec87e7e2cebd8e611118c9aef866ad9acb3dcc31c79c",
+      "size_bytes": 1132681,
+      "modified_utc": "2025-12-30T13:13:06.459012+00:00",
+      "page_count": 21,
+      "nonempty_extracted_pages": 21,
+      "used": "true"
+    }
+  ],
+  "question_count": 31,
+  "claim_count": 155,
+  "candidate_rows_before_deduplication": 3213,
+  "unique_candidates_after_deduplication": 1643,
+  "candidates_by_method": {
+    "document_claim_search": 686,
+    "document_exact_claim": 131,
+    "document_question_search": 217,
+    "existing_gold_db_chunk": 162,
+    "gold_document_verification": 154,
+    "hybrid_search_persisted": 155,
+    "language_aware_hybrid_search_persisted": 140,
+    "lexical_claim_snapshot": 966,
+    "lexical_english": 1,
+    "lexical_question_snapshot": 317,
+    "lexical_simple": 1,
+    "lexical_spanish": 128,
+    "semantic_search_persisted": 155
+  },
+  "retrieval_depth": {
+    "postgres_fts_requested": 100,
+    "persisted_semantic_hybrid_language_aware": 5,
+    "offline_db_question": 15,
+    "offline_db_claim": 8,
+    "direct_document_question": 10,
+    "direct_document_claim": 6
+  },
+  "retrieval_parameters": {
+    "postgres_fts_configs": [
+      "simple",
+      "spanish",
+      "english"
+    ],
+    "postgres_fts_function": "plainto_tsquery + ts_rank_cd",
+    "rrf_k_from_project_code": 60,
+    "language_detection_persisted": false
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (configuration default; effective secret-bearing settings were not loaded or displayed)",
+  "rag_chunks_schema": [
+    {
+      "ordinal_position": "1",
+      "column_name": "id",
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "2",
+      "column_name": "doc_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "3",
+      "column_name": "chunk_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "4",
+      "column_name": "topic",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "5",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "6",
+      "column_name": "lang",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "7",
+      "column_name": "content",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "8",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "9",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "10",
+      "column_name": "page_num",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES"
+    }
+  ],
+  "provisional_evidence_count": 224,
+  "fully_supported_claims": 152,
+  "partially_supported_claims": 1,
+  "unsupported_claims": 2,
+  "human_review_case_count": 166,
+  "scripts_created": [
+    "scripts/build_corpus.py",
+    "scripts/capture_final_state.ps1",
+    "scripts/export_db_readonly.ps1",
+    "scripts/prepare_questions_claims.py",
+    "scripts/render_pdf_pages.mjs",
+    "scripts/validate_final.py"
+  ],
+  "result_hashes_excluding_self_referential_manifest": {
+    "annotation_guidelines.md": "0d49252d55f1c828b77055c107b1bdbaf8981c2b1a2e65a197e5ea69cb5f025d",
+    "claim_coverage.csv": "5041ce604550951fde2f8aa6af457dcbf677498f6572ae2e30c5b77a1e03a288",
+    "claims.csv": "b7f7a22a2cfaaac3923b126126c841e1ac245f8043314f768d05eaa9cca1ef22",
+    "database_profile.json": "0e620f294e25efc8361faeafffcc27c996a4623e8eb9fb29be87cc2b8a1c0c4d",
+    "evidence_candidates.csv": "1c2570ac6016788a1938a298c223dc2d77f850d111fb5d89874737e63b35a474",
+    "evidence_judgments_machine.csv": "1918172d79d00188bb73049299b9b1fe87ec7ec55d37156d3deeec5f5c980888",
+    "evidence_set_provisional.csv": "e10e603d31190aefc87eecfde85da7fec37914baecf74ec4c213c6535ed82363",
+    "human_review_queue.csv": "b0bc333d9b7e807fc65616e7fd065d88622f2ef434b93d1875218737adb4bbe1",
+    "logs/db_chunks.csv": "94a16a0d59aa75f54797140ddee1586b024859285f53c63f2e17824ce6aeea9c",
+    "logs/db_export_log.json": "63302f1e08c5cf42533853c81177ffd96a0af320f2db570ef28863f71e9b5699",
+    "logs/db_profile_after.csv": "b0a08bd6acc3be8e5fab730043ca1f623c8bb4aa736f71afd34f46edfc847124",
+    "logs/db_profile_before.csv": "b0a08bd6acc3be8e5fab730043ca1f623c8bb4aa736f71afd34f46edfc847124",
+    "logs/db_schema.csv": "535eeed61a94abdaec45bff9ef54988dea04b46050fb142ae99c4d228c9215e5",
+    "logs/direct_document_search.json": "8756aad2d74deab892f788c18bc0b2d54a7e514998868acf4f3183deb9519bff",
+    "logs/git_status_final.txt": "4523a8af1127374c884739782b82e24dcd072b7dad34213df1fefeb91a39cfb0",
+    "logs/git_status_initial.txt": "37c9d865816fd53d07d4e5e9156b0d35562e8d4b99d21eb1350753ac5af30150",
+    "logs/lexical_pool.csv": "ca8e4b3262cce2dafb47398b29a708cf1c64b48267ed4f11d9037c80dfd88654",
+    "logs/pdf_visual_review_status.json": "014f3e3ec701e08e2f409a118a8073b05282da209eca6f1fe76c4bb00871b637",
+    "logs/questions_claims_log.json": "57b7043395fcdeb03be02a418d067a284570cb64157336852bf9e6e5c67ff2ba",
+    "logs/readonly_export.sql": "097af2701d0353c51156bf7c1cc26423256b13d8c7c22b903f3a8c99c1be4bbe",
+    "logs/readonly_final_check.sql": "b72b0895686cc25fe05d747399b5ebf8fd11093e70fdbdf5a62243a1a8c8bbf3",
+    "logs/retrieval_method_coverage.csv": "4d3272488a7f1320c0ab5ca298541dec219a00b53502fe1b4a4562b5169b43b8",
+    "questions.csv": "a5736f170350324a65463d7662bd90072084db99b049baa2757f70c15de1c714",
+    "README.md": "fb0ec26d4d6849e17ef3b5df6bfd387d35372df3f58799ecafe0dd8374e6d7fe",
+    "retrieval_pool.csv": "2f5dca3644134be1a49c1e128132c13eaf45a0245cf2c11c28e04652c3cfcecb",
+    "scripts/build_corpus.py": "49f8064db153281d3819bf1ba26202479b8ddcc5a78d8ea5eee1a11e52f9fb82",
+    "scripts/capture_final_state.ps1": "3049d523af8b70b66409cce41efd3428a1a43c150b17f6dc0f647784fe50dce3",
+    "scripts/export_db_readonly.ps1": "154aafe07723ba44bf58595d88e556a46bf9216df11777cc538cb1c459317f87",
+    "scripts/prepare_questions_claims.py": "f8b5cebbf175a2922dc889dcf5578a9fb5b8fc44a86e4fb0db82583bd77e24e7",
+    "scripts/render_pdf_pages.mjs": "2a8c7dbcd509bcba76b6b8290ec0eaeb9ab220ced2d954120b2d49c73697496f",
+    "scripts/validate_final.py": "e9775b34fd2e52e4b7b044bbc9a8c8d689018188cc10b01069e528a778a74fd6",
+    "source_inventory.csv": "6bcb1c87179fdd78a3d4d66234f90c26f727d1e9b5972400238b8a6561ac3611",
+    "unresolved_questions.csv": "31070ece8d01f022b796d541effe03883f1476533dee5095f441df3611395567",
+    "validation_report.md": "a2eb0f19c40798d1c740e82e19d4f4c1723f40c028e05973194296a790635a49"
+  },
+  "database_profile_path": "database_profile.json",
+  "limitations": [
+    "No live semantic/hybrid depth-100 rerun: dependencies/model unavailable and installation/download forbidden.",
+    "Persisted hybrid outputs omit chunk IDs and raw branch/RRF scores.",
+    "Detected language is absent from persisted language-aware outputs.",
+    "Machine claim splitting and relevance judgments are provisional.",
+    "One DB source path is missing from current docs.",
+    "No claim absence is asserted as exhaustive proof.",
+    "manifest.json cannot contain its own stable SHA-256 without self-reference."
+  ],
+  "final_validation": {
+    "timestamp_utc": "2026-08-09T15:24:37.630581+00:00",
+    "checks_passed": 16,
+    "checks_total": 18,
+    "failed_checks": [
+      "all_candidate_source_paths_exist",
+      "visual_review_of_document_only_pages"
+    ],
+    "database_signature_unchanged": true,
+    "git_outside_evaluation_v2_unchanged": true,
+    "visual_review_status": "NOT_COMPLETED"
+  }
+}

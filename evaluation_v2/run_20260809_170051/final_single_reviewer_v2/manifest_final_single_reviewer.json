@@ -1,0 +1,90 @@
+{
+  "generated_at_utc": "2026-08-14T15:25:43.814Z",
+  "corpus_status": "single_human_reviewer_plus_machine_only_unreviewed_not_adjudicated",
+  "source_run": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051",
+  "output_directory": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\final_single_reviewer_v2",
+  "inputs": {
+    "questions": {
+      "path": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\questions.csv",
+      "sha256": "a5736f170350324a65463d7662bd90072084db99b049baa2757f70c15de1c714"
+    },
+    "claims": {
+      "path": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\claims.csv",
+      "sha256": "b7f7a22a2cfaaac3923b126126c841e1ac245f8043314f768d05eaa9cca1ef22"
+    },
+    "reviewed": {
+      "path": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\human_review_queue_reviewed.csv",
+      "sha256": "18169ee2e8cca49a5dbe500d4880b6ebe5679fe2675a940140a23140cf1943d7"
+    },
+    "provisional": {
+      "path": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\evidence_set_provisional.csv",
+      "sha256": "e10e603d31190aefc87eecfde85da7fec37914baecf74ec4c213c6535ed82363"
+    },
+    "candidates": {
+      "path": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\evidence_candidates.csv",
+      "sha256": "1c2570ac6016788a1938a298c223dc2d77f850d111fb5d89874737e63b35a474"
+    }
+  },
+  "originals_unchanged_after_generation": true,
+  "git_status_before": [
+    " M app/rag.py",
+    "?? app/retrieval_metrics.py",
+    "?? app/retrieval_revised.py",
+    "?? evaluation_v2/",
+    "?? notebooks/RAG-evaluation-debugged.ipynb"
+  ],
+  "git_status_after": [
+    " M app/rag.py",
+    "?? app/retrieval_metrics.py",
+    "?? app/retrieval_revised.py",
+    "?? evaluation_v2/",
+    "?? notebooks/RAG-evaluation-debugged.ipynb"
+  ],
+  "counts": {
+    "questions": 31,
+    "original_claims": 155,
+    "active_claims": 152,
+    "rewritten_claims": 13,
+    "retired_claims": 3,
+    "provisional_evidences_input": 224,
+    "final_evidences": 179,
+    "human_reviewed_accepted_evidences": 41,
+    "machine_only_unreviewed_evidences": 138,
+    "excluded_evidences": 45,
+    "evidence_claim_links": 301,
+    "fully_supported_claims_any_source": 150,
+    "fully_supported_claims_human_reviewed": 34,
+    "pending_review_or_evidence": 118,
+    "missing_sources_in_docs_by_basename": 3
+  },
+  "inclusion_rules": {
+    "human_reviewed": "human_decision=accept and human_grade>=2 and at least one active covered claim",
+    "machine_only_unreviewed": "provisional evidence with no machine_evidence_judgment_review row and at least one active covered claim",
+    "excluded": "human reject/uncertain, grade below 2, or no active covered claim"
+  },
+  "output_hashes_sha256": {
+    "claim_revision_map.csv": "9ca64b71c06a1718274d85af58fc926e7d5b69218712bb2efb32816f0ccb197e",
+    "claims_final_single_reviewer.csv": "4ebe34dca4cade43fcd1d5906e7347fc6647299bee0157d5b1ab8b40cfbc6460",
+    "evidence_set_final_single_reviewer.csv": "640774c6ed947f08dd27bd5c9f2a94c11cf861a3a5a985ba56d574b42e42f751",
+    "evidence_claim_links_final_single_reviewer.csv": "ffb479caafb6b24cc2797c48d77da86fe0a67a03423de062db7eaa71467444da",
+    "claim_coverage_final_single_reviewer.csv": "ba5458aa7d88ad167779ccf1246c0bb2ba18314c1b7fa0bf2f47388f622122e8",
+    "unresolved_claims_final_single_reviewer.csv": "2583d725ce7842446a93ff50cc93143f6e5fdbf726f0e5c63bab769ef86b3906",
+    "validation_report.md": "1f6b1847065331663ae77668323ad964d693459faedb043f16959c98ee95e781",
+    "README.md": "447e40c29eb61628f14590e878d55ceb006d0a602bfa16e6bb7b4bed36df3ae6",
+    "evaluation_final_single_reviewer.xlsx": "86e5aaa88d4f37858264582a97b2bece42db715cbfb4bcea0577c62c06cef2d6"
+  },
+  "preview_files": [
+    "scripts/previews/claims_final.png",
+    "scripts/previews/evidence_final.png",
+    "scripts/previews/evidence_claim_links.png",
+    "scripts/previews/claim_coverage.png",
+    "scripts/previews/claim_revisions.png",
+    "scripts/previews/pending_review.png"
+  ],
+  "limitations": [
+    "No independent adjudicator was used.",
+    "Machine-only evidence remains provisional and requires human review.",
+    "The database was not queried during finalization.",
+    "Source existence was checked by filename against docs/; database-only chunks can still be valid."
+  ]
+}

@@ -1,0 +1,32 @@
+question_id,question,detected_language,postgres_ts_config,language_supported,fallback_to_simple,language_note,lexical_candidates_returned,hybrid_candidates_with_lexical_rank
+Q001,¿Qué es la astenia?,ca,simple,False,True,El idioma 'ca' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,es,spanish,True,False,,0,0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,es,spanish,True,False,,0,0
+Q004,¿Cómo se define la mucositis?,es,spanish,True,False,,0,0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,es,spanish,True,False,,0,0
+Q006,¿Qué es la Neutropenia?,fr,simple,False,True,El idioma 'fr' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,1,1
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,es,spanish,True,False,,1,1
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,es,spanish,True,False,,0,0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,es,spanish,True,False,,0,0
+Q010,¿Para qué sirve el fármaco Denosumab?,pt,simple,False,True,El idioma 'pt' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,es,spanish,True,False,,0,0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,es,spanish,True,False,,0,0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,es,spanish,True,False,,0,0
+Q014,¿Para qué sirve el Radium-223?,ca,simple,False,True,El idioma 'ca' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,es,spanish,True,False,,0,0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,es,spanish,True,False,,0,0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",pt,simple,False,True,El idioma 'pt' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,fr,simple,False,True,El idioma 'fr' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,es,spanish,True,False,,0,0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,es,spanish,True,False,,1,1
+Q021,¿Qué síntomas causa la falta de estrógenos?,es,spanish,True,False,,0,0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,es,spanish,True,False,,0,0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,es,spanish,True,False,,6,6
+Q024,¿Qué es la dispareunia?,ca,simple,False,True,El idioma 'ca' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,es,spanish,True,False,,2,2
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,es,spanish,True,False,,0,0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,es,spanish,True,False,,0,0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,es,spanish,True,False,,0,0
+Q029,¿Qué es la pancitopenia?,ca,simple,False,True,El idioma 'ca' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q030,¿Qué es la disnea?,fr,simple,False,True,El idioma 'fr' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0
+Q031,¿Qué es la proteinuria?,fr,simple,False,True,El idioma 'fr' detectado por langdetect no está soportado por la evaluación; la búsqueda léxica usa 'simple'.,0,0

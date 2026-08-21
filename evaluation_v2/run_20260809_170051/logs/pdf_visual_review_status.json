@@ -1,0 +1,11 @@
+{
+  "status": "NOT_COMPLETED",
+  "textual_pdf_verification": "COMPLETED_WITH_PYPDF",
+  "visual_rendering": "BLOCKED",
+  "reason": "Poppler pdfinfo/pdftoppm are not installed. The available pdfjs-dist and skia-canvas versions have incompatible no-argument Canvas fill/stroke overloads.",
+  "installation_attempted": false,
+  "source_pdfs_modified": false,
+  "targets_planned": 6,
+  "targets_rendered": 0,
+  "required_follow_up": "Human reviewer should visually inspect document_only evidence pages, especially tables and lists."
+}

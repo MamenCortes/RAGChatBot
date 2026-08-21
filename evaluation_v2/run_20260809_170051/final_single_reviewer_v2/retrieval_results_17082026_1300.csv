@@ -1,0 +1,891 @@
+question_id,question,strategy,rank,original_rank,doc_id,chunk_id,page_num,chunk_lang,raw_distance,raw_score,detected_language,rrf_k
+Q001,¿Qué es la astenia?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,0.5069648623466492,,,
+Q001,¿Qué es la astenia?,semantic,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,0.5278962709872801,,,
+Q001,¿Qué es la astenia?,semantic,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p004_c00,4,es,0.6092796921730042,,,
+Q001,¿Qué es la astenia?,semantic,4,4,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,0.6136918067932129,,,
+Q001,¿Qué es la astenia?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,0.6268676817417145,,,
+Q001,¿Qué es la astenia?,semantic,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p192_c00,192,es,0.6298617201961105,,,
+Q001,¿Qué es la astenia?,semantic,7,7,mama_es_novartis_guia-pacientes-CM_2025,p080_c00,80,es,0.6385203301906586,,,
+Q001,¿Qué es la astenia?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,0.6412604833400531,,,
+Q001,¿Qué es la astenia?,semantic,9,9,prostata_es_esmo_guia-para-pacientes_2022,p007_c00,7,es,0.6422080993652344,,,
+Q001,¿Qué es la astenia?,semantic,10,10,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,0.6440264880657196,,,
+Q001,¿Qué es la astenia?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.01639344262295082,,60.0
+Q001,¿Qué es la astenia?,hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.016129032258064516,,60.0
+Q001,¿Qué es la astenia?,hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p004_c00,4,es,,0.015873015873015872,,60.0
+Q001,¿Qué es la astenia?,hybrid,4,4,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,,0.015625,,60.0
+Q001,¿Qué es la astenia?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.015384615384615385,,60.0
+Q001,¿Qué es la astenia?,hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p192_c00,192,es,,0.015151515151515152,,60.0
+Q001,¿Qué es la astenia?,hybrid,7,7,mama_es_novartis_guia-pacientes-CM_2025,p080_c00,80,es,,0.014925373134328358,,60.0
+Q001,¿Qué es la astenia?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.014705882352941176,,60.0
+Q001,¿Qué es la astenia?,hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p007_c00,7,es,,0.014492753623188406,,60.0
+Q001,¿Qué es la astenia?,hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,,0.014285714285714285,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.01639344262295082,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.016129032258064516,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p004_c00,4,es,,0.015873015873015872,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,4,4,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,,0.015625,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.015384615384615385,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p192_c00,192,es,,0.015151515151515152,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,7,7,mama_es_novartis_guia-pacientes-CM_2025,p080_c00,80,es,,0.014925373134328358,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.014705882352941176,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p007_c00,7,es,,0.014492753623188406,,60.0
+Q001,¿Qué es la astenia?,language_aware_hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,,0.014285714285714285,,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,1,1,general_es_pfizer_manual-pacientes_2007,p150_c00,150,es,0.44293095341530353,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p059_c01,59,es,0.5034861414585647,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,3,3,mama_es_novartis_guia-pacientes-CM_2025,p118_c00,118,es,0.5070213524394804,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,4,4,general_es_pfizer_manual-pacientes_2007,p071_c01,71,es,0.5308601576602553,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c01,13,es,0.5320085464723596,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,6,6,general_es_pfizer_manual-pacientes_2007,p057_c01,57,es,0.5342583219485972,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,7,7,mama_es_novartis_guia-pacientes-CM_2025,p054_c00,54,es,0.5522705120798438,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,8,8,mama_es_novartis_guia-pacientes-CM_2025,p020_c01,20,es,0.5530794396078735,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,9,9,mama_es_novartis_guia-pacientes-CM_2025,p022_c01,22,es,0.55734862899917,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,semantic,10,10,general_es_pfizer_manual-pacientes_2007,p107_c00,107,es,0.5671933760402611,,es,
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p150_c00,150,es,,0.01639344262295082,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p059_c01,59,es,,0.016129032258064516,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p118_c00,118,es,,0.015873015873015872,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,4,4,general_es_pfizer_manual-pacientes_2007,p071_c01,71,es,,0.015625,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c01,13,es,,0.015384615384615385,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,6,6,general_es_pfizer_manual-pacientes_2007,p057_c01,57,es,,0.015151515151515152,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,7,7,mama_es_novartis_guia-pacientes-CM_2025,p054_c00,54,es,,0.014925373134328358,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p020_c01,20,es,,0.014705882352941176,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,9,9,mama_es_novartis_guia-pacientes-CM_2025,p022_c01,22,es,,0.014492753623188406,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,hybrid,10,10,general_es_pfizer_manual-pacientes_2007,p107_c00,107,es,,0.014285714285714285,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p150_c00,150,es,,0.01639344262295082,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p059_c01,59,es,,0.016129032258064516,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p118_c00,118,es,,0.015873015873015872,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,4,4,general_es_pfizer_manual-pacientes_2007,p071_c01,71,es,,0.015625,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c01,13,es,,0.015384615384615385,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,6,6,general_es_pfizer_manual-pacientes_2007,p057_c01,57,es,,0.015151515151515152,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,,0.014925373134328358,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p054_c00,54,es,,0.014705882352941176,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,9,9,mama_es_novartis_guia-pacientes-CM_2025,p020_c01,20,es,,0.014492753623188406,es,60.0
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,language_aware_hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p022_c01,22,es,,0.014285714285714285,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c00,48,es,0.3669635276176637,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p038_c01,38,es,0.39184435557391273,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,3,3,prostata_es_esmo_guia-para-pacientes_2022,p041_c00,41,es,0.4349142663053073,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p152_c00,152,es,0.45249989345669017,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,0.4586325399845127,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p047_c00,47,es,0.46192782663438636,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,7,7,general_es_pfizer_manual-pacientes_2007,p072_c01,72,es,0.48482438831474617,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,8,8,mama_es_novartis_guia-pacientes-CM_2025,p026_c01,26,es,0.5027898849719685,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c01,48,es,0.5040325226803128,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,semantic,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p019_c00,19,es,0.5155365783615802,,es,
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c00,48,es,,0.01639344262295082,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p038_c01,38,es,,0.016129032258064516,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p041_c00,41,es,,0.015873015873015872,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p152_c00,152,es,,0.015625,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,,0.015384615384615385,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p047_c00,47,es,,0.015151515151515152,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,7,7,general_es_pfizer_manual-pacientes_2007,p072_c01,72,es,,0.014925373134328358,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p026_c01,26,es,,0.014705882352941176,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c01,48,es,,0.014492753623188406,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,hybrid,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p019_c00,19,es,,0.014285714285714285,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c00,48,es,,0.01639344262295082,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p038_c01,38,es,,0.016129032258064516,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p041_c00,41,es,,0.015873015873015872,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p152_c00,152,es,,0.015625,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,,0.015384615384615385,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p047_c00,47,es,,0.015151515151515152,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,7,7,general_es_pfizer_manual-pacientes_2007,p072_c01,72,es,,0.014925373134328358,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p026_c01,26,es,,0.014705882352941176,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p048_c01,48,es,,0.014492753623188406,es,60.0
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,language_aware_hybrid,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p019_c00,19,es,,0.014285714285714285,es,60.0
+Q004,¿Cómo se define la mucositis?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c00,14,es,0.3853383430636905,,es,
+Q004,¿Cómo se define la mucositis?,semantic,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c01,14,es,0.4907472577913776,,es,
+Q004,¿Cómo se define la mucositis?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,0.5554295215266649,,es,
+Q004,¿Cómo se define la mucositis?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p049_c01,49,es,0.5860511958599091,,es,
+Q004,¿Cómo se define la mucositis?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p043_c02,43,es,0.5912258272632456,,es,
+Q004,¿Cómo se define la mucositis?,semantic,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c00,187,es,0.5975208878517151,,es,
+Q004,¿Cómo se define la mucositis?,semantic,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p053_c00,53,es,0.6011123061180115,,es,
+Q004,¿Cómo se define la mucositis?,semantic,8,8,mama_es_esmo_guia-para-pacientes_v1,p053_c01,53,es,0.6051918448564959,,es,
+Q004,¿Cómo se define la mucositis?,semantic,9,9,prostata_es_esmo_guia-para-pacientes_2022,p061_c00,61,es,0.605414867401123,,es,
+Q004,¿Cómo se define la mucositis?,semantic,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,0.6185107827186584,,es,
+Q004,¿Cómo se define la mucositis?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c00,14,es,,0.01639344262295082,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c01,14,es,,0.016129032258064516,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.015873015873015872,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p049_c01,49,es,,0.015625,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p043_c02,43,es,,0.015384615384615385,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c00,187,es,,0.015151515151515152,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p053_c00,53,es,,0.014925373134328358,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p053_c01,53,es,,0.014705882352941176,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p061_c00,61,es,,0.014492753623188406,es,60.0
+Q004,¿Cómo se define la mucositis?,hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,,0.014285714285714285,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c00,14,es,,0.01639344262295082,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p014_c01,14,es,,0.016129032258064516,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.015873015873015872,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p049_c01,49,es,,0.015625,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p043_c02,43,es,,0.015384615384615385,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c00,187,es,,0.015151515151515152,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p053_c00,53,es,,0.014925373134328358,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p053_c01,53,es,,0.014705882352941176,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p061_c00,61,es,,0.014492753623188406,es,60.0
+Q004,¿Cómo se define la mucositis?,language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,,0.014285714285714285,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,1,1,general_es_pfizer_manual-pacientes_2007,p033_c01,33,es,0.18458068370819092,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,2,2,mama_es_novartis_guia-pacientes-CM_2025,p023_c00,23,es,0.268384413026833,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p088_c00,88,es,0.2709464430809021,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,4,4,mama_en_esmo_early-breast-cancer-guidelines_2023,p007_c02,7,en,0.2973114252090454,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,0.30301761627197266,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p036_c01,36,es,0.30397987365722656,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p062_c00,62,es,0.31633738778010556,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p035_c00,35,es,0.3173927068710327,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,9,9,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,0.3205702709811752,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,semantic,10,10,prostata_es_seom_cancer-prostata_2025,p013_c00,13,es,0.32481573000001074,,es,
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p033_c01,33,es,,0.01639344262295082,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,2,2,mama_es_novartis_guia-pacientes-CM_2025,p023_c00,23,es,,0.016129032258064516,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p088_c00,88,es,,0.015873015873015872,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,4,4,mama_en_esmo_early-breast-cancer-guidelines_2023,p007_c02,7,en,,0.015625,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.015384615384615385,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p036_c01,36,es,,0.015151515151515152,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p062_c00,62,es,,0.014925373134328358,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p035_c00,35,es,,0.014705882352941176,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,9,9,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.014492753623188406,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,hybrid,10,10,prostata_es_seom_cancer-prostata_2025,p013_c00,13,es,,0.014285714285714285,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p033_c01,33,es,,0.01639344262295082,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,2,2,mama_es_novartis_guia-pacientes-CM_2025,p023_c00,23,es,,0.016129032258064516,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p088_c00,88,es,,0.015873015873015872,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.015625,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p036_c01,36,es,,0.015384615384615385,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p062_c00,62,es,,0.015151515151515152,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p035_c00,35,es,,0.014925373134328358,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.014705882352941176,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,9,9,prostata_es_seom_cancer-prostata_2025,p013_c00,13,es,,0.014492753623188406,es,60.0
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,language_aware_hybrid,10,10,general_es_pfizer_manual-pacientes_2007,p034_c00,34,es,,0.014285714285714285,es,60.0
+Q006,¿Qué es la Neutropenia?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,0.6025257171705786,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p042_c00,42,es,0.6164593949728662,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p043_c00,43,es,0.6201427906964405,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,0.6289474444954057,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,0.638741401321417,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p056_c00,56,es,0.6388858341506614,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,0.6496063261989543,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,8,8,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p007_c01,7,en,0.6673391263091037,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p004_c00,4,es,0.6702750724718012,,fr,
+Q006,¿Qué es la Neutropenia?,semantic,10,10,mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022,p008_c00,8,en,0.6704275411622245,,fr,
+Q006,¿Qué es la Neutropenia?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.01639344262295082,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,2,2,mama_es_novartis_guia-pacientes-CM_2025,p025_c01,25,es,,0.01639344262295082,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p042_c00,42,es,,0.016129032258064516,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p043_c00,43,es,,0.015873015873015872,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,,0.015625,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.015384615384615385,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p056_c00,56,es,,0.015151515151515152,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.014925373134328358,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,9,9,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p007_c01,7,en,,0.014705882352941176,fr,60.0
+Q006,¿Qué es la Neutropenia?,hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p004_c00,4,es,,0.014492753623188406,fr,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,0.20918463550668365,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,2,2,prostata_es_esmo_guia-para-pacientes_2022,p048_c01,48,es,0.29613403700983176,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,3,3,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,0.3296319645862589,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,4,4,mama_es_novartis_guia-pacientes-CM_2025,p117_c00,117,es,0.35208749771118164,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,5,5,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,0.37373602390289307,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,6,6,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,0.3816169868935939,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,0.38503575325012207,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,0.38506245613098145,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,0.39848023653030396,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,semantic,10,10,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,0.4039640426635742,,es,
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,,0.01639344262295082,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p048_c01,48,es,,0.016129032258064516,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.015873015873015872,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,4,4,mama_es_novartis_guia-pacientes-CM_2025,p117_c00,117,es,,0.015625,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,,0.015384615384615385,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,,0.015151515151515152,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.014925373134328358,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.014705882352941176,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,,0.014492753623188406,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,hybrid,10,10,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,,0.014285714285714285,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,,0.03278688524590164,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p048_c01,48,es,,0.016129032258064516,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.015873015873015872,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,4,4,mama_es_novartis_guia-pacientes-CM_2025,p117_c00,117,es,,0.015625,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,,0.015384615384615385,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,,0.015151515151515152,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.014925373134328358,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.014705882352941176,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,,0.014492753623188406,es,60.0
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,language_aware_hybrid,10,10,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,,0.014285714285714285,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,0.28561156561477785,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,2,2,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,0.29238347456553604,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,3,3,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,0.293362021446228,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,0.33077895641326904,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,5,5,mama_es_novartis_guia-pacientes-CM_2025,p125_c00,125,es,0.36915912444347776,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,6,6,mama_es_esmo_guia-para-pacientes_v1,p043_c01,43,es,0.37255205944490677,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,7,7,prostata_es_esmo_guia-para-pacientes_2022,p047_c02,47,es,0.39426026378510703,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,8,8,mama_es_esmo_guia-para-pacientes_v1,p048_c01,48,es,0.4354133437697093,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c01,46,es,0.4444483518600464,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p066_c00,66,es,0.4604134994868485,,es,
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,,0.01639344262295082,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,2,2,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,,0.016129032258064516,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,3,3,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,,0.015873015873015872,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,,0.015625,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,5,5,mama_es_novartis_guia-pacientes-CM_2025,p125_c00,125,es,,0.015384615384615385,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p043_c01,43,es,,0.015151515151515152,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,7,7,prostata_es_esmo_guia-para-pacientes_2022,p047_c02,47,es,,0.014925373134328358,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p048_c01,48,es,,0.014705882352941176,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c01,46,es,,0.014492753623188406,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p066_c00,66,es,,0.014285714285714285,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,1,1,general_es_pfizer_manual-pacientes_2007,p040_c00,40,es,,0.01639344262295082,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,2,2,mama_es_novartis_guia-pacientes-CM_2025,p118_c01,118,es,,0.016129032258064516,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,3,3,general_es_pfizer_manual-pacientes_2007,p042_c00,42,es,,0.015873015873015872,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p046_c02,46,es,,0.015625,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,5,5,mama_es_novartis_guia-pacientes-CM_2025,p125_c00,125,es,,0.015384615384615385,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p043_c01,43,es,,0.015151515151515152,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,7,7,prostata_es_esmo_guia-para-pacientes_2022,p047_c02,47,es,,0.014925373134328358,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p048_c01,48,es,,0.014705882352941176,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p046_c01,46,es,,0.014492753623188406,es,60.0
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p066_c00,66,es,,0.014285714285714285,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,1,1,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,0.3160256366699127,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,2,2,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,0.32862802318501494,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,3,3,prostata_es_seom_cancer-prostata_2025,p024_c01,24,es,0.33046360793492724,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p068_c00,68,es,0.3507197514819851,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,0.3561341166496277,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,6,6,prostata_es_esmo_guia-para-pacientes_2022,p056_c01,56,es,0.35824564944233483,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,7,7,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p014_c03,14,en,0.36253660917282104,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,8,8,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,0.36593979597091675,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c01,187,es,0.3673298736018007,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,semantic,10,10,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,0.37531721591949463,,es,
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,1,1,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.01639344262295082,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.016129032258064516,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,3,3,prostata_es_seom_cancer-prostata_2025,p024_c01,24,es,,0.015873015873015872,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p068_c00,68,es,,0.015625,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.015384615384615385,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,6,6,prostata_es_esmo_guia-para-pacientes_2022,p056_c01,56,es,,0.015151515151515152,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,7,7,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p014_c03,14,en,,0.014925373134328358,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,8,8,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,,0.014705882352941176,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c01,187,es,,0.014492753623188406,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,,0.014285714285714285,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,1,1,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.01639344262295082,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.016129032258064516,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,3,3,prostata_es_seom_cancer-prostata_2025,p024_c01,24,es,,0.015873015873015872,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p068_c00,68,es,,0.015625,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.015384615384615385,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,6,6,prostata_es_esmo_guia-para-pacientes_2022,p056_c01,56,es,,0.015151515151515152,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,7,7,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,,0.014925373134328358,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p187_c01,187,es,,0.014705882352941176,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,,0.014492753623188406,es,60.0
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p079_c00,79,es,,0.014285714285714285,es,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p106_c00,106,es,0.5226945734827091,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,2,2,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,0.5248716488404065,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p015_c00,15,es,0.5337916473684203,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,0.5394117992941079,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p069_c00,69,es,0.5458224876470112,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,6,6,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p019_c03,19,en,0.5459490851775066,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,7,7,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c00,111,en,0.547275397019112,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p007_c02,7,es,0.5547805891865665,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,9,9,prostata_es_seom_cancer-prostata_2025,p022_c02,22,es,0.560477005257517,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,0.5612214411397074,,,
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p106_c00,106,es,,0.01639344262295082,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,2,2,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.016129032258064516,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p015_c00,15,es,,0.015873015873015872,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,,0.015625,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p069_c00,69,es,,0.015384615384615385,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,6,6,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p019_c03,19,en,,0.015151515151515152,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,7,7,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c00,111,en,,0.014925373134328358,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p007_c02,7,es,,0.014705882352941176,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,9,9,prostata_es_seom_cancer-prostata_2025,p022_c02,22,es,,0.014492753623188406,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,,0.014285714285714285,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p106_c00,106,es,,0.01639344262295082,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,2,2,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.016129032258064516,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p015_c00,15,es,,0.015873015873015872,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p018_c01,18,es,,0.015625,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p069_c00,69,es,,0.015384615384615385,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,6,6,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p019_c03,19,en,,0.015151515151515152,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,7,7,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c00,111,en,,0.014925373134328358,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p007_c02,7,es,,0.014705882352941176,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,9,9,prostata_es_seom_cancer-prostata_2025,p022_c02,22,es,,0.014492753623188406,,60.0
+Q010,¿Para qué sirve el fármaco Denosumab?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,,0.014285714285714285,,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p046_c01,46,es,0.32627761363982677,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,2,2,prostata_es_seom_cancer-prostata_2025,p021_c00,21,es,0.3354870080947828,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,0.3428187966346694,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,4,4,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,0.35367349662342573,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,0.35650040636955227,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,6,6,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p006_c01,6,en,0.35963193418789186,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p056_c00,56,es,0.39283601088309117,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p105_c00,105,es,0.39827868948705747,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p053_c00,53,es,0.4003941178086915,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,semantic,10,10,prostata_es_esmo_guia-para-pacientes_2022,p043_c01,43,es,0.4018165825714707,,es,
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p046_c01,46,es,,0.01639344262295082,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,2,2,prostata_es_seom_cancer-prostata_2025,p021_c00,21,es,,0.016129032258064516,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,,0.015873015873015872,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,4,4,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,,0.015625,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,,0.015384615384615385,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,6,6,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p006_c01,6,en,,0.015151515151515152,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p056_c00,56,es,,0.014925373134328358,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p105_c00,105,es,,0.014705882352941176,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p053_c00,53,es,,0.014492753623188406,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,hybrid,10,10,prostata_es_esmo_guia-para-pacientes_2022,p043_c01,43,es,,0.014285714285714285,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p046_c01,46,es,,0.01639344262295082,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,2,2,prostata_es_seom_cancer-prostata_2025,p021_c00,21,es,,0.016129032258064516,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p097_c00,97,es,,0.015873015873015872,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,4,4,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,,0.015625,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,,0.015384615384615385,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p056_c00,56,es,,0.015151515151515152,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p105_c00,105,es,,0.014925373134328358,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p053_c00,53,es,,0.014705882352941176,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p043_c01,43,es,,0.014492753623188406,es,60.0
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,language_aware_hybrid,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p012_c00,12,es,,0.014285714285714285,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,0.2492433786392212,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,2,2,prostata_es_esmo_guia-para-pacientes_2022,p032_c00,32,es,0.2586599434220811,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,3,3,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c05,10,en,0.26762986183166504,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,4,4,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,0.2708648120325976,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,5,5,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,0.2762834100385364,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,6,6,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p011_c01,11,en,0.27829402685165405,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,7,7,prostata_es_seom_cancer-prostata_2025,p017_c02,17,es,0.2799471616744995,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,8,8,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,0.2840869596056306,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,9,9,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c02,10,en,0.28820574283599854,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p079_c00,79,es,0.29108285903930664,,es,
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.01639344262295082,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p032_c00,32,es,,0.016129032258064516,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,3,3,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c05,10,en,,0.015873015873015872,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,4,4,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,,0.015625,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,5,5,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.015384615384615385,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,6,6,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p011_c01,11,en,,0.015151515151515152,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,7,7,prostata_es_seom_cancer-prostata_2025,p017_c02,17,es,,0.014925373134328358,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,8,8,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.014705882352941176,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,9,9,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c02,10,en,,0.014492753623188406,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p079_c00,79,es,,0.014285714285714285,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.01639344262295082,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p032_c00,32,es,,0.016129032258064516,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,,0.015873015873015872,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,4,4,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.015625,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,5,5,prostata_es_seom_cancer-prostata_2025,p017_c02,17,es,,0.015384615384615385,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,6,6,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.015151515151515152,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p079_c00,79,es,,0.014925373134328358,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,8,8,prostata_es_esmo_guia-para-pacientes_2022,p025_c00,25,es,,0.014705882352941176,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p046_c00,46,es,,0.014492753623188406,es,60.0
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,language_aware_hybrid,10,10,prostata_es_seom_cancer-prostata_2025,p010_c00,10,es,,0.014285714285714285,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,1,1,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,0.21174120903014582,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,0.23007013260064002,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,3,3,prostata_es_esmo_guia-para-pacientes_2022,p025_c00,25,es,0.23943452600034776,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,4,4,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,0.25510089069003383,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,5,5,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c01,10,en,0.2665881295975404,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,6,6,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p109_c00,109,en,0.2673542936233094,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,0.27310006182789304,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,8,8,prostata_es_seom_cancer-prostata_2025,p014_c00,14,es,0.2738799452781626,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,9,9,prostata_es_seom_cancer-prostata_2025,p010_c00,10,es,0.28220501158177713,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,semantic,10,10,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,0.2841278402576719,,es,
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,1,1,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.01639344262295082,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,,0.016129032258064516,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p025_c00,25,es,,0.015873015873015872,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,4,4,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,,0.015625,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,5,5,prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020,p010_c01,10,en,,0.015384615384615385,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,6,6,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p109_c00,109,en,,0.015151515151515152,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.014925373134328358,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,8,8,prostata_es_seom_cancer-prostata_2025,p014_c00,14,es,,0.014705882352941176,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,9,9,prostata_es_seom_cancer-prostata_2025,p010_c00,10,es,,0.014492753623188406,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,hybrid,10,10,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.014285714285714285,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,1,1,prostata_es_esmo_guia-para-pacientes_2022,p028_c00,28,es,,0.01639344262295082,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c01,5,es,,0.016129032258064516,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p025_c00,25,es,,0.015873015873015872,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,4,4,prostata_es_seom_cancer-prostata_2025,p018_c00,18,es,,0.015625,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.015384615384615385,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,6,6,prostata_es_seom_cancer-prostata_2025,p014_c00,14,es,,0.015151515151515152,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,7,7,prostata_es_seom_cancer-prostata_2025,p010_c00,10,es,,0.014925373134328358,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,8,8,prostata_es_seom_cancer-prostata_2025,p019_c01,19,es,,0.014705882352941176,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,9,9,prostata_es_seom_cancer-prostata_2025,p024_c01,24,es,,0.014492753623188406,es,60.0
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,language_aware_hybrid,10,10,prostata_es_esmo_guia-para-pacientes_2022,p005_c00,5,es,,0.014285714285714285,es,60.0
+Q014,¿Para qué sirve el Radium-223?,semantic,1,1,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p126_c02,126,en,0.3989787222172353,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c02,5,es,0.4581077421839381,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p112_c00,112,es,0.5531176759863574,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,4,4,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p096_c01,96,en,0.5653054636352701,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,5,5,prostata_es_seom_cancer-prostata_2025,p024_c00,24,es,0.5755023017226271,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,6,6,prostata_es_esmo_guia-para-pacientes_2022,p060_c01,60,es,0.5871006373435053,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p097_c00,97,es,0.5905060308266816,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,8,8,mama_es_esmo_guia-para-pacientes_v1,p072_c01,72,es,0.594292957270985,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p105_c00,105,es,0.5984219493362963,,,
+Q014,¿Para qué sirve el Radium-223?,semantic,10,10,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c03,111,en,0.603394674850145,,,
+Q014,¿Para qué sirve el Radium-223?,hybrid,1,1,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p126_c02,126,en,,0.01639344262295082,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c02,5,es,,0.016129032258064516,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p112_c00,112,es,,0.015873015873015872,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,4,4,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p096_c01,96,en,,0.015625,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,5,5,prostata_es_seom_cancer-prostata_2025,p024_c00,24,es,,0.015384615384615385,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,6,6,prostata_es_esmo_guia-para-pacientes_2022,p060_c01,60,es,,0.015151515151515152,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p097_c00,97,es,,0.014925373134328358,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p072_c01,72,es,,0.014705882352941176,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p105_c00,105,es,,0.014492753623188406,,60.0
+Q014,¿Para qué sirve el Radium-223?,hybrid,10,10,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c03,111,en,,0.014285714285714285,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,1,1,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p126_c02,126,en,,0.01639344262295082,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,2,2,prostata_es_esmo_guia-para-pacientes_2022,p005_c02,5,es,,0.016129032258064516,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p112_c00,112,es,,0.015873015873015872,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,4,4,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p096_c01,96,en,,0.015625,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,5,5,prostata_es_seom_cancer-prostata_2025,p024_c00,24,es,,0.015384615384615385,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,6,6,prostata_es_esmo_guia-para-pacientes_2022,p060_c01,60,es,,0.015151515151515152,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p097_c00,97,es,,0.014925373134328358,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p072_c01,72,es,,0.014705882352941176,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p105_c00,105,es,,0.014492753623188406,,60.0
+Q014,¿Para qué sirve el Radium-223?,language_aware_hybrid,10,10,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p111_c03,111,en,,0.014285714285714285,,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,1,1,prostata_es_esmo_guia-para-pacientes_2022,p021_c01,21,es,0.2521628442004733,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,2,2,prostata_es_seor_guia-para-pacientes_v1,p016_c00,16,es,0.28121848590484044,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p071_c00,71,es,0.28553393906759494,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,0.2859381011687565,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p186_c00,186,es,0.29835331439971424,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,6,6,prostata_es_seor_guia-para-pacientes_v1,p014_c00,14,es,0.30607106125778205,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p184_c00,184,es,0.3104782084058111,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p067_c00,67,es,0.3302610314203538,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p070_c00,70,es,0.3310555614299251,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c01,77,es,0.3330317536630337,,es,
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,1,1,prostata_es_esmo_guia-para-pacientes_2022,p021_c01,21,es,,0.01639344262295082,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,2,2,prostata_es_seor_guia-para-pacientes_v1,p016_c00,16,es,,0.016129032258064516,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p071_c00,71,es,,0.015873015873015872,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.015625,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p186_c00,186,es,,0.015384615384615385,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,6,6,prostata_es_seor_guia-para-pacientes_v1,p014_c00,14,es,,0.015151515151515152,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p184_c00,184,es,,0.014925373134328358,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p067_c00,67,es,,0.014705882352941176,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p070_c00,70,es,,0.014492753623188406,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c01,77,es,,0.014285714285714285,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,1,1,prostata_es_esmo_guia-para-pacientes_2022,p021_c01,21,es,,0.01639344262295082,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,2,2,prostata_es_seor_guia-para-pacientes_v1,p016_c00,16,es,,0.016129032258064516,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p071_c00,71,es,,0.015873015873015872,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p064_c00,64,es,,0.015625,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p186_c00,186,es,,0.015384615384615385,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,6,6,prostata_es_seor_guia-para-pacientes_v1,p014_c00,14,es,,0.015151515151515152,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p184_c00,184,es,,0.014925373134328358,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p067_c00,67,es,,0.014705882352941176,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p070_c00,70,es,,0.014492753623188406,es,60.0
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c01,77,es,,0.014285714285714285,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c00,13,es,0.2568699870628097,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,2,2,general_es_pfizer_manual-pacientes_2007,p098_c01,98,es,0.3169111798352694,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p010_c00,10,es,0.3632144331932068,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,4,4,mama_es_seom_cancer-mama_2025,p015_c01,15,es,0.36781419899293943,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,5,5,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p017_c02,17,en,0.3771077023212721,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,6,6,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,0.38166753162935074,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,7,7,general_es_pfizer_manual-pacientes_2007,p098_c00,98,es,0.3928500179737785,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p005_c00,5,es,0.3929091819632985,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,9,9,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,0.39359819889068604,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,0.3960682153701782,,es,
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c00,13,es,,0.01639344262295082,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,2,2,general_es_pfizer_manual-pacientes_2007,p098_c01,98,es,,0.016129032258064516,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p010_c00,10,es,,0.015873015873015872,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,4,4,mama_es_seom_cancer-mama_2025,p015_c01,15,es,,0.015625,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,5,5,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p017_c02,17,en,,0.015384615384615385,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.015151515151515152,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,7,7,general_es_pfizer_manual-pacientes_2007,p098_c00,98,es,,0.014925373134328358,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p005_c00,5,es,,0.014705882352941176,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,,0.014492753623188406,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.014285714285714285,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p013_c00,13,es,,0.01639344262295082,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,2,2,general_es_pfizer_manual-pacientes_2007,p098_c01,98,es,,0.016129032258064516,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,3,3,general_es_gepac_guia-toxicidad-quimioterapia_v1,p010_c00,10,es,,0.015873015873015872,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,4,4,mama_es_seom_cancer-mama_2025,p015_c01,15,es,,0.015625,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,5,5,mama_es_novartis_guia-pacientes-CM_2025,p089_c01,89,es,,0.015384615384615385,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,6,6,general_es_pfizer_manual-pacientes_2007,p098_c00,98,es,,0.015151515151515152,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p005_c00,5,es,,0.014925373134328358,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,8,8,prostata_es_esmo_guia-para-pacientes_2022,p047_c00,47,es,,0.014705882352941176,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.014492753623188406,es,60.0
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,language_aware_hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p061_c00,61,es,,0.014285714285714285,es,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,1,1,mama_es_esmo_guia-para-pacientes_v1,p044_c02,44,es,0.416515928999064,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,0.4231565250847642,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,3,3,prostata_es_seom_cancer-prostata_2025,p005_c00,5,es,0.45413529872894287,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,4,4,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p014_c00,14,es,0.4561058282852173,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,0.462934299198815,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p029_c01,29,es,0.46627622842788696,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,0.4737146496772766,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,8,8,mama_es_esmo_guia-para-pacientes_v1,p055_c01,55,es,0.4770755171775818,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p045_c01,45,es,0.479279012723027,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",semantic,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p028_c01,28,es,0.48069857003386507,,,
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p044_c02,44,es,,0.01639344262295082,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,,0.016129032258064516,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,3,3,prostata_es_seom_cancer-prostata_2025,p005_c00,5,es,,0.015873015873015872,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,4,4,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p014_c00,14,es,,0.015625,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,,0.015384615384615385,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p029_c01,29,es,,0.015151515151515152,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,,0.014925373134328358,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p055_c01,55,es,,0.014705882352941176,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p045_c01,45,es,,0.014492753623188406,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p028_c01,28,es,,0.014285714285714285,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p044_c02,44,es,,0.01639344262295082,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,,0.016129032258064516,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,3,3,prostata_es_seom_cancer-prostata_2025,p005_c00,5,es,,0.015873015873015872,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,4,4,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p014_c00,14,es,,0.015625,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,,0.015384615384615385,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p029_c01,29,es,,0.015151515151515152,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,,0.014925373134328358,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p055_c01,55,es,,0.014705882352941176,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p045_c01,45,es,,0.014492753623188406,,60.0
+Q017,"¿Qué síntoma se denomina ""tinnitus""?",language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p028_c01,28,es,,0.014285714285714285,,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p033_c01,33,es,0.5232194918597645,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,2,2,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p030_c00,30,en,0.5352627869970574,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,3,3,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p137_c00,137,en,0.5376977279546552,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p036_c00,36,es,0.5535392665494792,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,5,5,prostata_es_esmo_guia-para-pacientes_2022,p037_c00,37,es,0.5544285113300635,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,6,6,prostata_es_seom_cancer-prostata_2025,p024_c00,24,es,0.5545488530935192,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p017_c01,17,es,0.5559289124054294,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,8,8,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p011_c04,11,en,0.5568711987887353,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p008_c00,8,es,0.558499716699154,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,semantic,10,10,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p022_c02,22,en,0.5611566828302492,,fr,
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p033_c01,33,es,,0.01639344262295082,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,2,2,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p030_c00,30,en,,0.016129032258064516,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,3,3,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p137_c00,137,en,,0.015873015873015872,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p036_c00,36,es,,0.015625,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,5,5,prostata_es_esmo_guia-para-pacientes_2022,p037_c00,37,es,,0.015384615384615385,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,6,6,prostata_es_seom_cancer-prostata_2025,p024_c00,24,es,,0.015151515151515152,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p017_c01,17,es,,0.014925373134328358,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,8,8,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p011_c04,11,en,,0.014705882352941176,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p008_c00,8,es,,0.014492753623188406,fr,60.0
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,hybrid,10,10,prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026,p022_c02,22,en,,0.014285714285714285,fr,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,0.34300579685007315,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,0.34922136957772787,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,3,3,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c02,7,en,0.38315580437051644,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,4,4,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,0.4011068165632131,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,5,5,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p006_c02,6,en,0.40611563343154267,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,6,6,mama_es_seom_cancer-mama_2025,p019_c01,19,es,0.4141281421742373,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p098_c01,98,es,0.42636712946695865,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,8,8,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,0.4286950060336291,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,0.43046162815277633,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,semantic,10,10,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,0.43195478415354416,,es,
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.01639344262295082,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,,0.016129032258064516,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,3,3,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c02,7,en,,0.015873015873015872,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,4,4,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,,0.015625,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,5,5,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p006_c02,6,en,,0.015384615384615385,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,6,6,mama_es_seom_cancer-mama_2025,p019_c01,19,es,,0.015151515151515152,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p098_c01,98,es,,0.014925373134328358,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,8,8,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,,0.014705882352941176,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,,0.014492753623188406,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,,0.014285714285714285,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.01639344262295082,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p056_c02,56,es,,0.016129032258064516,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,3,3,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,,0.015873015873015872,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,4,4,mama_es_seom_cancer-mama_2025,p019_c01,19,es,,0.015625,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p098_c01,98,es,,0.015384615384615385,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,6,6,prostata_es_seom_cancer-prostata_2025,p023_c01,23,es,,0.015151515151515152,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,,0.014925373134328358,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,8,8,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,,0.014705882352941176,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,9,9,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p011_c00,11,es,,0.014492753623188406,es,60.0
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p046_c01,46,es,,0.014285714285714285,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,0.32135633591879387,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,2,2,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p006_c02,6,en,0.3335677981376648,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,3,3,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p013_c02,13,es,0.3539307117462158,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,4,4,mama_es_seom_cancer-mama_2025,p019_c01,19,es,0.3604588889802153,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,5,5,mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022,p009_c00,9,en,0.3621751070022583,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,6,6,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,0.3643975257873535,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p072_c00,72,es,0.3672999143600464,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,8,8,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c00,7,en,0.372050404548645,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,9,9,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c02,7,en,0.37570321559906006,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,semantic,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p011_c00,11,es,0.3769286870956421,,es,
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.01639344262295082,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,2,2,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p006_c02,6,en,,0.016129032258064516,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,3,3,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p013_c02,13,es,,0.015873015873015872,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,4,4,mama_es_seom_cancer-mama_2025,p019_c01,19,es,,0.015625,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,5,5,mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022,p009_c00,9,en,,0.015384615384615385,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,,0.015151515151515152,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p072_c00,72,es,,0.014925373134328358,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,8,8,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c00,7,en,,0.014705882352941176,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,9,9,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p007_c02,7,en,,0.014492753623188406,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,hybrid,10,10,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p011_c00,11,es,,0.014285714285714285,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,1,1,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p017_c00,17,es,,0.03278688524590164,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,2,2,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p013_c02,13,es,,0.016129032258064516,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,3,3,mama_es_seom_cancer-mama_2025,p019_c01,19,es,,0.015873015873015872,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p025_c01,25,es,,0.015625,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p072_c00,72,es,,0.015384615384615385,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,6,6,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p011_c00,11,es,,0.015151515151515152,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p015_c00,15,es,,0.014925373134328358,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p027_c00,27,es,,0.014705882352941176,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p059_c01,59,es,,0.014492753623188406,es,60.0
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p007_c02,7,es,,0.014285714285714285,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,1,1,prostata_es_seor_guia-para-pacientes_v1,p013_c00,13,es,0.3418786525726272,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,0.3585591316223099,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,3,3,mama_es_novartis_guia-pacientes-CM_2025,p087_c01,87,es,0.37011820077895674,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,4,4,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,0.3872675068815038,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,5,5,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,0.3904505139320772,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,6,6,mama_es_novartis_guia-pacientes-CM_2025,p090_c00,90,es,0.3936377583038072,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p096_c01,96,es,0.399035590915809,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,8,8,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p010_c00,10,es,0.4039522764711204,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,9,9,prostata_es_esmo_guia-para-pacientes_2022,p011_c00,11,es,0.40779536962508733,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,semantic,10,10,mama_es_novartis_guia-pacientes-CM_2025,p094_c00,94,es,0.41299719655547185,,es,
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,1,1,prostata_es_seor_guia-para-pacientes_v1,p013_c00,13,es,,0.01639344262295082,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,,0.016129032258064516,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p087_c01,87,es,,0.015873015873015872,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,4,4,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,,0.015625,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,5,5,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,,0.015384615384615385,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p090_c00,90,es,,0.015151515151515152,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p096_c01,96,es,,0.014925373134328358,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,8,8,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p010_c00,10,es,,0.014705882352941176,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p011_c00,11,es,,0.014492753623188406,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p094_c00,94,es,,0.014285714285714285,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,1,1,prostata_es_seor_guia-para-pacientes_v1,p013_c00,13,es,,0.01639344262295082,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p024_c00,24,es,,0.016129032258064516,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p087_c01,87,es,,0.015873015873015872,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,4,4,mama_es_novartis_guia-pacientes-CM_2025,p090_c01,90,es,,0.015625,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,5,5,prostata_es_esmo_guia-para-pacientes_2022,p046_c01,46,es,,0.015384615384615385,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p090_c00,90,es,,0.015151515151515152,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p096_c01,96,es,,0.014925373134328358,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,8,8,mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017,p010_c00,10,es,,0.014705882352941176,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p011_c00,11,es,,0.014492753623188406,es,60.0
+Q021,¿Qué síntomas causa la falta de estrógenos?,language_aware_hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p094_c00,94,es,,0.014285714285714285,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,1,1,mama_es_esmo_guia-para-pacientes_v1,p024_c00,24,es,0.2888449430465698,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p028_c00,28,es,0.30343923876998513,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,3,3,mama_es_seom_cancer-mama_2025,p021_c00,21,es,0.3086528778076172,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p005_c01,5,es,0.3122847862413386,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p082_c01,82,es,0.31856608390808105,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,6,6,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,0.3239440321922302,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,7,7,mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022,p013_c04,13,en,0.33235440657410464,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,8,8,mama_en_seom-geicam-solti_clinical-guidelines_2022,p013_c04,13,en,0.33235440657410464,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,9,9,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,0.335945725440979,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,semantic,10,10,mama_es_esmo_guia-para-pacientes_v1,p005_c02,5,es,0.3361698389053345,,es,
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p024_c00,24,es,,0.01639344262295082,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p028_c00,28,es,,0.016129032258064516,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,3,3,mama_es_seom_cancer-mama_2025,p021_c00,21,es,,0.015873015873015872,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p005_c01,5,es,,0.015625,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p082_c01,82,es,,0.015384615384615385,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,,0.015151515151515152,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,7,7,mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022,p013_c04,13,en,,0.014925373134328358,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,8,8,mama_en_seom-geicam-solti_clinical-guidelines_2022,p013_c04,13,en,,0.014705882352941176,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.014492753623188406,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p005_c02,5,es,,0.014285714285714285,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p024_c00,24,es,,0.01639344262295082,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p028_c00,28,es,,0.016129032258064516,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,3,3,mama_es_seom_cancer-mama_2025,p021_c00,21,es,,0.015873015873015872,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p005_c01,5,es,,0.015625,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p082_c01,82,es,,0.015384615384615385,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,6,6,mama_es_esmo_guia-para-pacientes_v1,p032_c00,32,es,,0.015151515151515152,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.014925373134328358,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p005_c02,5,es,,0.014705882352941176,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p027_c00,27,es,,0.014492753623188406,es,60.0
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,language_aware_hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p052_c01,52,es,,0.014285714285714285,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,1,1,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p014_c04,14,en,0.2726037339804318,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,2,2,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,0.30897343158721924,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,3,3,mama_es_esmo_guia-para-pacientes_v1,p073_c01,73,es,0.3385411500930786,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p023_c02,23,es,0.3578717134480195,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,0.36751413345336914,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p035_c01,35,es,0.3678479602291569,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c00,38,es,0.36862683296203613,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,8,8,mama_es_seom_cancer-mama_2025,p021_c00,21,es,0.37440645694732666,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,9,9,mama_en_esmo_early-breast-cancer-guidelines_2023,p022_c03,22,en,0.38925039768218994,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,semantic,10,10,mama_es_novartis_guia-pacientes-CM_2025,p092_c00,92,es,0.3932288054687486,,es,
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,1,1,mama_en_nccn_clinical-practice-guidelines-in-oncology_2024,p014_c04,14,en,,0.01639344262295082,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,2,2,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,,0.016129032258064516,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,3,3,mama_es_esmo_guia-para-pacientes_v1,p073_c01,73,es,,0.015873015873015872,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p023_c02,23,es,,0.015625,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.015384615384615385,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p035_c01,35,es,,0.015151515151515152,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c00,38,es,,0.014925373134328358,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,8,8,mama_es_seom_cancer-mama_2025,p021_c00,21,es,,0.014705882352941176,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,9,9,mama_en_esmo_early-breast-cancer-guidelines_2023,p022_c03,22,en,,0.014492753623188406,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,hybrid,10,10,mama_es_novartis_guia-pacientes-CM_2025,p092_c00,92,es,,0.014285714285714285,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p073_c01,73,es,,0.03252247488101533,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p023_c01,23,es,,0.02854251012145749,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,3,3,mama_es_esmo_guia-para-pacientes_v1,p068_c00,68,es,,0.027500922849760058,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,4,4,general_es_gepac_guia-toxicidad-quimioterapia_v1,p033_c00,33,es,,0.02719970792259949,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,5,5,mama_es_novartis_guia-pacientes-CM_2025,p090_c00,90,es,,0.027118043247075504,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,6,6,prostata_es_seom_cancer-prostata_2025,p024_c01,24,es,,0.025934278350515465,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,7,7,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,,0.01639344262295082,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p023_c02,23,es,,0.015873015873015872,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p104_c00,104,es,,0.015625,es,60.0
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p035_c01,35,es,,0.015384615384615385,es,60.0
+Q024,¿Qué es la dispareunia?,semantic,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p087_c00,87,es,0.6225749181166333,,,
+Q024,¿Qué es la dispareunia?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,0.6266998648643494,,,
+Q024,¿Qué es la dispareunia?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,0.6286348181149248,,,
+Q024,¿Qué es la dispareunia?,semantic,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,0.6378864512308156,,,
+Q024,¿Qué es la dispareunia?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,0.6427849233150482,,,
+Q024,¿Qué es la dispareunia?,semantic,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,0.6437118543300584,,,
+Q024,¿Qué es la dispareunia?,semantic,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,0.6458993554115295,,,
+Q024,¿Qué es la dispareunia?,semantic,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,0.6634106338024139,,,
+Q024,¿Qué es la dispareunia?,semantic,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p030_c00,30,es,0.6641524038223974,,,
+Q024,¿Qué es la dispareunia?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,0.6647488374933253,,,
+Q024,¿Qué es la dispareunia?,hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p087_c00,87,es,,0.01639344262295082,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,,0.016129032258064516,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.015873015873015872,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.015625,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.015384615384615385,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,,0.015151515151515152,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,,0.014925373134328358,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.014705882352941176,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p030_c00,30,es,,0.014492753623188406,,60.0
+Q024,¿Qué es la dispareunia?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.014285714285714285,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p087_c00,87,es,,0.01639344262295082,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p071_c01,71,es,,0.016129032258064516,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.015873015873015872,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.015625,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.015384615384615385,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,,0.015151515151515152,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,7,7,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,,0.014925373134328358,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.014705882352941176,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p030_c00,30,es,,0.014492753623188406,,60.0
+Q024,¿Qué es la dispareunia?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.014285714285714285,,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,1,1,mama_en_esmo_early-breast-cancer-guidelines_2023,p024_c01,24,en,0.38101693278651916,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p055_c01,55,es,0.44018074513558914,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,3,3,mama_es_novartis_guia-pacientes-CM_2025,p093_c01,93,es,0.4655976572989011,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,4,4,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,0.4677050392451896,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p090_c00,90,es,0.46898198127746205,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c00,38,es,0.4706684631507664,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p004_c01,4,es,0.4709221405340508,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,8,8,mama_es_esmo_guia-para-pacientes_v1,p026_c01,26,es,0.47344180783282475,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c01,38,es,0.4773986028074376,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,semantic,10,10,mama_es_esmo_guia-para-pacientes_v1,p062_c01,62,es,0.47932198273932536,,es,
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,1,1,mama_en_esmo_early-breast-cancer-guidelines_2023,p024_c01,24,en,,0.01639344262295082,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p055_c01,55,es,,0.016129032258064516,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p093_c01,93,es,,0.015873015873015872,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,4,4,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,,0.015625,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p090_c00,90,es,,0.015384615384615385,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c00,38,es,,0.015151515151515152,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p004_c01,4,es,,0.014925373134328358,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p026_c01,26,es,,0.014705882352941176,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,9,9,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c01,38,es,,0.014492753623188406,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p062_c01,62,es,,0.014285714285714285,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p034_c01,34,es,,0.02889344262295082,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p055_c01,55,es,,0.01639344262295082,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,3,3,mama_es_novartis_guia-pacientes-CM_2025,p093_c01,93,es,,0.016129032258064516,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,4,4,mama_es_novartis_guia-pacientes-CM_2025,p093_c00,93,es,,0.016129032258064516,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,5,5,general_es_pfizer_manual-pacientes_2007,p019_c01,19,es,,0.015873015873015872,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,6,6,prostata_es_gepac_guia-cancer-de-prostata_2020,p090_c00,90,es,,0.015625,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,7,7,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c00,38,es,,0.015384615384615385,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,8,8,mama_es_esmo_guia-para-pacientes_v1,p004_c01,4,es,,0.015151515151515152,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p026_c01,26,es,,0.014925373134328358,es,60.0
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,language_aware_hybrid,10,10,general_es_gepac_guia-toxicidad-quimioterapia_v1,p038_c01,38,es,,0.014705882352941176,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,1,1,mama_es_esmo_guia-para-pacientes_v1,p012_c00,12,es,0.18853800365102125,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,2,2,mama_es_esmo_guia-para-pacientes_v1,p004_c00,4,es,0.23257100582122803,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,3,3,mama_es_esmo_guia-para-pacientes_v1,p008_c00,8,es,0.23391952919000192,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,4,4,mama_es_seom_cancer-mama_2025,p002_c00,2,es,0.2352664838810704,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p008_c01,8,es,0.2585207223892212,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,6,6,mama_es_seom_cancer-mama_2025,p009_c00,9,es,0.26068553201132105,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p021_c00,21,es,0.2611980438232422,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,8,8,mama_es_seom_cancer-mama_2025,p010_c00,10,es,0.26296654498177774,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,9,9,mama_es_seom_cancer-mama_2025,p006_c00,6,es,0.2720456502451193,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,semantic,10,10,mama_es_seom_cancer-mama_2025,p001_c00,1,es,0.2739235758781433,,es,
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p012_c00,12,es,,0.01639344262295082,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p004_c00,4,es,,0.016129032258064516,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,3,3,mama_es_esmo_guia-para-pacientes_v1,p008_c00,8,es,,0.015873015873015872,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,4,4,mama_es_seom_cancer-mama_2025,p002_c00,2,es,,0.015625,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p008_c01,8,es,,0.015384615384615385,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,6,6,mama_es_seom_cancer-mama_2025,p009_c00,9,es,,0.015151515151515152,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p021_c00,21,es,,0.014925373134328358,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,8,8,mama_es_seom_cancer-mama_2025,p010_c00,10,es,,0.014705882352941176,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,9,9,mama_es_seom_cancer-mama_2025,p006_c00,6,es,,0.014492753623188406,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,hybrid,10,10,mama_es_seom_cancer-mama_2025,p001_c00,1,es,,0.014285714285714285,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,1,1,mama_es_esmo_guia-para-pacientes_v1,p012_c00,12,es,,0.01639344262295082,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p004_c00,4,es,,0.016129032258064516,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,3,3,mama_es_esmo_guia-para-pacientes_v1,p008_c00,8,es,,0.015873015873015872,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,4,4,mama_es_seom_cancer-mama_2025,p002_c00,2,es,,0.015625,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p008_c01,8,es,,0.015384615384615385,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,6,6,mama_es_seom_cancer-mama_2025,p009_c00,9,es,,0.015151515151515152,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p021_c00,21,es,,0.014925373134328358,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,8,8,mama_es_seom_cancer-mama_2025,p010_c00,10,es,,0.014705882352941176,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,9,9,mama_es_seom_cancer-mama_2025,p006_c00,6,es,,0.014492753623188406,es,60.0
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,language_aware_hybrid,10,10,mama_es_seom_cancer-mama_2025,p001_c00,1,es,,0.014285714285714285,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,1,1,mama_es_hureinasofia_protocolo-cancer-mama_2021,p008_c00,8,es,0.26550944241937524,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p023_c00,23,es,0.278552267378839,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p021_c00,21,es,0.30888600998437343,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,4,4,mama_es_esmo_guia-para-pacientes_v1,p014_c00,14,es,0.32096715694470024,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p010_c00,10,es,0.3449716979231474,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,6,6,mama_es_hureinasofia_protocolo-cancer-mama_2021,p009_c00,9,es,0.350947222170067,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,7,7,mama_es_seom_cancer-mama_2025,p006_c00,6,es,0.35478854371206825,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,8,8,mama_es_hureinasofia_protocolo-cancer-mama_2021,p019_c00,19,es,0.36048104527479563,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,9,9,mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022,p012_c03,12,en,0.37142936842791663,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,semantic,10,10,mama_es_hureinasofia_protocolo-cancer-mama_2021,p016_c00,16,es,0.37171207329178735,,es,
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,1,1,mama_es_hureinasofia_protocolo-cancer-mama_2021,p008_c00,8,es,,0.01639344262295082,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p023_c00,23,es,,0.016129032258064516,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p021_c00,21,es,,0.015873015873015872,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p014_c00,14,es,,0.015625,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p010_c00,10,es,,0.015384615384615385,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,6,6,mama_es_hureinasofia_protocolo-cancer-mama_2021,p009_c00,9,es,,0.015151515151515152,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,7,7,mama_es_seom_cancer-mama_2025,p006_c00,6,es,,0.014925373134328358,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,8,8,mama_es_hureinasofia_protocolo-cancer-mama_2021,p019_c00,19,es,,0.014705882352941176,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,9,9,mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022,p012_c03,12,en,,0.014492753623188406,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,hybrid,10,10,mama_es_hureinasofia_protocolo-cancer-mama_2021,p016_c00,16,es,,0.014285714285714285,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,1,1,mama_es_hureinasofia_protocolo-cancer-mama_2021,p008_c00,8,es,,0.01639344262295082,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,2,2,mama_es_hureinasofia_protocolo-cancer-mama_2021,p023_c00,23,es,,0.016129032258064516,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p021_c00,21,es,,0.015873015873015872,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p014_c00,14,es,,0.015625,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,5,5,mama_es_hureinasofia_protocolo-cancer-mama_2021,p010_c00,10,es,,0.015384615384615385,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,6,6,mama_es_hureinasofia_protocolo-cancer-mama_2021,p009_c00,9,es,,0.015151515151515152,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,7,7,mama_es_seom_cancer-mama_2025,p006_c00,6,es,,0.014925373134328358,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,8,8,mama_es_hureinasofia_protocolo-cancer-mama_2021,p019_c00,19,es,,0.014705882352941176,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,9,9,mama_es_hureinasofia_protocolo-cancer-mama_2021,p016_c00,16,es,,0.014492753623188406,es,60.0
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,language_aware_hybrid,10,10,mama_es_hureinasofia_protocolo-cancer-mama_2021,p028_c01,28,es,,0.014285714285714285,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,1,1,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p007_c00,7,en,0.1693993109822669,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,2,2,mama_es_seom_cancer-mama_2025,p004_c00,4,es,0.18124549500670917,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,3,3,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p002_c01,2,en,0.20055639743804365,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,4,4,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p006_c03,6,en,0.2206678622761975,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,5,5,mama_es_esmo_guia-para-pacientes_v1,p013_c00,13,es,0.26608262259013504,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,6,6,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p002_c00,2,en,0.2680829007576154,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,7,7,mama_es_seom_cancer-mama_2025,p009_c00,9,es,0.28822160573811306,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,8,8,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p001_c00,1,en,0.29522792725396463,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,9,9,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p007_c03,7,en,0.31955162766267964,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,semantic,10,10,mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022,p014_c00,14,en,0.32253128290175914,,es,
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,1,1,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p007_c00,7,en,,0.01639344262295082,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,2,2,mama_es_seom_cancer-mama_2025,p004_c00,4,es,,0.016129032258064516,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,3,3,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p002_c01,2,en,,0.015873015873015872,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,4,4,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p006_c03,6,en,,0.015625,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,5,5,mama_es_esmo_guia-para-pacientes_v1,p013_c00,13,es,,0.015384615384615385,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,6,6,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p002_c00,2,en,,0.015151515151515152,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,7,7,mama_es_seom_cancer-mama_2025,p009_c00,9,es,,0.014925373134328358,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,8,8,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p001_c00,1,en,,0.014705882352941176,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,9,9,mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019,p007_c03,7,en,,0.014492753623188406,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,hybrid,10,10,mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022,p014_c00,14,en,,0.014285714285714285,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,1,1,mama_es_seom_cancer-mama_2025,p004_c00,4,es,,0.01639344262295082,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,2,2,mama_es_esmo_guia-para-pacientes_v1,p013_c00,13,es,,0.016129032258064516,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,3,3,mama_es_seom_cancer-mama_2025,p009_c00,9,es,,0.015873015873015872,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,4,4,mama_es_esmo_guia-para-pacientes_v1,p007_c01,7,es,,0.015625,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,5,5,mama_es_seom_cancer-mama_2025,p003_c01,3,es,,0.015384615384615385,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,6,6,mama_es_seom_cancer-mama_2025,p001_c00,1,es,,0.015151515151515152,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,7,7,mama_es_seom_cancer-mama_2025,p002_c00,2,es,,0.014925373134328358,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,8,8,mama_es_seom_cancer-mama_2025,p010_c00,10,es,,0.014705882352941176,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,9,9,mama_es_esmo_guia-para-pacientes_v1,p034_c00,34,es,,0.014492753623188406,es,60.0
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,language_aware_hybrid,10,10,mama_es_esmo_guia-para-pacientes_v1,p004_c00,4,es,,0.014285714285714285,es,60.0
+Q029,¿Qué es la pancitopenia?,semantic,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,0.5341789444791634,,,
+Q029,¿Qué es la pancitopenia?,semantic,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,0.5469375252723694,,,
+Q029,¿Qué es la pancitopenia?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p172_c00,172,es,0.5643507838249207,,,
+Q029,¿Qué es la pancitopenia?,semantic,4,4,prostata_es_esmo_guia-para-pacientes_2022,p060_c02,60,es,0.5646143594154326,,,
+Q029,¿Qué es la pancitopenia?,semantic,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,0.5667374432086945,,,
+Q029,¿Qué es la pancitopenia?,semantic,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p043_c00,43,es,0.5772343794018948,,,
+Q029,¿Qué es la pancitopenia?,semantic,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p126_c00,126,es,0.5797374421279858,,,
+Q029,¿Qué es la pancitopenia?,semantic,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p011_c01,11,es,0.5869614831782264,,,
+Q029,¿Qué es la pancitopenia?,semantic,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p100_c01,100,es,0.5883526556702043,,,
+Q029,¿Qué es la pancitopenia?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,0.593380074903971,,,
+Q029,¿Qué es la pancitopenia?,hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.01639344262295082,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.016129032258064516,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p172_c00,172,es,,0.015873015873015872,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,4,4,prostata_es_esmo_guia-para-pacientes_2022,p060_c02,60,es,,0.015625,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,,0.015384615384615385,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p043_c00,43,es,,0.015151515151515152,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p126_c00,126,es,,0.014925373134328358,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p011_c01,11,es,,0.014705882352941176,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p100_c01,100,es,,0.014492753623188406,,60.0
+Q029,¿Qué es la pancitopenia?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.014285714285714285,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,1,1,prostata_es_gepac_guia-cancer-de-prostata_2020,p175_c00,175,es,,0.01639344262295082,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,2,2,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.016129032258064516,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p172_c00,172,es,,0.015873015873015872,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,4,4,prostata_es_esmo_guia-para-pacientes_2022,p060_c02,60,es,,0.015625,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,5,5,general_es_gepac_guia-toxicidad-quimioterapia_v1,p026_c00,26,es,,0.015384615384615385,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,6,6,general_es_gepac_guia-toxicidad-quimioterapia_v1,p043_c00,43,es,,0.015151515151515152,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,7,7,prostata_es_gepac_guia-cancer-de-prostata_2020,p126_c00,126,es,,0.014925373134328358,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,8,8,general_es_gepac_guia-toxicidad-quimioterapia_v1,p011_c01,11,es,,0.014705882352941176,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p100_c01,100,es,,0.014492753623188406,,60.0
+Q029,¿Qué es la pancitopenia?,language_aware_hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.014285714285714285,,60.0
+Q030,¿Qué es la disnea?,semantic,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,0.4909245079204725,,fr,
+Q030,¿Qué es la disnea?,semantic,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,0.49748910971018145,,fr,
+Q030,¿Qué es la disnea?,semantic,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,0.5243901297813568,,fr,
+Q030,¿Qué es la disnea?,semantic,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,0.5493592947339518,,fr,
+Q030,¿Qué es la disnea?,semantic,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p023_c00,23,es,0.5583899880415201,,fr,
+Q030,¿Qué es la disnea?,semantic,6,6,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,0.5618614088934222,,fr,
+Q030,¿Qué es la disnea?,semantic,7,7,prostata_es_esmo_guia-para-pacientes_2022,p061_c00,61,es,0.5648329517344853,,fr,
+Q030,¿Qué es la disnea?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,0.5804339301327501,,fr,
+Q030,¿Qué es la disnea?,semantic,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p044_c00,44,es,0.5847730884091198,,fr,
+Q030,¿Qué es la disnea?,semantic,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,0.5868027333377961,,fr,
+Q030,¿Qué es la disnea?,hybrid,1,1,general_es_gepac_guia-toxicidad-quimioterapia_v1,p009_c00,9,es,,0.01639344262295082,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.016129032258064516,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,3,3,mama_es_hureinasofia_protocolo-cancer-mama_2021,p034_c00,34,es,,0.015873015873015872,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.015625,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,5,5,prostata_es_gepac_guia-cancer-de-prostata_2020,p023_c00,23,es,,0.015384615384615385,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,6,6,general_es_pfizer_manual-pacientes_2007,p072_c00,72,es,,0.015151515151515152,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,7,7,prostata_es_esmo_guia-para-pacientes_2022,p061_c00,61,es,,0.014925373134328358,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p177_c00,177,es,,0.014705882352941176,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,9,9,prostata_es_gepac_guia-cancer-de-prostata_2020,p044_c00,44,es,,0.014492753623188406,fr,60.0
+Q030,¿Qué es la disnea?,hybrid,10,10,prostata_es_gepac_guia-cancer-de-prostata_2020,p181_c00,181,es,,0.014285714285714285,fr,60.0
+Q031,¿Qué es la proteinuria?,semantic,1,1,mama_es_novartis_guia-pacientes-CM_2025,p044_c00,44,es,0.4057523012161255,,fr,
+Q031,¿Qué es la proteinuria?,semantic,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p100_c01,100,es,0.48406806493211085,,fr,
+Q031,¿Qué es la proteinuria?,semantic,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,0.5501297176038851,,fr,
+Q031,¿Qué es la proteinuria?,semantic,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,0.5907119092557401,,fr,
+Q031,¿Qué es la proteinuria?,semantic,5,5,mama_es_novartis_guia-pacientes-CM_2025,p043_c00,43,es,0.5967197716236115,,fr,
+Q031,¿Qué es la proteinuria?,semantic,6,6,mama_es_novartis_guia-pacientes-CM_2025,p057_c00,57,es,0.5976219177246094,,fr,
+Q031,¿Qué es la proteinuria?,semantic,7,7,mama_es_esmo_guia-para-pacientes_v1,p071_c02,71,es,0.6164553165435791,,fr,
+Q031,¿Qué es la proteinuria?,semantic,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p172_c00,172,es,0.617696225643158,,fr,
+Q031,¿Qué es la proteinuria?,semantic,9,9,prostata_es_esmo_guia-para-pacientes_2022,p060_c02,60,es,0.6185651790240507,,fr,
+Q031,¿Qué es la proteinuria?,semantic,10,10,prostata_es_esmo_guia-para-pacientes_2022,p061_c01,61,es,0.6198491752147675,,fr,
+Q031,¿Qué es la proteinuria?,hybrid,1,1,mama_es_novartis_guia-pacientes-CM_2025,p044_c00,44,es,,0.01639344262295082,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,2,2,prostata_es_gepac_guia-cancer-de-prostata_2020,p100_c01,100,es,,0.016129032258064516,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,3,3,prostata_es_gepac_guia-cancer-de-prostata_2020,p077_c00,77,es,,0.015873015873015872,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,4,4,prostata_es_gepac_guia-cancer-de-prostata_2020,p014_c00,14,es,,0.015625,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,5,5,mama_es_novartis_guia-pacientes-CM_2025,p043_c00,43,es,,0.015384615384615385,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,6,6,mama_es_novartis_guia-pacientes-CM_2025,p057_c00,57,es,,0.015151515151515152,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,7,7,mama_es_esmo_guia-para-pacientes_v1,p071_c02,71,es,,0.014925373134328358,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,8,8,prostata_es_gepac_guia-cancer-de-prostata_2020,p172_c00,172,es,,0.014705882352941176,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,9,9,prostata_es_esmo_guia-para-pacientes_2022,p060_c02,60,es,,0.014492753623188406,fr,60.0
+Q031,¿Qué es la proteinuria?,hybrid,10,10,prostata_es_esmo_guia-para-pacientes_2022,p061_c01,61,es,,0.014285714285714285,fr,60.0

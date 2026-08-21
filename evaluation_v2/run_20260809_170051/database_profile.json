@@ -1,0 +1,252 @@
+{
+  "profile_timestamp_utc": "2026-08-09T15:24:22.322038+00:00",
+  "connection_method": "psql using project PostgreSQL variables loaded indirectly; values not logged",
+  "transaction_read_only": true,
+  "table": "public.rag_chunks",
+  "schema": [
+    {
+      "ordinal_position": "1",
+      "column_name": "id",
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "2",
+      "column_name": "doc_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "3",
+      "column_name": "chunk_id",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "4",
+      "column_name": "topic",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "5",
+      "column_name": "source",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "6",
+      "column_name": "lang",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "7",
+      "column_name": "content",
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "8",
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED",
+      "udt_name": "vector",
+      "is_nullable": "NO"
+    },
+    {
+      "ordinal_position": "9",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES"
+    },
+    {
+      "ordinal_position": "10",
+      "column_name": "page_num",
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES"
+    }
+  ],
+  "num_documents": 19,
+  "num_chunks": 2368,
+  "null_counts": {
+    "null_doc_id": 0,
+    "null_chunk_id": 0,
+    "null_or_empty_content": 0,
+    "null_topic": 0,
+    "null_source": 0,
+    "null_lang": 0,
+    "null_page_num": 0,
+    "null_embedding": 0
+  },
+  "languages": {
+    "en": 1021,
+    "es": 1347
+  },
+  "chunks_per_document": {
+    "general_es_gepac_guia-toxicidad-quimioterapia_v1": 93,
+    "general_es_pfizer_manual-pacientes_2007": 249,
+    "mama_en_esmo_early-breast-cancer-guidelines_2023": 100,
+    "mama_en_nccn_clinical-practice-guidelines-in-oncology_2024": 141,
+    "mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022": 49,
+    "mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022": 68,
+    "mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019": 30,
+    "mama_en_seom-geicam-solti_clinical-guidelines_2022": 49,
+    "mama_es_esmo_guia-para-pacientes_v1": 148,
+    "mama_es_hureinasofia_protocolo-cancer-mama_2021": 170,
+    "mama_es_novartis_guia-pacientes-CM_2025": 199,
+    "mama_es_seom_cancer-mama_2025": 40,
+    "mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017": 47,
+    "prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026": 538,
+    "prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020": 46,
+    "prostata_es_esmo_guia-para-pacientes_2022": 99,
+    "prostata_es_gepac_guia-cancer-de-prostata_2020": 211,
+    "prostata_es_seom_cancer-prostata_2025": 71,
+    "prostata_es_seor_guia-para-pacientes_v1": 20
+  },
+  "source_correspondence": [
+    {
+      "doc_id": "general_es_gepac_guia-toxicidad-quimioterapia_v1",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\general\\general_es_gepac_guia-toxicidad-quimioterapia_v1.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 93
+    },
+    {
+      "doc_id": "general_es_pfizer_manual-pacientes_2007",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\general\\general_es_pfizer_manual-pacientes_2007.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 249
+    },
+    {
+      "doc_id": "mama_en_esmo_early-breast-cancer-guidelines_2023",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_ESMO_early-breast-cancer-guidelines_2023.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 100
+    },
+    {
+      "doc_id": "mama_en_nccn_clinical-practice-guidelines-in-oncology_2024",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_NCCN_clinical-practice-guidelines-in-oncology_2024.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 141
+    },
+    {
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-advanced-breast-cancer_2022",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-advanced-breast-cancer_2022.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 49
+    },
+    {
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-early-stage-breast-cancer_2022",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-early-stage-breast-cancer_2022.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 68
+    },
+    {
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines-hereditary-breast-ovarian-cancer_2019",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines-hereditary-breast-ovarian-cancer_2019.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 30
+    },
+    {
+      "doc_id": "mama_en_seom-geicam-solti_clinical-guidelines_2022",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines_2022.pdf",
+      "exists_in_docs": false,
+      "chunk_count": 49
+    },
+    {
+      "doc_id": "mama_es_esmo_guia-para-pacientes_v1",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_esmo_guia-para-pacientes_v1.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 148
+    },
+    {
+      "doc_id": "mama_es_hureinasofia_protocolo-cancer-mama_2021",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_HUReinaSofia_protocolo-cancer-mama_2021.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 170
+    },
+    {
+      "doc_id": "mama_es_novartis_guia-pacientes-CM_2025",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_novartis_guia-pacientes-CM_2025.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 199
+    },
+    {
+      "doc_id": "mama_es_seom_cancer-mama_2025",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_SEOM_cancer-mama_2025.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 40
+    },
+    {
+      "doc_id": "mama_es_seom_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_es_SEOM_recomendaciones-seguimiento-mujeres-supervivientes-cancer-mama_2017.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 47
+    },
+    {
+      "doc_id": "prostata_en_eau-eanm-estro-esur-isup-siog_Guidelines-on-Prostate-Cancer_2026",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_en_EAU-EANM-ESTRO-ESUR-ISUP-SIOG_Guidelines-on-Prostate-Cancer_2026.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 538
+    },
+    {
+      "doc_id": "prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_en_springer_clinical-guidelines-for-prostate-cancer-treatment_2020.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 46
+    },
+    {
+      "doc_id": "prostata_es_esmo_guia-para-pacientes_2022",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_esmo_guia-para-pacientes_2022.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 99
+    },
+    {
+      "doc_id": "prostata_es_gepac_guia-cancer-de-prostata_2020",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_gepac_guia-cancer-de-prostata_2020.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 211
+    },
+    {
+      "doc_id": "prostata_es_seom_cancer-prostata_2025",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_SEOM_cancer-prostata_2025.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 71
+    },
+    {
+      "doc_id": "prostata_es_seor_guia-para-pacientes_v1",
+      "source": "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\prostata\\prostata_es_seor_guia-para-pacientes_v1.pdf",
+      "exists_in_docs": true,
+      "chunk_count": 20
+    }
+  ],
+  "missing_source_paths": [
+    "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\docs\\mama\\mama_en_SEOM-GEICAM-SOLTI_clinical-guidelines_2022.pdf"
+  ],
+  "embeddings_exported": false,
+  "database_write_operations": [],
+  "final_profile": {
+    "num_documents": "19",
+    "num_chunks": "2368",
+    "null_doc_id": "0",
+    "null_chunk_id": "0",
+    "null_or_empty_content": "0",
+    "null_topic": "0",
+    "null_source": "0",
+    "null_lang": "0",
+    "null_page_num": "0",
+    "null_embedding": "0",
+    "min_created_at": "2026-02-18 23:58:26.299704+01",
+    "max_created_at": "2026-04-23 13:00:35.167849+02"
+  },
+  "before_after_signature_match": true,
+  "final_check_timestamp_utc": "2026-08-09T15:24:37.628584+00:00"
+}

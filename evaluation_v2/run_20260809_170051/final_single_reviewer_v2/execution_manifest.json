@@ -1,0 +1,33 @@
+{
+  "python": "3.12.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "3.0.0",
+  "numpy": "2.3.3",
+  "scipy": "1.15.3",
+  "run_retrieval": true,
+  "cutoffs": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "rrf_k": 60,
+  "topic_filter": null,
+  "claim_scope": "required_only",
+  "statistical_primary": {
+    "gold_view": "expanded",
+    "metric": "claim_coverage_at_k",
+    "k": 5,
+    "alpha": 0.05
+  },
+  "strategies": [
+    "semantic",
+    "hybrid",
+    "language_aware_hybrid"
+  ],
+  "gold_files": [
+    "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\final_single_reviewer_v2\\evidence_set_final_single_reviewer.csv",
+    "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\final_single_reviewer_v2\\claims_final_single_reviewer.csv",
+    "C:\\Users\\mamen\\Documents\\Python\\RAGChatBot\\evaluation_v2\\run_20260809_170051\\final_single_reviewer_v2\\evidence_claim_links_final_single_reviewer.csv"
+  ]
+}

@@ -1,0 +1,32 @@
+experiment_id,question_id,detector_name,detected_language,language_confidence,language_confidence_margin,postgres_ts_config,language_supported,fallback_to_simple,language_note,lexical_and_candidates,lexical_or_candidates_added,lexical_or_fallback_used
+or20_conservative_w1_1_01,Q001,lingua,ca,0.46487836440664815,0.18713738947308517,simple,False,True,Language 'ca' is not supported by the retrieval configuration; defaulting to simple.,0,20,True
+or20_conservative_w1_1_01,Q002,lingua,es,0.8550184920884288,0.7602593552419922,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q003,lingua,es,0.9962868884420093,0.9939152201403336,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q004,lingua,es,0.5023770770002831,0.24659732599976003,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q005,lingua,es,0.9970273769242127,0.9943384771704534,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q006,lingua,pt,0.3737812755653442,0.12625475721467494,simple,False,True,Language 'pt' is not supported by the retrieval configuration; defaulting to simple.,1,20,True
+or20_conservative_w1_1_01,Q007,lingua,es,0.9648094107202966,0.9338514278116503,spanish,True,False,Using PostgreSQL 'spanish' configuration.,1,20,True
+or20_conservative_w1_1_01,Q008,lingua,es,0.9569335370712582,0.9228613400012184,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q009,lingua,es,0.9252594169719256,0.8567012974606448,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q010,lingua,es,0.686146250602386,0.4653520633538537,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q011,lingua,es,0.7590376241184108,0.6008228191505327,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q012,lingua,es,0.9980758263717245,0.9963854748342713,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q013,lingua,es,0.980405231534649,0.9621301529255355,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q014,lingua,es,0.3461656514095607,0.03684823522240466,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q015,lingua,es,0.9674789831032702,0.9376902173485977,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q016,lingua,es,0.8887599309692935,0.7831963460061198,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q017,lingua,es,0.7019475450546809,0.5325012781585748,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q018,lingua,es,0.5395854329957139,0.3574998067298283,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q019,lingua,es,0.9382320364740492,0.8820151029804177,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q020,lingua,es,0.7110547867915825,0.43773931440216046,spanish,True,False,Using PostgreSQL 'spanish' configuration.,1,20,True
+or20_conservative_w1_1_01,Q021,lingua,es,0.7323824878095183,0.4816138262686945,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q022,lingua,es,0.8314970790835761,0.6791705497586047,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q023,lingua,es,0.8732142855230645,0.7832387730924951,spanish,True,False,Using PostgreSQL 'spanish' configuration.,6,20,True
+or20_conservative_w1_1_01,Q024,lingua,es,0.40382760709461946,0.1490883118489147,spanish,True,False,Using PostgreSQL 'spanish' configuration.,8,0,True
+or20_conservative_w1_1_01,Q025,lingua,es,0.996411665167681,0.9935958924849968,spanish,True,False,Using PostgreSQL 'spanish' configuration.,2,20,True
+or20_conservative_w1_1_01,Q026,lingua,es,0.9655444147609336,0.9458660374065854,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q027,lingua,es,0.9872274913865954,0.9772212623655278,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q028,lingua,es,0.9993825817670207,0.998952051069749,spanish,True,False,Using PostgreSQL 'spanish' configuration.,0,20,True
+or20_conservative_w1_1_01,Q029,lingua,es,0.38180914481516515,0.11546240598716034,spanish,True,False,Using PostgreSQL 'spanish' configuration.,2,0,True
+or20_conservative_w1_1_01,Q030,lingua,fr,0.3657331525640725,0.09701302465433803,simple,False,True,Language 'fr' is not supported by the retrieval configuration; defaulting to simple.,0,20,True
+or20_conservative_w1_1_01,Q031,lingua,ca,0.3957424041782849,0.09493576754108196,simple,False,True,Language 'ca' is not supported by the retrieval configuration; defaulting to simple.,0,20,True

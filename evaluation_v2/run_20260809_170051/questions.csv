@@ -1,0 +1,157 @@
+question_id,question,ground_truth,query_language,topic,original_source,original_row,ground_truth_source
+Q001,¿Qué es la astenia?,Astenia es el término médico para denominar al cansancio (falta de energía) ya sea físico o emocional.,,,eval/preguntas_val.xlsx,2,eval/gold_references.csv
+Q002,¿Qué debe hacer un paciente si tiene una temperatura de 38º o más?,"Si fiebre de más de 38º C, hay que tomar un antipirético (paracetamol, ibuprofeno, metamizol… ) si tras 6-8 horas vuelve a subir la fi ebre, hay que acudir a urgencias para realizar las pruebas pertinentes.
+
+Si tiene temperatura de 38º C o más, debe de ir a urgencias.
+Si tiene fiebre de 38º C o superior, debe avisar a su médico o ir al hospital.
+
+Una temperatura igual o superior a 38ºC indica la posibilidad de una infección y requiere consultar al médico o enfermera qué se debe hacer en una situación así. Hay ocasiones en las que algún medicamento, o la propia enfermedad, pueden provocar fiebre.",,,eval/preguntas_val.xlsx,3,eval/gold_references.csv
+Q003,¿Cuál es el trastorno del sueño más común en pacientes con cáncer?,El insomnio es el trastorno más común en los pacientes con cáncer y suele ser secundario a factores físicos y psicológicos relacionados con el cáncer y sus tratamientos.,,,eval/preguntas_val.xlsx,4,eval/gold_references.csv
+Q004,¿Cómo se define la mucositis?,"La mucositis es la inflamación de la mucosa del tracto digestivo que se caracteriza por la aparición de úlceras y/o enrojecimiento, sensación de “quemazón”, etc.",,,eval/preguntas_val.xlsx,5,eval/gold_references.csv
+Q005,¿Cuánto tiempo suele durar una sesión de administración de quimioterapia?,Suele durar entre 2 y 6 horas.,,,eval/preguntas_val.xlsx,6,eval/gold_references.csv
+Q006,¿Qué es la Neutropenia?,La neutropenia es el descenso del número de neutrófilos en sangre por debajo de 1500 células/mm3.,,,eval/preguntas_val.xlsx,7,eval/gold_references.csv
+Q007,¿Siempre se cae el cabello con los tratamientos de quimioterapia?,"No todos los tratamientos hacen caer el cabello, pero la mayoría lo empobrecen o hacen que pierda vitalidad.
+
+La pérdida de cabello es uno de los efectos secundarios más frecuentes, aunque hay que destacar que no todos los fármacos quimioterápicos producen alopecia.",,,eval/preguntas_val.xlsx,8,eval/gold_references.csv
+Q008,¿En qué momento suele caer el cabello tras el tratamiento?,"Si su tratamiento hace caer el cabello, este caerá aproximadamente a las 3 o 4 semanas de la administración del tratamiento.
+
+La caída del cabello suele comenzar a las 2-3 semanas del tratamiento y co mienza a recuperarse a partir de los 3-6 meses del cese de la quimioterapia. En ocasiones el nuevo cabello es de características diferentes.",,,eval/preguntas_val.xlsx,9,eval/gold_references.csv
+Q009,¿Qué medicamento de quimioterapia se asocia a la TDA en el cáncer de próstata hormono-sensible meastásica CPHSm?,"Docetaxel es el único tratamiento de quimioterapia que se utiliza asociado a la TDA en el CPHSm. Se administra por vía intravenosa, normalmente cada 21 días hasta recibir un total de 6 ciclos o sesiones.",,,eval/preguntas_val.xlsx,10,eval/gold_references.csv
+Q010,¿Para qué sirve el fármaco Denosumab?,"Medicamento que se usa para tratar la osteoporosis y prevenir fracturas u otros problemas óseos causados por metástasis óseas.
+
+Medicamento que ayuda a tratar la osteoporosis y a evitar las fracturas y otros problemas óseos causados por las metástasis óseas
+
+Su uso ha demostrado ser beneficioso en la prevención de la osteoporosis y de las complicaciones de las metástasis óseas [...] Se administra por vía subcutánea cada 4 semanas
+
+Denosumab (Xgeva®, Prolia®) [...] puede ayudar a prevenir o retrasar algunos problemas, como las fracturas.
+
+Al igual que los bifosfonatos, el denosumab también bloquea las células de los huesos llamadas osteoclastos",,,eval/preguntas_val.xlsx,11,eval/gold_references.csv
+Q011,¿Cuál es el principal efecto adverso de la Apalutamida?,"El principal efecto adverso de Apalutamida es la aparición de un rash o exantema en la piel además de leve cansancio.
+
+Anorexia, Artralgia, Caídas, Diarrea, Disminución de peso, Fatiga, Fracturas, Hipertensión, Sarpullido, Sofocos",,,eval/preguntas_val.xlsx,12,eval/gold_references.csv
+Q012,¿cómo suele tratarse el cáncer de próstata resistente a la castración no metastásico?,"El cáncer de próstata no metastásico que sigue creciendo a pesar del tratamiento con terapia de privación de andrógenos (cáncer de próstata resistente a la castración [CPRC]) suele tratarse con los medicamentos antiandrógenos apalutamida, darolutamida o enzalutamida.",,,eval/preguntas_val.xlsx,13,eval/gold_references.csv
+Q013,¿qué tipos de cáncer de próstata se tratan con terapia de privación de andrógenos?,"La enfermedad metastásica suele tratarse con terapia de privación de andrógenos
+
+La radioterapia, la terapia de privación de andrógenos o las terapias locales como la prostatectomía radical, los ultrasonidos focalizados de alta intensidad, la crioablación o la braquiterapia pueden utilizarse para tratar una recidiva en el cáncer de próstata recurrente.
+
+La enfermedad localmente avanzada suele tratarse con terapia de privación de andrógenos y radioterapia.
+
+El cáncer de próstata localmente avanzado suele tratarse con terapia de privación de andrógenos y radioterapia
+
+La recidiva tras la prostatectomía radical puede tratarse con radioterapia en la zona de la próstata. La terapia de privación de andrógenos también puede administrarse durante un periodo de 6–24 meses.
+Habitualmente, la terapia de privación de andrógenos no se administra de forma inmediata; es posible que los pacientes se sometan a observación y que ésta se inicie cuando aparezcan síntomas o metástasis, o si los niveles de PSA aumentan muy rápidamente
+
+La terapia de privación de andrógenos suele ser el tratamiento inicial que se administra a los hombres con cáncer de próstata metastásico.
+
+La terapia hormonal se usa para tratar el cáncer de próstata en diversas situaciones, incluido el cáncer de próstata recurrente y el cáncer de próstata metastásico.
+
+En algunos pacientes con tumores de riesgo intermedio, se asociará a la radioterapia el tratamiento hormonal durante 6 meses.",,,eval/preguntas_val.xlsx,14,eval/gold_references.csv
+Q014,¿Para qué sirve el Radium-223?,"Además de mejorar los síntomas y retrasar complicaciones, Ra-223 ha demostrado también mejorar la supervivencia de pacientes con CPRCm y lesiones únicamente óseas.
+
+In mCRPC patients with symptomatic bone metasta ses and contraindication or progression to docetaxel, radium-223 may be considered",,,eval/preguntas_val.xlsx,15,eval/gold_references.csv
+Q015,¿Cómo afecta la prostatectomía radical a la eyaculación?,"Los principales posibles efectos secundarios de la prostatectomía radical son la incontinencia urinaria (falta de control de la vejiga) e impotencia (el no poder lograr erecciones).
+
+Después de esta operación, la capacidad de lograr erecciones depende de la edad, la capacidad que tenía usted de lograr erecciones antes de la operación, y si se cortaron los nervios. Todos los hombres pueden esperar una reducción en la capacidad de tener erecciones, pero cuanto más joven sea usted, hay más probabilidades de que conserve esta capacidad.
+
+Si su capacidad para lograr erecciones regresa después de la cirugía, esto a menudo ocurre lentamente. De hecho, esto puede tardar desde unos pocos meses hasta dos años.
+Si después de la cirugía regresa la potencia, la sensación del orgasmo debe continuar siendo placentera, pero no hay eyaculación de semen (el orgasmo es “seco”).
+
+Problemas de erección
+
+Problemas de erección
+
+El tratamiento del cáncer de próstata puede afectar a la fertilidad. Tras una prostatectomía radical el paciente no podrá eyacular semen, y la radioterapia y la terapia hormonal pueden reducir la producción de semen y esperma.
+
+Las complicaciones más frecuentes de este tipo de cirugía son la incontinencia urinaria y la disfunción eréctil, que suelen aparecer inmediatamente después de la cirugía con opción de mejorar con el paso del tiempo (unos 12 y 18 meses, respectivamente).",,,eval/preguntas_val.xlsx,16,eval/gold_references.csv
+Q016,¿Qué dieta se recomienda para minimizar los efectos de la quimioterapia?,"Mantener un estado nutritivo equilibrado ayuda, sin duda, a sobrellevar mejor la quimioterapia y tener mayor sensación de bienestar. Una dieta equilibrada incluye alimentos de todos los grupos (verduras, frutas, legum bres, pescados y carnes) en cantidades suficientes.
+Algunas personas en quimio o radioterapia mantienen un estado nutri tivo adecuado, sin padecer efectos secundarios (diarrea, estreñimiento, náuseas, etc.) o experimentándolos en forma muy leve.
+Para prevenir los efectos secundarios digestivos de los tratamientos (náuseas, vómitos, etc.) es aconsejable comer una, dos o tres horas antes de la quimio o radioterapia. Para evitar o disminuir los efectos adversos de los tratamientos, se recomienda seguir una dieta baja en grasas, es decir, de fácil digestión, el día anterior a la quimioterapia, durante los días de tra tamiento y los dos o tres días posteriores, pasando progresivamente a la dieta habitual. En los casos de inapetencia o mala digestión, se puede fraccionar la dieta en unas seis tomas diarias (comidas frecuentes y de poco volu men) sin que sea necesario realizar las tradicionales tres comidas prin cipales.",,,eval/preguntas_val.xlsx,17,eval/gold_references.csv
+Q017,"¿Qué síntoma se denomina ""tinnitus""?","Audición de un sonido (como un timbrazos, chillidos o zumbidos) cuando no hay sonido externo presente",,,eval/preguntas_val.xlsx,18,eval/gold_references.csv
+Q018,¿Para qué sirve el test PAM50 (Prosigna)?,"The 50-gene assay (PAM-50) risk of recurrence (ROR) score stratifies patients with HR-positive disease into high-, medium-, and low-risk groups. Several studies have shown the prognostic
+Value of ROR score in estimating risk of disease recurrence
+
+Different genetic signatures have been evaluated in core needle biopsy before neoadjuvant therapy, as good pre dictors of response to neoadjuvant therapy, especially PAM50 ROR score, although this approach is currently considered experimental
+
+este test mide la expresión de 50 genes específicamente seleccionados, sobre material incluido en parafina y fijado en formol. Identifica subtipos intrínsecos de tumor y ofrece información pronóstica individualizada, determinando un Riesgo de Recurrencia (ROR) a 10 años, lo cual permite identificar pacientes con enfermedad luminal que no necesitan poliquimioterapia adyuvante (dado su bajo riesgo de recidiva a 10 años sin ella) y también pacientes con enfermedad luminal que no necesitan terapia endocrina más allá de 5 años (dado su bajo riesgo de recidiva tardía).",,,eval/preguntas_val.xlsx,19,eval/gold_references.csv
+Q019, ¿Cuáles son los efectos secundarios del tamoxifeno?,"Trombosis venosa profunda (TVP) o tromboembolismo pulmonar puede ser un efecto secundario de tamoxifeno y con menor frecuencia de Ios inhibidores de la aromatasa.
+Si ocurre un episodio de TVP se recomienda suspender el tamoxifeno y remitir al oncólogo para valorar un posible cambio de tratamiento o su mantenimiento
+
+Aunque poco frecuente, el tamoxifeno puede aumentar el riesgo de cataratas.
+
+Tipo de terapia endocrina que bloquea los efectos de la hormona estrógeno en la mama
+
+Aumento de la sudoración, Complicaciones tromboembólicas, Engrosamiento endometrial, Fatiga, Náuseas, Retención de líquidos, Sangrado/secreción vaginal, Sarpullido cutáneo, Sofocos, Trastornos visuales",,,eval/preguntas_val.xlsx,20,eval/gold_references.csv
+Q020,¿Qué recomendaciones específicas hay para pacientes tratadas con tamoxifeno?,"Determinados fármacos compiten con los sistemas de metabolización del tamoxifeno que es el sistema CYP2D6 y pueden disminuir la eficacia del tamoxifeno (entre ellos debemos destacar los antidepresivos tricíclicos). Sin embargo, algunos estudios no han podido evidenciar una reducción de la eficacia de tamoxifeno.
+En las mujeres en edad fértil, se recomienda utilizar un método anticonceptivo no hormonal durante el tratamiento con tamoxifeno.
+Se recomienda control ginecológico periódico en las mujeres que reciben tamoxifeno.
+
+Las pacientes que reciben tamoxifeno se recomienda exploración ginecológica periódica anual.
+
+Si el tratamiento incluye el tamoxifeno, debe hacerse una revisión ginecológica anual (su uso se ha asociado con un aumento del riesgo de cáncer de útero).
+
+Si riesgo alto o antecedentes personales de ETV pautar I.A o realizar estudio de trombofilia previo al inicio de tratamiento; revisar interacciones con el uso de antidepresivos; se recomienda revisión ginecológica anual.
+
+Con Tamoxifeno se recomienda comenzar el tratamiento HT una semana después de finalizar el tratamiento RT.
+
+Informe a su médico si experimenta alguna reacción cutánea o retención de líquidos/hinchazón, él le ayudará a controlar estos efectos secundarios.
+Su médico lo/la vigilará para detectar signos de trombosis.
+Deberá informar a su médico si experimenta sangrado o secreción vaginal y trastornos visuales.
+Su médico puede ayudarle a controlar los sofocos, el aumento de la sudoración y las náuseas.
+
+Patients on tamoxifen treatment will require age-appropriate gynecological screening.",,,eval/preguntas_val.xlsx,21,eval/gold_references.csv
+Q021,¿Qué síntomas causa la falta de estrógenos?,"Los síntomas derivados de la falta de estrógenos hacen que la mujer
+presente síntomas de menopausia, de ellos los más frecuentes son: sofocos, el insomnio, la dispareunia o dolor en las relaciones sexuales debido a la sequedad vaginal.
+
+al disminuir los estrógenos y también debido a otros tratamientos, pueden verse alterados los patrones del sueño.
+
+Cuando los niveles de estrógenos están bajos, esto puede afectar a la recuperación muscular, por lo que tienes que dejar, al menos, un día de recuperación entre sesiones de media intensidad. Deben respetarse 48 h mínimo de recuperación entre sesiones de intensidad alta y observar si la recuperación es buena y sin fatiga. Si no es así, deben aumentarse los días de recuperación entre sesiones
+
+Los niveles reducidos de estrógenos y andrógenos están asocia dos con alteraciones en la estructura del tejido genital, incluida la red nerviosa, pudiendo producir molestias o una disminución de las sen saciones a nivel genital disminuyendo la satisfacción sexual.",,,eval/preguntas_val.xlsx,22,eval/gold_references.csv
+Q022,¿Se puede usar antidepresivos en pacientes con cancer de mama?,"Los antidepresivos del tipo inhibidores selectivos de la recaptación de serotonina (ISRS) se deben utilizar con precaución en mujeres con cáncer de mama que reciban tratamiento adyuvante con tamoxifeno, ya que algunos pueden reducir su metabolismo. En este caso puede ser útil la cimicifuga racemosa.",,,eval/preguntas_val.xlsx,23,eval/gold_references.csv
+Q023,¿Qué efecto tiene la quimioterapia sobre los ovarios?,"La quimioterapia induce insuficiencia ovárica en más del 80 % de las mujeres mayores de 40 años y en más del 20 % de las mujeres mayores de 30, además, por su parte, la terapia endocrina tiene como objetivo reducir los niveles de estrógenos del organismo, provocando síntomas muy severos relacionados con la menopausia. Por tanto, es indispensa ble informar y conversar sobre la criopreservación de ovocitos, espe cialmente en las pacientes más jóvenes, antes de la quimioterapia o la ovariectomía profiláctica, por si después quieren tener hijos.
+disminución que dependerá del tipo de quimioterapia, la dosis y la edad de la paciente, a mayor edad hay mayor riesgo.",,,eval/preguntas_val.xlsx,24,eval/gold_references.csv
+Q024,¿Qué es la dispareunia?,"Dispareunia: dolor o molestia antes, durante o después de la unión sexual.",,,eval/preguntas_val.xlsx,25,eval/gold_references.csv
+Q025,¿Puedo quedarme embarazada después de un tratamiento de cancer?,"Available data suggest that pregnancy is safe after breast cancer treatment
+
+No existen contraindicaciones para quedar embarazada después de tener cáncer de mama. Sin embargo, hay varios puntos importantes a considerar, especialmente en el caso de cáncer de mama RE positivo, debido a la larga duración de la terapia endocrina. La terapia endocrina debe suspenderse antes de tratar de quedar embarazada y debe reanudarse después del parto y la lactancia. Si usted desea quedar embarazada, por favor discuta todas estas cuestiones cuidadosamente con su médico.
+
+La mayoría de las guías recomiendan posponer el embarazo duran te al menos 2 años después del tratamiento del cáncer de mama, según el estadio y el tratamiento recibido. Sin embargo, es poco probable que las mujeres con enfermedad localizada empeoren el pronóstico si se quedan embarazadas. Estudios recientes evidencian que, en pacientes con cáncer de mama, pausar la terapia endocrina para poder quedarse embara zadas —bajo control médico y durante un periodo temporal que no supere los 2 años— no incrementa el riesgo de recaída a corto pla zo.",,,eval/preguntas_val.xlsx,26,eval/gold_references.csv
+Q026,¿cuáles son los factores de riesgo del cancer de mama?,"El cáncer de mama tiene un origen multifactorial, y, en la mayoría de los casos, no se puede identificar de forma clara la causa. Sí conocemos sin embargo muchos factores de riesgo asociados al cáncer de mama, que pueden dividirse en factores de riesgo modificables o no modificables. La mayor parte de los ellos se relaciona con los antecedentes reproductivos que modulan la exposición hormonal durante la vida.
+1. La edad es el principal factor de riesgo para padecer un cáncer de mama. El riesgo aumenta al aumentar la edad. 2. Historia personal de cáncer de mama invasivo (las mujeres que han tenido un cáncer de mama invasivo tienen más riesgo de padecer un cáncer de mama contralateral), carcinoma ductal in situ o lesiones benignas como la hiperplasia epitelial atípica. 3. Densidad mamaria elevada en las mamografías. 4. Historia menstrual larga, con una menarquia (edad de primera regla) temprana o una menopausia tardía 5. Exposición a radiaciones ionizantes, sobre todo durante la pubertad 6. Factores genéticos como mutaciones hereditarias en genes que asocian un aumento del riesgo de cáncer de mama, como BRCA1, BRCA2, PALB2, PTEN, TP53, ATM o CHEK 2entre otros. 7. Factores de riesgo modificables: 8. Factores reproductivos como la nuliparidad (no haber estado embarazada nunca), un primer embarazo por encima de los 30 años o la ausencia de lactancia materna. 9. El uso de terapia hormonal sustitutiva después de la menopausia aumenta el riesgo de cáncer de mama así como el uso de anticonceptivos orales, aunque el incremento absoluto es bajo.. 10. Consumo de alcohol. 11. Sobrepeso y obesidad, ya que la grasa es la principal fuente de estrógenos tras la menopausia. 12. Sedentarismo 13. Dietas inadecuadas, alejadas de la dieta mediterránea
+
+Se desconoce la causa precisa del cáncer de mama, pero se han identificado diversos factores de riesgo que pueden aumentar la probabilidad de desarrollar la enfermedad. Es importante recordar que el hecho de tener un factor de riesgo aumenta el riesgo de desarrollar cáncer, pero eso no significa que se vaya a padecer cáncer seguro. De la misma forma, el hecho de no tener un factor de riesgo no significa que nunca se vaya a padecer cáncer.
+Género femenino
+Edad avanzada
+Predisposición genética (Antecedentes familiares o mutaciones en ciertos genes)
+Exposición a estrógenos
+Exposición a radiaciones ionizantes
+Tener pocos hijos
+Historia de hiperplasia atípica
+Obesidad
+Alcohol
+La historia familiar de cáncer de mama
+Para las mujeres con un pariente de primer grado (padre/madre, hermano/a o hijo/a) con cáncer de mama se dobla el riesgo de desarrollar cáncer de mama en comparación con una mujer sin antecedentes familiares de este tipo. El riesgo se triplica si esa familiar fue diagnosticada con cáncer de mama antes de la menopausia.",,,eval/preguntas_val.xlsx,27,eval/gold_references.csv
+Q027,¿Cómo se pueden solicitar pruebas de imagen de mama y qué información es necesaria?,"Para la solicitud de pruebas de imagen de mama, tanto desde Atención Primaria como de Atención Especializada, se utilizará la petición electrónica, desde las plataformas Diraya y PDI. Es imprescindible detallar en el campo ""justificación clínica"" la indicación de la prueba. En esta petición se debe señalar la prioridad de la prueba (1 normal, 2 preferente y 3 urgente) y la fecha ideal de realización. En los controles periódicos es importante reflejar la siguiente fecha de revisión en consulta.",,,eval/preguntas_val.xlsx,28,eval/gold_references.csv
+Q028,¿Cuáles son las mutaciones genéticas más frecuentes en cáncer de mama y ovario hereditario?,"Mutations in BRCA1 and BRCA2 high penetrance genes account for most hereditary breast and ovarian cancer.
+
+Most breast and ovarian cancers are sporadic, while hereditary predisposition accounts for 10–15% of the cases, principally with respect to germline mutations in high penetrance BRCA1/2 genes. Cumulative BC risk for BRCA1 and BRCA2 mutation carriers at 70 years of age is about 57%, respectively, while cumulative OC risk is approximately 40% for BRCA1 and 18% for BRCA2 muta tion carriers
+
+BRCA1 and BRCA2 are the most common mutated susceptibility genes in both tumors, followed by PALB2 (in BC) and genes with pathogenic variants that confer moderate penetrance cancer risk, such as ATM/CHEK2 (in BC) and BRIP1, RAD51C, RAD51D, MLH1, MSH2, and MSH6 (in OvC).
+
+se cree que más del 90% de los cánceres hereditarios de mama y ovario se deben a una mutación del gen BRCA1 o BRCA2.
+
+BRCA1: Gen que cuando ha mutado (no funciona correctamente), se asocia con un riesgo muy alto de cáncer de mama y de ovario
+BRCA2: Gen que cuando ha mutado (no funciona correctamente), se asocia con un riesgo muy alto de cáncer de mama y de ovario
+
+La mayor parte de los cánceres de mama hereditarios ocurren en los genes BRCA 1 y 2. [...] Existen otros genes como PALB2, TP53, CDH1, PTEN, ATM o CHEK2 que también aumentan la probabilidad de padecer un cáncer de mama a lo largo de la vida.
+
+BRCA and BRCA2 are high-penetrance cancer susceptibility genes [...] mutated in 5% of unselected BC patients. [...] incidence can be higher among males with either genetic disorders or germline mutations in cancer susceptibility genes (BRCA2, CHEK2, ATM and PALB2)",,,eval/preguntas_val.xlsx,29,eval/gold_references.csv
+Q029,¿Qué es la pancitopenia?,"PANCITOPENIA Niveles bajos de glóbulos rojos, glóbulos blancos y plaquetas en la sangre",,,eval/preguntas_val.xlsx,30,eval/gold_references.csv
+Q030,¿Qué es la disnea?,"DISNEA Falta de aliento
+
+DISNEA Falta de aliento
+
+sensación de falta de aire o disnea
+
+síntomas de la anemia dependerán de su grado (cansancio o astenia, palidez de las mucosas, fatiga o disnea...)",,,eval/preguntas_val.xlsx,31,eval/gold_references.csv
+Q031,¿Qué es la proteinuria?,Nivel anormalmente alto de proteína en la orina. Puede indicar disfunción renal,,,eval/preguntas_val.xlsx,32,eval/gold_references.csv

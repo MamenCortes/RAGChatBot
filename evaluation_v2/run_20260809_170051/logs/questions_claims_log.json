@@ -1,0 +1,482 @@
+{
+  "timestamp_utc": "2026-08-09T15:15:41.452966+00:00",
+  "canonical_questions": "eval/preguntas_val.xlsx",
+  "question_crosscheck": "eval/unique_questions.csv",
+  "ground_truth_source": "eval/gold_references.csv",
+  "question_count": 31,
+  "claim_count": 155,
+  "duplicate_question_ids": [],
+  "empty_questions": [],
+  "missing_ground_truth": [],
+  "whitespace_only_cross_source_question_differences": [
+    "Q019"
+  ],
+  "claim_review_flags": [
+    {
+      "question_id": "Q011",
+      "claim_id": "Q011-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q011",
+      "claim_id": "Q011-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q016",
+      "claim_id": "Q016-C06",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q018",
+      "claim_id": "Q018-C06",
+      "issue_type": "claim_segmentation_review",
+      "notes": "long_claim_requires_human_segmentation"
+    },
+    {
+      "question_id": "Q019",
+      "claim_id": "Q019-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q019",
+      "claim_id": "Q019-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q019",
+      "claim_id": "Q019-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q019",
+      "claim_id": "Q019-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q019",
+      "claim_id": "Q019-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C06",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C07",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C08",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C09",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C10",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C11",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C12",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C13",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C14",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q020",
+      "claim_id": "Q020-C15",
+      "issue_type": "claim_segmentation_review",
+      "notes": "many_claims_from_single_question"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C06",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C07",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C08",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C09",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C10",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C11",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C12",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C13",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C14",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C15",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C16",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C17",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C18",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C19",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C20",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C21",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C22",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C23",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C24",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C25",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C26",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C27",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C28",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C29",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed;very_short_claim"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C30",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C31",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q026",
+      "claim_id": "Q026-C32",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible;many_claims_from_single_question;standalone_enumeration_marker_removed"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C01",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C02",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C03",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C04",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C05",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C06",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C07",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C08",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C09",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C10",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    },
+    {
+      "question_id": "Q028",
+      "claim_id": "Q028-C11",
+      "issue_type": "claim_segmentation_review",
+      "notes": "compound_claim_possible"
+    }
+  ],
+  "limitations": [
+    "Claims are machine-generated by conservative boundary splitting and are not human-adjudicated.",
+    "query_language and topic are blank because they are absent from the canonical question source."
+  ]
+}
